@@ -7,6 +7,7 @@ using UnityEngine.InputSystem;
 public class Movement : MonoBehaviour
 {
     Vector2 moveAmount;
+    private float speed = 10f;
 
     public void OnMove(InputAction.CallbackContext context)
     {
@@ -15,6 +16,6 @@ public class Movement : MonoBehaviour
     }
     private void Update()
     {
-        this.transform.position = this.transform.position + (Vector3)moveAmount;
+        this.transform.position = (this.transform.position + (Vector3)moveAmount * Time.deltaTime * speed);
     }
 }
