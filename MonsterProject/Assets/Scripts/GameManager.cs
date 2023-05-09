@@ -10,6 +10,9 @@ public class GameManager : MonoBehaviour
     private static GameManager instance;
     public static GameManager Instance { get { return instance; } }
 
+    [SerializeField] private Character player1Character;
+    [SerializeField] private Character player2Character;
+
     private void Awake()
     {
         if (instance == null)
@@ -21,5 +24,13 @@ public class GameManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
+    }
+
+    public void SelectCharacter(Character character)
+    {
+        if (player1Character == null)
+            player1Character = character;
+        else if (player2Character == null)
+            player2Character = character;
     }
 }
