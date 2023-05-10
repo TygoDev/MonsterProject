@@ -6,16 +6,16 @@ using UnityEngine.EventSystems;
 public class CharacterDisplay : MonoBehaviour, ISelectHandler, IDeselectHandler
 {
     [SerializeField] private Character character;
-    [SerializeField] private Image characterImage;
     [SerializeField] private TMP_Text playerText;
     [SerializeField] private Button button;
+    [SerializeField] private CharacterSheet characterSheet;
     GameManager gameManager;
 
 
     public void OnSelect(BaseEventData eventData)
     {
+        characterSheet.SetInfo(character);
         playerText.gameObject.SetActive(true);
-        characterImage.sprite = character.sprite;
     }
 
     public void OnDeselect(BaseEventData data)
@@ -31,14 +31,8 @@ public class CharacterDisplay : MonoBehaviour, ISelectHandler, IDeselectHandler
         button.onClick.AddListener(RegisterPlayer);
     }
 
-    void RegisterPlayer()
+    private void RegisterPlayer()
     {
-        if (!gameManager.Player2Selected() && gameManager.Player1Selected())
-            playerText.text = "Player 1";
-
-        if (gameManager.Player2Selected() && gameManager.Player1Selected())
-            playerText.text = "Player 2";
-
-        button.interactable = false;
+        characterSheet.SetLocked();
     }
 }

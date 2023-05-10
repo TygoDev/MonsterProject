@@ -10,8 +10,8 @@ public class GameManager : MonoBehaviour
     private static GameManager instance;
     public static GameManager Instance { get { return instance; } }
 
-    private Character player1Character;
-    private Character player2Character;
+    public Character player1Character;
+    public Character player2Character;
 
     private void Awake()
     {
@@ -32,9 +32,6 @@ public class GameManager : MonoBehaviour
             player1Character = character;
         else if (!Player2Selected())
             player2Character = character;
-
-        if (Player1Selected() && Player2Selected())
-            SceneSwitcher.Instance.SwitchToScene(2);
     }
 
     public bool Player1Selected()
