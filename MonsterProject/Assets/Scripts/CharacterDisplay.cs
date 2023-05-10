@@ -1,13 +1,27 @@
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.EventSystems;
 
-public class CharacterDisplay : MonoBehaviour
+public class CharacterDisplay : MonoBehaviour, ISelectHandler, IDeselectHandler
 {
     [SerializeField] private Character character;
+    [SerializeField] private Image characterImage;
     [SerializeField] private TMP_Text playerText;
     [SerializeField] private Button button;
     GameManager gameManager;
+
+
+    public void OnSelect(BaseEventData eventData)
+    {
+        playerText.gameObject.SetActive(true);
+        characterImage.sprite = character.sprite;
+    }
+
+    public void OnDeselect(BaseEventData data)
+    {
+        playerText.gameObject.SetActive(false);
+    }
 
     private void Awake()
     {
