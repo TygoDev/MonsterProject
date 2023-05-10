@@ -34,7 +34,7 @@ public class GameManager : MonoBehaviour
             player2Character = character;
 
         if (Player1Selected() && Player2Selected())
-            SceneManager.LoadScene(sceneBuildIndex: 1);
+            SceneSwitcher.Instance.SwitchToScene(2);
     }
 
     public bool Player1Selected()
