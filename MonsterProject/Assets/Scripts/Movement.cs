@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.Tilemaps;
@@ -12,6 +13,11 @@ public class Movement : MonoBehaviour
 
     [SerializeField] Tilemap pitTilemap;
     bool isOnPlatform = false;
+
+    [SerializeField] GameObject coinPrefab;
+    [SerializeField] float dropForce = 5f;
+    [SerializeField] float gotHitTimer = 1f;
+    int numCoins = 0;
 
     public void OnMove(InputAction.CallbackContext context)
     {
@@ -36,9 +42,15 @@ public class Movement : MonoBehaviour
             isOnPlatform = true;
         }
 
-        if (collision.CompareTag(Tags.T_Button))
+        if(collision.CompareTag(Tags.T_Candy))
         {
+            collision.transform.gameObject.SetActive(false);
+            numCoins++;
+        }
 
+        if (collision.CompareTag(Tags.T_Enemy))
+        {
+            DropCandy();
         }
     }
 
@@ -61,5 +73,32 @@ public class Movement : MonoBehaviour
 
         // Return true if the tile is a pit tile, false otherwise
         return tile != null;
+    }
+
+    IEnumerator StopHitboxForSeconds(float secondsToDeactivate)
+    {   
+        this.GetComponent<BoxCollider2D>().enabled = false;
+        yield return new WaitForSeconds(secondsToDeactivate);
+        this.GetComponent<BoxCollider2D>().enabled = true;
+    }
+    public void DropCandy()
+    {
+        StartCoroutine(StopHitboxForSeconds(gotHitTimer));
+        for (int i = 0; i < numCoins; i++)
+        {
+            // Calculate a random position around the player
+            Vector2 dropPosition = transform.position + Random.insideUnitSphere;
+
+            // Instantiate a coin at the drop position
+            GameObject coin = Instantiate(coinPrefab, dropPosition, Quaternion.identity);
+
+            // Apply a force to the coin to make it scatter
+            Rigidbody2D coinRigidbody = coin.GetComponent<Rigidbody2D>();
+            if (coinRigidbody != null)
+            {
+                coinRigidbody.AddForce(Random.insideUnitCircle * dropForce, ForceMode2D.Impulse);
+            }
+        }
+        numCoins = 0;
     }
 }

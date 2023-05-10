@@ -53,29 +53,35 @@ public class OpenDoor : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (activeCorutine == null)
+        if (collision.CompareTag(Tags.T_Player))
         {
-            activeCorutine = StartCoroutine(OpenOrCloseDoor(doorPath, door, timeToOpen, true));
-        }
-        else
-        {
-            StopCoroutine(activeCorutine);
-            activeCorutine = StartCoroutine(OpenOrCloseDoor(doorPath, door, timeToOpen, true));
+            if (activeCorutine == null)
+            {
+                activeCorutine = StartCoroutine(OpenOrCloseDoor(doorPath, door, timeToOpen, true));
+            }
+            else
+            {
+                StopCoroutine(activeCorutine);
+                activeCorutine = StartCoroutine(OpenOrCloseDoor(doorPath, door, timeToOpen, true));
+            }
         }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if(closeOnExitTrigger)
+        if (collision.CompareTag(Tags.T_Player))
         {
-            if (activeCorutine == null)
+            if (closeOnExitTrigger)
             {
-                activeCorutine = StartCoroutine(OpenOrCloseDoor(doorPath, door, timeToClose, false));
-            }
-            else
-            {
-                StopCoroutine(activeCorutine);
-                activeCorutine = StartCoroutine(OpenOrCloseDoor(doorPath, door, timeToClose, false));
+                if (activeCorutine == null)
+                {
+                    activeCorutine = StartCoroutine(OpenOrCloseDoor(doorPath, door, timeToClose, false));
+                }
+                else
+                {
+                    StopCoroutine(activeCorutine);
+                    activeCorutine = StartCoroutine(OpenOrCloseDoor(doorPath, door, timeToClose, false));
+                }
             }
         }
     }
