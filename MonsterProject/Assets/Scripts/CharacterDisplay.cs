@@ -1,14 +1,27 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class CharacterDisplay : MonoBehaviour
 {
-    [SerializeField] Character character;
+    [SerializeField] private Character character;
+    [SerializeField] private TMP_Text playerText;
+    [SerializeField] private Button button;
 
     private void Start()
     {
-        GetComponent<Image>().sprite = character.sprite;
+        button.image.sprite = character.sprite;
+        button.onClick.AddListener(RegisterPlayer);
+    }
+
+    void RegisterPlayer()
+    {
+        if (!GameManager.Instance.Player2Selected() && GameManager.Instance.Player1Selected())
+            playerText.text = "Player 1";
+
+        if (GameManager.Instance.Player2Selected() && GameManager.Instance.Player1Selected())
+            playerText.text = "Player 2";
+
+        button.interactable = false;
     }
 }

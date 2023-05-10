@@ -10,8 +10,8 @@ public class GameManager : MonoBehaviour
     private static GameManager instance;
     public static GameManager Instance { get { return instance; } }
 
-    [SerializeField] private Character player1Character;
-    [SerializeField] private Character player2Character;
+    private Character player1Character;
+    private Character player2Character;
 
     private void Awake()
     {
@@ -28,9 +28,38 @@ public class GameManager : MonoBehaviour
 
     public void SelectCharacter(Character character)
     {
-        if (player1Character == null)
+        if (!Player1Selected())
             player1Character = character;
-        else if (player2Character == null)
+        else if (!Player2Selected())
             player2Character = character;
+
+        if (Player1Selected() && Player2Selected())
+            SceneManager.LoadScene(sceneBuildIndex: 1);
+    }
+
+    public bool Player1Selected()
+    {
+        if (player1Character == null)
+            return false;
+        else
+            return true;
+    }
+
+    public bool Player2Selected()
+    {
+        if (player2Character == null)
+            return false;
+        else
+            return true;
+    }
+
+    public Character GetPlayerOne()
+    {
+        return player1Character;
+    }
+
+    public Character GetPlayerTwo()
+    {
+        return player2Character;
     }
 }
