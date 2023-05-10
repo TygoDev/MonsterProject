@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Platform
   - Button
+  - Enemy
+  - Candy
   layers:
   - Default
   - TransparentFX
