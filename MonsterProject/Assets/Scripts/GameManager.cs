@@ -26,11 +26,19 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void SelectCharacter(Character character)
+    public bool BothCharactersSelected()
     {
-        if (!Player1Selected())
+        if (Player1Selected() && Player2Selected())
+            return true;
+        else
+            return false;
+    }
+
+    public void SelectCharacter(Character character, int playerNumber)
+    {
+        if(playerNumber == 1)
             player1Character = character;
-        else if (!Player2Selected())
+        else if(playerNumber == 2)
             player2Character = character;
     }
 

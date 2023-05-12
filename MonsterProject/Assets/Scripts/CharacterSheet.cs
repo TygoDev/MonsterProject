@@ -13,39 +13,83 @@ public class CharacterSheet : MonoBehaviour
     private new string name;
     private string species;
     private GameObject characterSheet;
+    private Character character;
 
+    [SerializeField] private int playerNumber;
     [SerializeField] private Image spriteImage;
     [SerializeField] private Image footPrintImage;
     [SerializeField] private TMP_Text nameText;
     [SerializeField] private TMP_Text speciesText;
-
     [SerializeField] private EventSystem eventSystem;
     [SerializeField] private InputSystemUIInputModule inputModule;
 
     bool locked = false;
 
+    private void Start()
+    {
+        characterSheet = eventSystem.firstSelectedGameObject;
+        character = characterSheet.GetComponent<CharacterDisplay>().GetCharacter();
+
+        sprite = character.sprite;
+        footPrint = character.footPrint;
+        name = character.name;
+        species = character.species;
+
+        spriteImage.sprite = sprite;
+        footPrintImage.sprite = footPrint;
+        nameText.text = "Name: " + name;
+        speciesText.text = "Species: " + species;
+    }
+
     public void SetInfo()
     {
-        characterSheet = eventSystem.currentSelectedGameObject;
-        
-        if(characterSheet.GetComponent<CharacterDisplay>() != null)
+        if (!locked)
         {
-            Character info = characterSheet.GetComponent<CharacterDisplay>().GetCharacter();
+            characterSheet = eventSystem.currentSelectedGameObject;
 
-            sprite = info.sprite;
-            footPrint = info.footPrint;
-            name = info.name;
-            species = info.species;
+            if (characterSheet.GetComponent<CharacterDisplay>() != null)
+            {
+                character = characterSheet.GetComponent<CharacterDisplay>().GetCharacter();
 
-            spriteImage.sprite = sprite;
-            footPrintImage.sprite = footPrint;
-            nameText.text = "Name: " + name;
-            speciesText.text = "Species: " + species;
+                sprite = character.sprite;
+                footPrint = character.footPrint;
+                name = character.name;
+                species = character.species;
+
+                spriteImage.sprite = sprite;
+                footPrintImage.sprite = footPrint;
+                nameText.text = "Name: " + name;
+                speciesText.text = "Species: " + species;
+            }
         }
     }
 
-    public void SetLocked()
+    public void SelectCharacter()
     {
+
         locked = true;
+        characterSheet = eventSystem.currentSelectedGameObject;
+        if (characterSheet.GetComponent<CharacterDisplay>() != null)
+            character = characterSheet.GetComponent<CharacterDisplay>().GetCharacter();
+
+        if (GameManager.Instance.GetPlayerOne() == character || GameManager.Instance.GetPlayerTwo() == character)
+            return;
+
+        sprite = character.sprite;
+        footPrint = character.footPrint;
+        name = character.name;
+        species = character.species;
+
+        spriteImage.sprite = sprite;
+        footPrintImage.sprite = footPrint;
+        nameText.text = "Name: " + name;
+        speciesText.text = "Species: " + species;
+
+
+
+        if (eventSystem.currentSelectedGameObject.GetComponent<CharacterDisplay>() != null)
+        {
+            GameManager.Instance.SelectCharacter(character, playerNumber);
+        }
     }
 }

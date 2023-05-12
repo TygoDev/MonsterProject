@@ -8,7 +8,6 @@ public class CharacterDisplay : MonoBehaviour, ISelectHandler, IDeselectHandler
     [SerializeField] private Character character;
     [SerializeField] private TMP_Text playerText;
     [SerializeField] private Button button;
-    [SerializeField] private CharacterSheet characterSheet;
     GameManager gameManager;
 
     public Character GetCharacter()
@@ -30,13 +29,6 @@ public class CharacterDisplay : MonoBehaviour, ISelectHandler, IDeselectHandler
     private void Awake()
     {
         gameManager = GameManager.Instance;
-        button.onClick.AddListener(() => gameManager.SelectCharacter(character));
         button.image.sprite = character.sprite;
-        button.onClick.AddListener(RegisterPlayer);
-    }
-
-    private void RegisterPlayer()
-    {
-        characterSheet.SetLocked();
     }
 }
