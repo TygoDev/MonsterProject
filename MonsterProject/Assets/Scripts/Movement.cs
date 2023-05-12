@@ -19,6 +19,11 @@ public class Movement : MonoBehaviour
     [SerializeField] float gotHitTimer = 1f;
     int numCoins = 0;
 
+    private void Start()
+    {
+        pitTilemap = FindObjectOfType<Tilemap>();
+    }
+
     public void OnMove(InputAction.CallbackContext context)
     {
         // read the value for the "move" action each event call
@@ -44,7 +49,7 @@ public class Movement : MonoBehaviour
 
         if(collision.CompareTag(Tags.T_Candy))
         {
-            collision.transform.gameObject.SetActive(false);
+            Destroy(collision.gameObject);
             numCoins++;
         }
 
@@ -75,12 +80,6 @@ public class Movement : MonoBehaviour
         return tile != null;
     }
 
-    IEnumerator StopHitboxForSeconds(float secondsToDeactivate)
-    {   
-        this.GetComponent<BoxCollider2D>().enabled = false;
-        yield return new WaitForSeconds(secondsToDeactivate);
-        this.GetComponent<BoxCollider2D>().enabled = true;
-    }
     public void DropCandy()
     {
         StartCoroutine(StopHitboxForSeconds(gotHitTimer));
@@ -100,5 +99,12 @@ public class Movement : MonoBehaviour
             }
         }
         numCoins = 0;
+    }
+
+    IEnumerator StopHitboxForSeconds(float secondsToDeactivate)
+    {
+        this.GetComponent<BoxCollider2D>().enabled = false;
+        yield return new WaitForSeconds(secondsToDeactivate);
+        this.GetComponent<BoxCollider2D>().enabled = true;
     }
 }

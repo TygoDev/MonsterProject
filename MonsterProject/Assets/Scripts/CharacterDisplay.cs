@@ -11,10 +11,14 @@ public class CharacterDisplay : MonoBehaviour, ISelectHandler, IDeselectHandler
     [SerializeField] private CharacterSheet characterSheet;
     GameManager gameManager;
 
+    public Character GetCharacter()
+    {
+        return character;
+    }
+
 
     public void OnSelect(BaseEventData eventData)
     {
-        characterSheet.SetInfo(character);
         playerText.gameObject.SetActive(true);
     }
 
