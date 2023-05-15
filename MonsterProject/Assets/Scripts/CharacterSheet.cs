@@ -74,13 +74,13 @@ public class CharacterSheet : MonoBehaviour
 
         if (GameManager.Instance.GetPlayerOne() == character || GameManager.Instance.GetPlayerTwo() == character)
         {
-            if (characterDisplaySelected != null)
-                characterDisplaySelected.DeSelect();
-
-            characterDisplaySelected = characterSheet.GetComponent<CharacterDisplay>();
-            characterSheet.GetComponent<CharacterDisplay>().SetSelected(playerNumber);
             return;
         }
+        if (characterDisplaySelected != null)
+            characterDisplaySelected.DeSelect();
+
+        characterDisplaySelected = characterSheet.GetComponent<CharacterDisplay>();
+        characterSheet.GetComponent<CharacterDisplay>().SetSelected(playerNumber);
 
         GetComponent<Outline>().enabled = true;
         locked = true;
