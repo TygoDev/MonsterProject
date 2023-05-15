@@ -22,6 +22,7 @@ public class CharacterSheet : MonoBehaviour
     [SerializeField] private TMP_Text speciesText;
     [SerializeField] private EventSystem eventSystem;
     [SerializeField] private InputSystemUIInputModule inputModule;
+    private CharacterDisplay characterDisplaySelected;
 
     bool locked = false;
 
@@ -66,14 +67,23 @@ public class CharacterSheet : MonoBehaviour
 
     public void SelectCharacter()
     {
-
-        locked = true;
+        
         characterSheet = eventSystem.currentSelectedGameObject;
         if (characterSheet.GetComponent<CharacterDisplay>() != null)
             character = characterSheet.GetComponent<CharacterDisplay>().GetCharacter();
 
         if (GameManager.Instance.GetPlayerOne() == character || GameManager.Instance.GetPlayerTwo() == character)
+        {
+            if (characterDisplaySelected != null)
+                characterDisplaySelected.DeSelect();
+
+            characterDisplaySelected = characterSheet.GetComponent<CharacterDisplay>();
+            characterSheet.GetComponent<CharacterDisplay>().SetSelected(playerNumber);
             return;
+        }
+
+        GetComponent<Outline>().enabled = true;
+        locked = true;
 
         sprite = character.sprite;
         footPrint = character.footPrint;
