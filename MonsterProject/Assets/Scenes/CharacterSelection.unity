@@ -435,6 +435,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player1Character: {fileID: 0}
   player2Character: {fileID: 0}
+  playerPrefab: {fileID: 4482464281046791635, guid: 254622becc776dc4a80904d58156f46d, type: 3}
 --- !u!4 &130181172
 Transform:
   m_ObjectHideFlags: 0

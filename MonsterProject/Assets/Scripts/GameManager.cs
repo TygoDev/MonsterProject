@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
@@ -13,6 +14,8 @@ public class GameManager : MonoBehaviour
     public Character player1Character;
     public Character player2Character;
 
+    [SerializeField] GameObject playerPrefab;
+
     private void Awake()
     {
         if (instance == null)
@@ -23,6 +26,19 @@ public class GameManager : MonoBehaviour
         else
         {
             Destroy(gameObject);
+        }
+        SceneManager.activeSceneChanged += ChangedActiveScene;
+    }
+
+    void ChangedActiveScene(Scene current, Scene next)
+    {
+        if(next.name.Contains("Movement")) //change to level, we will call the scenes with puzzles Level_number
+        {
+            var p1 = PlayerInput.Instantiate(playerPrefab, controlScheme: "Gamepad", pairWithDevice: Gamepad.all[0]);
+            //Debug.Log(Gamepad.all[0]);
+            p1.gameObject.GetComponent<SpriteRenderer>().sprite = player1Character.sprite;
+            var p2 = PlayerInput.Instantiate(playerPrefab, controlScheme: "Keyboard&Mouse");
+            p2.gameObject.GetComponent<SpriteRenderer>().sprite = player2Character.sprite;
         }
     }
 
