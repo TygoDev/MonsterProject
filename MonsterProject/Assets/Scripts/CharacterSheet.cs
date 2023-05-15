@@ -77,10 +77,10 @@ public class CharacterSheet : MonoBehaviour
             return;
         }
         if (characterDisplaySelected != null)
-            characterDisplaySelected.DeSelect();
+            characterDisplaySelected.UnsetHover();
 
         characterDisplaySelected = characterSheet.GetComponent<CharacterDisplay>();
-        characterSheet.GetComponent<CharacterDisplay>().SetSelected(playerNumber);
+        characterSheet.GetComponent<CharacterDisplay>().SetHover(playerNumber);
 
         GetComponent<Outline>().enabled = true;
         locked = true;
