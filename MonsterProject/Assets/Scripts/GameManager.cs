@@ -20,6 +20,7 @@ public class GameManager : MonoBehaviour
     {
         if (instance == null)
         {
+            SceneManager.activeSceneChanged += ChangedActiveScene;
             instance = this;
             DontDestroyOnLoad(gameObject);
         }
@@ -27,7 +28,7 @@ public class GameManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
-        SceneManager.activeSceneChanged += ChangedActiveScene;
+        
     }
 
     void ChangedActiveScene(Scene current, Scene next)
@@ -36,10 +37,10 @@ public class GameManager : MonoBehaviour
         {
             if(playerPrefab != null)
             {
-                var p1 = PlayerInput.Instantiate(playerPrefab, controlScheme: "Gamepad", pairWithDevice: Gamepad.all[0]);
-                //Debug.Log(Gamepad.all[0]);
+                var p1 = PlayerInput.Instantiate(playerPrefab, controlScheme: "Gamepad", pairWithDevice: Gamepad.all[1]);
+                var p2 = PlayerInput.Instantiate(playerPrefab, controlScheme: "Gamepad", pairWithDevice: Gamepad.all[0]);
+
                 p1.gameObject.GetComponent<SpriteRenderer>().sprite = player1Character.sprite;
-                var p2 = PlayerInput.Instantiate(playerPrefab, controlScheme: "Gamepad", pairWithDevice: Gamepad.all[1]);
                 p2.gameObject.GetComponent<SpriteRenderer>().sprite = player2Character.sprite;
             }
             
