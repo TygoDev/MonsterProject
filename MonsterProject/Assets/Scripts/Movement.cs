@@ -36,6 +36,11 @@ public class Movement : MonoBehaviour
             this.transform.position = new Vector3();
         }
         this.transform.position = (this.transform.position + (Vector3)moveAmount * Time.deltaTime * speed);
+        Vector3 pos = Camera.main.WorldToViewportPoint(transform.position);
+        pos.x = Mathf.Clamp01(pos.x);
+        pos.y = Mathf.Clamp01(pos.y);
+        Vector3 newPos = Camera.main.ViewportToWorldPoint(pos);
+        this.transform.position = new Vector3(newPos.x, newPos.y, 0);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
