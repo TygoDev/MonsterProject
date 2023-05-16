@@ -5,37 +5,24 @@ using UnityEngine.EventSystems;
 
 public class CharacterDisplay : MonoBehaviour, ISelectHandler, IDeselectHandler
 {
-    int amountOfPlayersHovering;
+    private int amountOfPlayersHovering;
     [SerializeField] private Character character;
     [SerializeField] private TMP_Text playerText;
     [SerializeField] private Button button;
-    GameManager gameManager;
+    private GameManager gameManager;
 
-    public Character GetCharacter()
-    {
-        return character;
-    }
+    public Character Character => character;
 
     public void OnDeselect(BaseEventData eventData)
     {
         amountOfPlayersHovering--;
-        if (amountOfPlayersHovering == 0)
-        {
-            ColorBlock colors = button.colors;
-            colors.normalColor = Color.white;
-            button.colors = colors;
-        }
+        UpdateButtonColor();
     }
 
     public void OnSelect(BaseEventData eventData)
     {
         amountOfPlayersHovering++;
-        if (amountOfPlayersHovering >= 1)
-        {
-            ColorBlock colors = button.colors;
-            colors.normalColor = Color.green;
-            button.colors = colors;
-        }
+        UpdateButtonColor();
     }
 
     public void SetHover(int playerNumber)
@@ -55,5 +42,12 @@ public class CharacterDisplay : MonoBehaviour, ISelectHandler, IDeselectHandler
     {
         gameManager = GameManager.Instance;
         button.image.sprite = character.sprite;
+    }
+
+    private void UpdateButtonColor()
+    {
+        ColorBlock colors = button.colors;
+        colors.normalColor = amountOfPlayersHovering >= 1 ? Color.green : Color.white;
+        button.colors = colors;
     }
 }

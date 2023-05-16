@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
-using UnityEngine.UI;
 
 [DisallowMultipleComponent]
 public class GameManager : MonoBehaviour
@@ -14,7 +13,7 @@ public class GameManager : MonoBehaviour
     public Character player1Character;
     public Character player2Character;
 
-    [SerializeField] GameObject playerPrefab;
+    [SerializeField] private GameObject playerPrefab;
 
     private void Awake()
     {
@@ -28,55 +27,60 @@ public class GameManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
-        
     }
 
-    void ChangedActiveScene(Scene current, Scene next)
+    private void ChangedActiveScene(Scene current, Scene next)
     {
-        if(next.name.Contains("Movement")) //change to level, we will call the scenes with puzzles Level_number
+        if (next.name.Contains("Movement")) //change to level, we will call the scenes with puzzles Level_number
         {
-            if(playerPrefab != null)
+            if (playerPrefab != null)
             {
                 var p1 = PlayerInput.Instantiate(playerPrefab, controlScheme: "Gamepad", pairWithDevice: Gamepad.all[1]);
                 var p2 = PlayerInput.Instantiate(playerPrefab, controlScheme: "Gamepad", pairWithDevice: Gamepad.all[0]);
 
-                p1.gameObject.GetComponent<SpriteRenderer>().sprite = player1Character.sprite;
-                p2.gameObject.GetComponent<SpriteRenderer>().sprite = player2Character.sprite;
+                SetPlayerSprite(p1.gameObject, player1Character);
+                SetPlayerSprite(p2.gameObject, player2Character);
             }
-            
+        }
+    }
+
+    private void SetPlayerSprite(GameObject playerObject, Character character)
+    {
+        if (playerObject != null && character != null)
+        {
+            var spriteRenderer = playerObject.GetComponent<SpriteRenderer>();
+            if (spriteRenderer != null)
+            {
+                spriteRenderer.sprite = character.sprite;
+            }
         }
     }
 
     public bool BothCharactersSelected()
     {
-        if (Player1Selected() && Player2Selected())
-            return true;
-        else
-            return false;
+        return Player1Selected() && Player2Selected();
     }
 
     public void SelectCharacter(Character character, int playerNumber)
     {
-        if(playerNumber == 1)
+        if (playerNumber == 1)
+        {
             player1Character = character;
-        else if(playerNumber == 2)
+        }
+        else if (playerNumber == 2)
+        {
             player2Character = character;
+        }
     }
 
     public bool Player1Selected()
     {
-        if (player1Character == null)
-            return false;
-        else
-            return true;
+        return player1Character != null;
     }
 
     public bool Player2Selected()
     {
-        if (player2Character == null)
-            return false;
-        else
-            return true;
+        return player2Character != null;
     }
 
     public Character GetPlayerOne()

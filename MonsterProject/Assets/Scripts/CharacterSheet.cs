@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
@@ -24,22 +22,11 @@ public class CharacterSheet : MonoBehaviour
     [SerializeField] private InputSystemUIInputModule inputModule;
     private CharacterDisplay characterDisplaySelected;
 
-    bool locked = false;
+    private bool locked = false;
 
     private void Start()
     {
-        characterSheet = eventSystem.firstSelectedGameObject;
-        character = characterSheet.GetComponent<CharacterDisplay>().GetCharacter();
-
-        sprite = character.sprite;
-        footPrint = character.footPrint;
-        name = character.name;
-        species = character.species;
-
-        spriteImage.sprite = sprite;
-        footPrintImage.sprite = footPrint;
-        nameText.text = "Name: " + name;
-        speciesText.text = "Species: " + species;
+        InitializeCharacterSheet();
     }
 
     public void SetInfo()
@@ -48,43 +35,57 @@ public class CharacterSheet : MonoBehaviour
         {
             characterSheet = eventSystem.currentSelectedGameObject;
 
-            if (characterSheet.GetComponent<CharacterDisplay>() != null)
+            if (characterSheet != null && characterSheet.TryGetComponent(out CharacterDisplay characterDisplay))
             {
-                character = characterSheet.GetComponent<CharacterDisplay>().GetCharacter();
-
-                sprite = character.sprite;
-                footPrint = character.footPrint;
-                name = character.name;
-                species = character.species;
-
-                spriteImage.sprite = sprite;
-                footPrintImage.sprite = footPrint;
-                nameText.text = "Name: " + name;
-                speciesText.text = "Species: " + species;
+                character = characterDisplay.Character;
+                UpdateCharacterInfo();
             }
         }
     }
 
+
     public void SelectCharacter()
     {
-        
         characterSheet = eventSystem.currentSelectedGameObject;
-        if (characterSheet.GetComponent<CharacterDisplay>() != null)
-            character = characterSheet.GetComponent<CharacterDisplay>().GetCharacter();
 
-        if (GameManager.Instance.GetPlayerOne() == character || GameManager.Instance.GetPlayerTwo() == character)
+        if (characterSheet.TryGetComponent(out CharacterDisplay characterDisplay))
         {
-            return;
+            character = characterDisplay.Character;
+
+            if (GameManager.Instance.GetPlayerOne() == character || GameManager.Instance.GetPlayerTwo() == character)
+            {
+                return;
+            }
+
+            if (characterDisplaySelected != null)
+            {
+                characterDisplaySelected.UnsetHover();
+            }
+
+            characterDisplaySelected = characterDisplay;
+            characterDisplay.SetHover(playerNumber);
+
+            GetComponent<Outline>().enabled = true;
+            locked = true;
+
+            UpdateCharacterInfo();
+
+            GameManager.Instance.SelectCharacter(character, playerNumber);
         }
-        if (characterDisplaySelected != null)
-            characterDisplaySelected.UnsetHover();
+    }
 
-        characterDisplaySelected = characterSheet.GetComponent<CharacterDisplay>();
-        characterSheet.GetComponent<CharacterDisplay>().SetHover(playerNumber);
+    private void InitializeCharacterSheet()
+    {
+        characterSheet = eventSystem.firstSelectedGameObject;
+        if (characterSheet.TryGetComponent(out CharacterDisplay characterDisplay))
+        {
+            character = characterDisplay.Character;
+            UpdateCharacterInfo();
+        }
+    }
 
-        GetComponent<Outline>().enabled = true;
-        locked = true;
-
+    private void UpdateCharacterInfo()
+    {
         sprite = character.sprite;
         footPrint = character.footPrint;
         name = character.name;
@@ -94,12 +95,5 @@ public class CharacterSheet : MonoBehaviour
         footPrintImage.sprite = footPrint;
         nameText.text = "Name: " + name;
         speciesText.text = "Species: " + species;
-
-
-
-        if (eventSystem.currentSelectedGameObject.GetComponent<CharacterDisplay>() != null)
-        {
-            GameManager.Instance.SelectCharacter(character, playerNumber);
-        }
     }
 }
