@@ -11,4 +11,6 @@ public const string T_Platform = @"Platform";
 public const string T_Button = @"Button";
 public const string T_Enemy = @"Enemy";
 public const string T_Candy = @"Candy";
+public const string T_Spawn = @"Spawn";
+public const string T_Pit = @"Pit";
 }

@@ -17,6 +17,8 @@ public class Movement : MonoBehaviour
     private int numCoins = 0;
     private BoxCollider2D boxCollider;
 
+    public Transform checkpoint;
+
     private void Awake()
     {
         boxCollider = GetComponent<BoxCollider2D>();
@@ -24,7 +26,7 @@ public class Movement : MonoBehaviour
 
     private void Start()
     {
-        pitTilemap = FindObjectOfType<Tilemap>();
+        pitTilemap = GameObject.FindGameObjectWithTag(Tags.T_Pit).GetComponent<Tilemap>();
     }
 
     public void OnMove(InputAction.CallbackContext context)
@@ -36,7 +38,7 @@ public class Movement : MonoBehaviour
     {
         if (!isOnPlatform && CheckIfOverPit())
         {
-            transform.position = Vector3.zero;
+            transform.position = checkpoint.position;
         }
 
         transform.position += (Vector3)moveAmount * Time.deltaTime * Speed;
@@ -106,4 +108,5 @@ public class Movement : MonoBehaviour
         yield return new WaitForSeconds(secondsToDeactivate);
         boxCollider.enabled = true;
     }
+
 }

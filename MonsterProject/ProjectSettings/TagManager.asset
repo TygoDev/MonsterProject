@@ -8,6 +8,8 @@ TagManager:
   - Button
   - Enemy
   - Candy
+  - Spawn
+  - Pit
   layers:
   - Default
   - TransparentFX
