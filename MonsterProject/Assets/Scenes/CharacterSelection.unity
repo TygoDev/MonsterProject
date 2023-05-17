@@ -435,6 +435,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player1Character: {fileID: 0}
   player2Character: {fileID: 0}
+  player1: {fileID: 0}
+  player2: {fileID: 0}
   playerPrefab: {fileID: 4482464281046791635, guid: 254622becc776dc4a80904d58156f46d, type: 3}
 --- !u!4 &130181172
 Transform:
@@ -3694,7 +3696,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac6e0b0a14eab4641b5f0a3cabf2c1ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneIndex: 2
+  sceneIndex: 3
 --- !u!114 &1786985937
 MonoBehaviour:
   m_ObjectHideFlags: 0

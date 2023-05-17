@@ -13,6 +13,9 @@ public class GameManager : MonoBehaviour
     public Character player1Character;
     public Character player2Character;
 
+    public GameObject player1;
+    public GameObject player2;
+
     [SerializeField] private GameObject playerPrefab;
 
     private void Awake()
@@ -31,8 +34,9 @@ public class GameManager : MonoBehaviour
 
     private void ChangedActiveScene(Scene current, Scene next)
     {
-        if (next.name.Contains("Movement")) //change to level, we will call the scenes with puzzles Level_number
+        if (next.name.Contains("Level")) //change to level, we will call the scenes with puzzles Level_number
         {
+            GameObject[] spawns = GameObject.FindGameObjectsWithTag(Tags.T_Spawn);
             if (playerPrefab != null)
             {
                 var p1 = PlayerInput.Instantiate(playerPrefab, controlScheme: "Gamepad", pairWithDevice: Gamepad.all[1]);
@@ -40,6 +44,19 @@ public class GameManager : MonoBehaviour
 
                 SetPlayerSprite(p1.gameObject, player1Character);
                 SetPlayerSprite(p2.gameObject, player2Character);
+
+                for (int i = 0; i < spawns.Length; i++)
+                {
+                    if(spawns[i].name.Contains("1"))
+                    {
+                        p1.transform.position = spawns[i].transform.position;
+                    }
+                    else
+                    {
+                        p2.transform.position = spawns[i].transform.position;
+                    }
+                }
+
             }
         }
     }
