@@ -50,7 +50,7 @@ public class Movement : MonoBehaviour
         transform.position = new Vector3(transform.position.x, transform.position.y, 0);
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter(Collider collision)
     {
         if (collision.CompareTag(Tags.T_Platform))
         {
@@ -70,7 +70,7 @@ public class Movement : MonoBehaviour
         }
     }
 
-    private void OnTriggerExit2D(Collider2D collision)
+    private void OnTriggerExit(Collider collision)
     {
         if (collision.CompareTag(Tags.T_Platform))
         {
