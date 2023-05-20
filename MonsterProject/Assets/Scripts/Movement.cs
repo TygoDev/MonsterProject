@@ -15,13 +15,13 @@ public class Movement : MonoBehaviour
     [SerializeField] private float dropForce = 5f;
     [SerializeField] private float gotHitTimer = 1f;
     private int numCoins = 0;
-    private BoxCollider2D boxCollider;
+    private BoxCollider boxCollider;
 
     public Transform checkpoint;
 
     private void Awake()
     {
-        boxCollider = GetComponent<BoxCollider2D>();
+        boxCollider = GetComponent<BoxCollider>();
     }
 
     private void Start()

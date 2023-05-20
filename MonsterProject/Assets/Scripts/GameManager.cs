@@ -50,13 +50,15 @@ public class GameManager : MonoBehaviour
 
                 for (int i = 0; i < spawns.Length; i++)
                 {
-                    if(spawns[i].name.Contains("1"))
+                    if (spawns[i].name.Contains("1"))
                     {
                         p1.transform.position = spawns[i].transform.position;
+                        p1.GetComponent<Movement>().checkpoint = spawns[i].transform;
                     }
                     else
                     {
                         p2.transform.position = spawns[i].transform.position;
+                        p2.GetComponent<Movement>().checkpoint = spawns[i].transform;
                     }
                 }
 
