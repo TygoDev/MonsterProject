@@ -4,17 +4,17 @@ using UnityEngine;
 
 public class OpenDoor : MonoBehaviour
 {
-    [SerializeField] GameObject door;
-    [SerializeField] Curve doorPath;
+    public GameObject door;
+    public Curve doorPath;
 
-    [SerializeField] float timeToOpen = 1f;
+    public float timeToOpen = 1f;
 
-    [SerializeField] bool closeOnExitTrigger = false;
+    public bool closeOnExitTrigger = false;
 
-    [SerializeField] float timeToClose = 3f;
-    Coroutine activeCorutine = null;
+    public float timeToClose = 3f;
+    public Coroutine activeCorutine = null;
 
-    IEnumerator OpenOrCloseDoor(Curve path, GameObject door, float timeToMove, bool openDoor = true)
+    public IEnumerator OpenOrCloseDoor(Curve path, GameObject door, float timeToMove, bool openDoor = true)
     {
         var currentPos = door.transform.position;
         var t = 0f;

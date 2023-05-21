@@ -18,6 +18,8 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] private GameObject playerPrefab;
 
+    public int candyCount = 0;
+
     private void Awake()
     {
         if (instance == null)
@@ -36,6 +38,7 @@ public class GameManager : MonoBehaviour
     {
         if (next.name.Contains("Level")) //change to level, we will call the scenes with puzzles Level_number
         {
+            candyCount = 0;
             GameObject[] spawns = GameObject.FindGameObjectsWithTag(Tags.T_Spawn);
             if (playerPrefab != null)
             {

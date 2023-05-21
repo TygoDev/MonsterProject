@@ -8,7 +8,7 @@ public class Movement : MonoBehaviour
     private const float Speed = 10f;
 
     private Vector2 moveAmount;
-    private bool isOnPlatform = false;
+    public bool isOnPlatform = false;
 
     [SerializeField] private Tilemap pitTilemap;
     [SerializeField] private GameObject coinPrefab;
@@ -62,6 +62,7 @@ public class Movement : MonoBehaviour
         {
             Destroy(collision.gameObject);
             numCoins++;
+            GameManager.Instance.candyCount++;
         }
 
         if (collision.CompareTag(Tags.T_Enemy))
@@ -89,6 +90,7 @@ public class Movement : MonoBehaviour
     public void DropCandy()
     {
         StartCoroutine(StopHitboxForSeconds(gotHitTimer));
+        GameManager.Instance.candyCount -= numCoins;
         for (int i = 0; i < numCoins; i++)
         {
             Vector2 dropPosition = transform.position + Random.insideUnitSphere;
