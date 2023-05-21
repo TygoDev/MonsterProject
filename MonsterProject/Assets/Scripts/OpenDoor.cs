@@ -14,8 +14,11 @@ public class OpenDoor : MonoBehaviour
     public float timeToClose = 3f;
     public Coroutine activeCorutine = null;
 
+    public bool ignore = false;
+
     public IEnumerator OpenOrCloseDoor(Curve path, GameObject door, float timeToMove, bool openDoor = true)
     {
+        
         var currentPos = door.transform.position;
         var t = 0f;
 
@@ -53,6 +56,8 @@ public class OpenDoor : MonoBehaviour
 
     private void OnTriggerEnter(Collider collision)
     {
+        if (ignore)
+            return;
         if (collision.CompareTag(Tags.T_Player))
         {
             if (activeCorutine == null)
@@ -69,6 +74,8 @@ public class OpenDoor : MonoBehaviour
 
     private void OnTriggerExit(Collider collision)
     {
+        if (ignore)
+            return;
         if (collision.CompareTag(Tags.T_Player))
         {
             if (closeOnExitTrigger)

@@ -76,9 +76,10 @@ public class FallingPlatform : MonoBehaviour
 
     private void OnTriggerExit(Collider collision)
     {
-        if(otherplatform != null)
+        if(otherplatform != null && collision.CompareTag(Tags.T_Player))
         {
             activeCorutine = StartCoroutine(OpenOrCloseDoor(closeotherPlatformCurve, otherplatform, timeToClose, false));
+            return;
         }
         if (collision.CompareTag(Tags.T_Player))
         {

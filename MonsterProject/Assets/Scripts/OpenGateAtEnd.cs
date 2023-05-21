@@ -11,6 +11,7 @@ public class OpenGateAtEnd : MonoBehaviour
     OpenDoor openDoor;
 
     [SerializeField] TMP_Text moreKeysRequired;
+    bool fadeIn;
 
     private void Start()
     {
@@ -27,22 +28,36 @@ public class OpenGateAtEnd : MonoBehaviour
             }
             else
             {
-                StartCoroutine(FadeText());
+                StartCoroutine(FadeText(fadeIn));
+                fadeIn = true;
             }
         }
     }
 
-    IEnumerator FadeText()
+    IEnumerator FadeText(bool fade)
     {
         float t = 0f;
 
         moreKeysRequired.text = "Je hebt nog " + (numberOfKeysRequired - GameManager.Instance.candyCount) +  " sleutels nodig.";
         while (t < 1f)
         {
-            t += Time.deltaTime;
-            moreKeysRequired.alpha = Mathf.Lerp(0f, 1f, t);
+            t += Time.deltaTime / 2f;
+            if(!fade)
+            {
+                moreKeysRequired.alpha = Mathf.Lerp(0f, 1f, t);
+            }
+            else
+            {
+                moreKeysRequired.alpha = Mathf.Lerp(1f, 0f, t);
+            }
+            yield return null;
         }
 
+        if(!fade)
+        {
+            StartCoroutine(FadeText(fadeIn));
+            fadeIn = false;
+        }
         yield return null;
     }
 }

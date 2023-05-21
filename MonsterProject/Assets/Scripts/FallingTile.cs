@@ -7,7 +7,7 @@ public class FallingTile : MonoBehaviour
     Movement playerScript;
     bool playerStillOnPlatform;
 
-    public float timeTofall = 2f;
+    public float timeTofall = 10f;
 
     bool isBack = true;
     public float timeToComeBack = 2f;
@@ -20,7 +20,9 @@ public class FallingTile : MonoBehaviour
 
     private void Start()
     {
-        sprite = GetComponent<SpriteRenderer>();    
+        sprite = GetComponent<SpriteRenderer>();
+
+        StartCoroutine(DisableOnPlatform());
     }
     private void OnTriggerEnter(Collider other)
     {
@@ -50,12 +52,15 @@ public class FallingTile : MonoBehaviour
 
     IEnumerator DisableOnPlatform()
     {
+        //yield return new WaitForSeconds(3f);
         float t = 0f;
         isBack = false;
-        while (t <= timeTofall)
+        while (t <= 1f)
         {
-            t += Time.deltaTime;
-            sprite.color = new Color(sprite.color.r, sprite.color.g, sprite.color.b, Mathf.Lerp(1f, 0f, t));
+            t += Time.deltaTime / timeTofall;
+            //Debug.Log(t);
+            sprite.material.color = new Color(1f, 1f, 1f, Mathf.SmoothStep(1f, 0f, t));
+            yield return null;
         }
 
         if (playerStillOnPlatform)
@@ -71,10 +76,12 @@ public class FallingTile : MonoBehaviour
     {
         float t = 0f;
         playerStillOnPlatform = false;
-        while (t <= timeToComeBack)
+            Debug.Log("FadingBack");
+        while (t <= 1f)
         {
-            t += Time.deltaTime;
-            sprite.color = new Color(sprite.color.r, sprite.color.g, sprite.color.b, Mathf.Lerp(0f, 1f, t));
+            t += Time.deltaTime / timeToComeBack;
+            sprite.material.color = new Color(1f, 1f, 1f, Mathf.SmoothStep(0f, 1f, t));
+            yield return null;
         }
         coroutine = null;
         isBack = true;
