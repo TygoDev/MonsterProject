@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 2298478}
   m_Layer: 0
   m_Name: Rock
-  m_TagString: Platform
+  m_TagString: Rock
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1441,7 +1441,7 @@ GameObject:
   - component: {fileID: 439555489}
   m_Layer: 0
   m_Name: Rock
-  m_TagString: Platform
+  m_TagString: Rock
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -87983,7 +87983,7 @@ GameObject:
   - component: {fileID: 862415376}
   m_Layer: 0
   m_Name: Rock
-  m_TagString: Platform
+  m_TagString: Rock
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -90555,7 +90555,7 @@ GameObject:
   - component: {fileID: 1336482051}
   m_Layer: 0
   m_Name: Rock
-  m_TagString: Platform
+  m_TagString: Rock
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -90817,7 +90817,7 @@ GameObject:
   - component: {fileID: 1365314333}
   m_Layer: 0
   m_Name: Rock
-  m_TagString: Platform
+  m_TagString: Rock
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
