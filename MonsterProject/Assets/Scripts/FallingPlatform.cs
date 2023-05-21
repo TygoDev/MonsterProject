@@ -48,7 +48,7 @@ public class FallingPlatform : MonoBehaviour
         {
             door.transform.position = path.GetPoint(1);
             door.GetComponent<SpriteRenderer>().sortingOrder = 3;
-            this.GetComponent<SpriteRenderer>().sortingOrder = 3;
+            this.GetComponent<SpriteRenderer>().sortingOrder = 4;
         }
         else
         {
