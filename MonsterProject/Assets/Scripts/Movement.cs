@@ -58,6 +58,11 @@ public class Movement : MonoBehaviour
             isOnPlatform = true;
         }
 
+        if (collision.CompareTag(Tags.T_Platform))
+        {
+            isOnPlatform = true;
+        }
+
         if (collision.CompareTag(Tags.T_Candy))
         {
             Destroy(collision.gameObject);
