@@ -58,7 +58,7 @@ public class Movement : MonoBehaviour
             isOnPlatform = true;
         }
 
-        if (collision.CompareTag(Tags.T_Platform))
+        if (collision.CompareTag(Tags.T_Rock))
         {
             isOnPlatform = true;
         }
