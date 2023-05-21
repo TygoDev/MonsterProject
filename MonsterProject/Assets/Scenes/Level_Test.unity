@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 2298478}
   m_Layer: 0
   m_Name: Rock
-  m_TagString: Rock
+  m_TagString: Platform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1441,7 +1441,7 @@ GameObject:
   - component: {fileID: 439555489}
   m_Layer: 0
   m_Name: Rock
-  m_TagString: Rock
+  m_TagString: Platform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32377,6 +32377,7 @@ MonoBehaviour:
   timeToOpen: 3
   closeOnExitTrigger: 1
   timeToClose: 3
+  ignore: 0
 --- !u!212 &497264411
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -73687,6 +73688,7 @@ MonoBehaviour:
   timeToOpen: 2
   closeOnExitTrigger: 0
   timeToClose: 3
+  ignore: 0
 --- !u!114 &701350371
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -87987,7 +87989,7 @@ GameObject:
   - component: {fileID: 862415376}
   m_Layer: 0
   m_Name: Rock
-  m_TagString: Rock
+  m_TagString: Platform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -88620,6 +88622,7 @@ MonoBehaviour:
   timeToOpen: 3
   closeOnExitTrigger: 1
   timeToClose: 3
+  ignore: 0
 --- !u!212 &979554338
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -90559,7 +90562,7 @@ GameObject:
   - component: {fileID: 1336482051}
   m_Layer: 0
   m_Name: Rock
-  m_TagString: Rock
+  m_TagString: Platform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -90821,7 +90824,7 @@ GameObject:
   - component: {fileID: 1365314333}
   m_Layer: 0
   m_Name: Rock
-  m_TagString: Rock
+  m_TagString: Platform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
