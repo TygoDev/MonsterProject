@@ -12,6 +12,7 @@ TagManager:
   - Spawn
   - Pit
   - FallingTIle
+  - Rock
   layers:
   - Default
   - TransparentFX
