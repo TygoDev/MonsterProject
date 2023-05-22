@@ -38,7 +38,7 @@ public class Movement : MonoBehaviour
     {
         if (!isOnPlatform && CheckIfOverPit())
         {
-            transform.position = checkpoint.position;
+            ResetToCheckpoint();
         }
 
         transform.position += (Vector3)moveAmount * Time.deltaTime * Speed;
@@ -50,12 +50,22 @@ public class Movement : MonoBehaviour
         transform.position = new Vector3(transform.position.x, transform.position.y, 0);
     }
 
+    private void ResetToCheckpoint()
+    {
+        transform.position = checkpoint.position;
+    }
+
     private void OnTriggerEnter(Collider collision)
     {
         if (collision.CompareTag(Tags.T_Platform))
         {
             transform.parent = collision.transform;
             isOnPlatform = true;
+        }
+
+        if(collision.CompareTag(Tags.T_Crush))
+        {
+            ResetToCheckpoint();
         }
 
         if (collision.CompareTag(Tags.T_Rock))

@@ -38,7 +38,8 @@ public class OpenGateAtEnd : MonoBehaviour
     {
         float t = 0f;
 
-        moreKeysRequired.text = "Je hebt nog " + (numberOfKeysRequired - GameManager.Instance.candyCount) +  " sleutels nodig.";
+        //moreKeysRequired.text = "Je hebt nog " + (numberOfKeysRequired - GameManager.Instance.candyCount) +  " sleutels nodig.";
+        moreKeysRequired.text = "Success!";
         while (t < 1f)
         {
             t += Time.deltaTime / 2f;

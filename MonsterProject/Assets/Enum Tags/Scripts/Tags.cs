@@ -16,4 +16,5 @@ public const string T_Spawn = @"Spawn";
 public const string T_Pit = @"Pit";
 public const string T_FallingTIle = @"FallingTIle";
 public const string T_Rock = @"Rock";
+public const string T_Crush = @"Crush";
 }
