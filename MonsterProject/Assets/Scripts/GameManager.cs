@@ -43,10 +43,10 @@ public class GameManager : MonoBehaviour
             if (playerPrefab != null)
             {
                 var p1 = PlayerInput.Instantiate(playerPrefab, controlScheme: "Gamepad", pairWithDevice: Gamepad.all[1]);
-                var p2 = PlayerInput.Instantiate(playerPrefab, controlScheme: "Gamepad", pairWithDevice: Gamepad.all[0]);
+                //var p2 = PlayerInput.Instantiate(playerPrefab, controlScheme: "Gamepad", pairWithDevice: Gamepad.all[0]);
 
                 //var p1 = PlayerInput.Instantiate(playerPrefab, controlScheme: "Keyboard&Mouse");
-                //var p2 = PlayerInput.Instantiate(playerPrefab, controlScheme: "Keyboard&Mouse");
+                var p2 = PlayerInput.Instantiate(playerPrefab, controlScheme: "Keyboard&Mouse");
 
                 SetPlayerSprite(p1.gameObject, player1Character);
                 SetPlayerSprite(p2.gameObject, player2Character);
