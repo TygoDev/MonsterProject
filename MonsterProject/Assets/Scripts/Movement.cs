@@ -34,7 +34,7 @@ public class Movement : MonoBehaviour
         moveAmount = context.ReadValue<Vector2>();
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         if (!isOnPlatform && CheckIfOverPit())
         {
