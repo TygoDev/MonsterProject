@@ -31,6 +31,8 @@ public class FallingTile : MonoBehaviour
             playerScript = other.GetComponent<Movement>();
             playerScript.isOnPlatform = true;
             playerStillOnPlatform = true;
+
+            playerScript.platforms.Add(this.gameObject);
             if(coroutine == null)
             {
                 coroutine = StartCoroutine(DisableOnPlatform());
@@ -42,11 +44,12 @@ public class FallingTile : MonoBehaviour
     {
         if (other.CompareTag(Tags.T_Player))
         {
+            playerScript.platforms.Remove(this.gameObject);
             playerStillOnPlatform = false;
-            if(disableOnPlatformBoolFromPlayer)
+            /*if(disableOnPlatformBoolFromPlayer)
             {
                 playerScript.isOnPlatform = false;
-            }
+            }*/
         }
     }
 
@@ -63,10 +66,13 @@ public class FallingTile : MonoBehaviour
             yield return null;
         }
 
+        yield return new WaitForSeconds(0.2f);
         if (playerStillOnPlatform)
         {
-            playerScript.isOnPlatform = false; //will make it fall in the pit and reset his position        
+            playerScript.isOnPlatform = false; //will make it fall in the pit and reset his position
+            playerScript.ResetToCheckpoint();
         }
+        yield return new WaitForSeconds(1f);
         coroutine = StartCoroutine(FadeBack());
         
         yield return null;

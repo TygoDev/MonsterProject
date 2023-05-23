@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.Tilemaps;
@@ -19,6 +20,9 @@ public class Movement : MonoBehaviour
 
     public Transform checkpoint;
 
+    [HideInInspector]
+    public List<GameObject> platforms = new List<GameObject>();
+
     private void Awake()
     {
         boxCollider = GetComponent<BoxCollider>();
@@ -36,7 +40,7 @@ public class Movement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (!isOnPlatform && CheckIfOverPit())
+        if (CheckIfOverPit() && !isOnPlatform && platforms.Count == 0)
         {
             ResetToCheckpoint();
         }
@@ -50,7 +54,7 @@ public class Movement : MonoBehaviour
         transform.position = new Vector3(transform.position.x, transform.position.y, 0);
     }
 
-    private void ResetToCheckpoint()
+    public void ResetToCheckpoint()
     {
         transform.position = checkpoint.position;
     }
@@ -99,6 +103,7 @@ public class Movement : MonoBehaviour
     {
         Vector3Int playerCellPos = pitTilemap.WorldToCell(transform.position);
         TileBase tile = pitTilemap.GetTile(playerCellPos);
+        Debug.Log(tile != null);
         return tile != null;
     }
 
