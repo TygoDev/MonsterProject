@@ -252,6 +252,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0.5
+  axis: 2
 --- !u!4 &2667342
 Transform:
   m_ObjectHideFlags: 0
@@ -740,6 +741,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: -0.5
+  axis: 2
 --- !u!4 &133625689
 Transform:
   m_ObjectHideFlags: 0
@@ -73222,6 +73224,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0.45
+  axis: 2
 --- !u!4 &622335041
 Transform:
   m_ObjectHideFlags: 0
@@ -88120,6 +88123,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: -0.5
+  axis: 2
 --- !u!4 &840390914
 Transform:
   m_ObjectHideFlags: 0
@@ -88260,6 +88264,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0.4
+  axis: 2
 --- !u!4 &850472058
 Transform:
   m_ObjectHideFlags: 0
@@ -88502,6 +88507,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0.6
+  axis: 2
 --- !u!4 &863251098
 Transform:
   m_ObjectHideFlags: 0
@@ -91731,7 +91737,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8531479508363779137, guid: a55eeab1e06366c448037600e853975d, type: 3}
       propertyPath: numPrefabs
-      value: 6
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8531479508363779137, guid: a55eeab1e06366c448037600e853975d, type: 3}
+      propertyPath: orbitSpeed
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8531479508363779137, guid: a55eeab1e06366c448037600e853975d, type: 3}
       propertyPath: spawnedPrefabs.Array.size
@@ -91777,6 +91787,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0.3
+  axis: 2
 --- !u!4 &1433570520
 Transform:
   m_ObjectHideFlags: 0
@@ -92060,6 +92071,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: -0.4
+  axis: 2
 --- !u!4 &1533731185
 Transform:
   m_ObjectHideFlags: 0

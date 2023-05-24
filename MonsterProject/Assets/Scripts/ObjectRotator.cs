@@ -17,8 +17,13 @@ public class ObjectRotator : MonoBehaviour
         // Spawn the prefabs
         for (int i = 0; i < numPrefabs; i++)
         {
-            float angle = i * 360f / numPrefabs;
-            Vector3 spawnPosition = transform.position + Quaternion.Euler(0f, 0f, angle) * Vector3.right * radius;
+            //float angle = i * (360f / numPrefabs);
+
+            float theta = (2 * Mathf.PI / numPrefabs) * i;
+            float xPos = Mathf.Sin(theta);
+            float yPos = Mathf.Cos(theta);
+
+            Vector3 spawnPosition = transform.position + new Vector3(xPos, yPos, 0f) * radius;
             spawnedPrefabs[i] = Instantiate(prefab.gameObject, spawnPosition, Quaternion.Euler(-45,0,0));
         }
 
@@ -28,9 +33,11 @@ public class ObjectRotator : MonoBehaviour
     {
         for (int i = 0; i < numPrefabs; i++)
         {
+
             float angle = Time.time * orbitSpeed;
-            float x = Mathf.Cos(angle + i) * radius;
-            float y = Mathf.Sin(angle + i) * radius;
+            float theta = (2 * Mathf.PI / numPrefabs) * i;
+            float x = Mathf.Cos(angle + theta) * radius;
+            float y = Mathf.Sin(angle + theta) * radius;
 
             Vector3 newPosition = new Vector3(x + transform.position.x, y + transform.position.y, spawnedPrefabs[i].transform.position.z);
             spawnedPrefabs[i].transform.position = newPosition;
