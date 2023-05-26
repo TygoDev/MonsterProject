@@ -103,7 +103,7 @@ public class Movement : MonoBehaviour
     {
         Vector3Int playerCellPos = pitTilemap.WorldToCell(transform.position);
         TileBase tile = pitTilemap.GetTile(playerCellPos);
-        Debug.Log(tile != null);
+        //Debug.Log(tile != null);
         return tile != null;
     }
 
