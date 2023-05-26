@@ -6,9 +6,19 @@ using UnityEngine.Tilemaps;
 
 public class Movement : MonoBehaviour
 {
-    private const float Speed = 10f;
+    private const float Speed = 300f;
+
+    private float moveAmountUp;
+    private float moveAmountDown;
+    private float moveAmountRight;
+    private float moveAmountLeft;
 
     private Vector2 moveAmount;
+
+    private Vector2 smoothMove;
+    Vector2 smoothMoveVelocity;
+
+
     public bool isOnPlatform = false;
 
     [SerializeField] private Tilemap pitTilemap;
@@ -18,6 +28,8 @@ public class Movement : MonoBehaviour
     private int numCoins = 0;
     private BoxCollider boxCollider;
 
+    private Rigidbody rb;
+
     public Transform checkpoint;
 
     [HideInInspector]
@@ -26,6 +38,7 @@ public class Movement : MonoBehaviour
     private void Awake()
     {
         boxCollider = GetComponent<BoxCollider>();
+        rb = GetComponent<Rigidbody>();
     }
 
     private void Start()
@@ -33,9 +46,54 @@ public class Movement : MonoBehaviour
         pitTilemap = GameObject.FindGameObjectWithTag(Tags.T_Pit).GetComponent<Tilemap>();
     }
 
-    public void OnMove(InputAction.CallbackContext context)
+    public void OnMoveUp(InputAction.CallbackContext context)
     {
-        moveAmount = context.ReadValue<Vector2>();
+        //+
+        if(context.ReadValue<float>() == 1)
+        {
+            moveAmountUp = 1f;
+        }
+        else
+        {
+            moveAmountUp = 0f;
+        }
+    }
+
+    public void OnMoveDown(InputAction.CallbackContext context)
+    {
+        if (context.ReadValue<float>() == 1)
+        {
+            moveAmountDown = -1f;
+        }
+        else
+        {
+            moveAmountDown = 0f;
+        }
+    }
+
+    public void OnMoveLeft(InputAction.CallbackContext context)
+    {
+        if (context.ReadValue<float>() == 1)
+        {
+            moveAmountLeft = -1f;
+        }
+        else
+        {
+            moveAmountLeft = 0f;
+        }
+    }
+
+    public void OnMoveRight(InputAction.CallbackContext context)
+    {
+        //+
+        if (context.ReadValue<float>() == 1)
+        {
+            moveAmountRight = 1f;
+        }
+        else
+        {
+            moveAmountRight = 0f;
+        }
     }
 
     private void FixedUpdate()
@@ -45,13 +103,22 @@ public class Movement : MonoBehaviour
             ResetToCheckpoint();
         }
 
-        transform.position += (Vector3)moveAmount * Time.deltaTime * Speed;
+        moveAmount = new Vector2(moveAmountLeft + moveAmountRight, moveAmountDown + moveAmountUp);
+
+        smoothMove = Vector2.SmoothDamp(smoothMove, moveAmount, ref smoothMoveVelocity, 0.1f);
+
+        //transform.position += (Vector3)moveAmount * Time.smoothDeltaTime * Speed;
+        rb.velocity = (Vector3)smoothMove * Time.deltaTime * Speed;
 
         Vector3 pos = Camera.main.WorldToViewportPoint(transform.position);
         pos.x = Mathf.Clamp01(pos.x);
         pos.y = Mathf.Clamp01(pos.y);
+
         transform.position = Camera.main.ViewportToWorldPoint(pos);
+
+
         transform.position = new Vector3(transform.position.x, transform.position.y, 0);
+
     }
 
     public void ResetToCheckpoint()

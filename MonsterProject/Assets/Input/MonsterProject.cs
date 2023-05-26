@@ -28,15 +28,6 @@ public partial class @MonsterProject : IInputActionCollection2, IDisposable
             ""id"": ""95537d83-55d7-4ba6-9556-a5537f65ec83"",
             ""actions"": [
                 {
-                    ""name"": ""Dpad"",
-                    ""type"": ""Value"",
-                    ""id"": ""d1785e13-ceca-4fac-87de-b453fd814961"",
-                    ""expectedControlType"": """",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": true
-                },
-                {
                     ""name"": ""A"",
                     ""type"": ""Button"",
                     ""id"": ""69b60268-4609-424c-9530-15b7f98b2b7e"",
@@ -71,53 +62,45 @@ public partial class @MonsterProject : IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Right"",
+                    ""type"": ""Button"",
+                    ""id"": ""da70cfa8-be8a-42a2-a871-d59c23784213"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Up"",
+                    ""type"": ""Button"",
+                    ""id"": ""ffb14faf-05ab-4f98-b415-850ad95092c2"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Left"",
+                    ""type"": ""Button"",
+                    ""id"": ""a77b9cc1-3512-45bd-8b7d-35a5c2d525b8"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Down"",
+                    ""type"": ""Button"",
+                    ""id"": ""318e1e9f-f3ac-458c-9833-5a9ddff2610e"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
-                {
-                    ""name"": """",
-                    ""id"": ""0f09b753-50c3-4a99-8283-c7a0bd98585c"",
-                    ""path"": ""<HID::usb gamepad           >/stick/down"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Joystick"",
-                    ""action"": ""Dpad"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""7db5cd74-dbc1-4dce-8c10-25b8f61a7d51"",
-                    ""path"": ""<HID::usb gamepad           >/stick/left"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Joystick"",
-                    ""action"": ""Dpad"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""272f13d5-1004-4ba5-8797-870b7ade86a8"",
-                    ""path"": ""<HID::usb gamepad           >/stick/right"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Joystick"",
-                    ""action"": ""Dpad"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""6789152d-7e58-48c6-9f03-acfa2a66bb8a"",
-                    ""path"": ""<HID::usb gamepad           >/stick/up"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Joystick"",
-                    ""action"": ""Dpad"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
                 {
                     ""name"": """",
                     ""id"": ""6b27e067-bea3-4600-93e1-55f26d904c64"",
@@ -159,6 +142,50 @@ public partial class @MonsterProject : IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""groups"": ""Joystick"",
                     ""action"": ""Select"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""3f9eeeaf-92ae-4ff2-baca-5206fbdef376"",
+                    ""path"": ""<HID::usb gamepad           >/stick/right"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Right"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""0820d3bc-a6d3-43ec-9bc7-1402e8fdc08f"",
+                    ""path"": ""<HID::usb gamepad           >/stick/up"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Up"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""4e18270d-07b2-4c01-ab99-adf8a3a83cb3"",
+                    ""path"": ""<HID::usb gamepad           >/stick/left"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Left"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""477e5601-7acc-4223-8843-6e413b2ab4ca"",
+                    ""path"": ""<HID::usb gamepad           >/stick/down"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Down"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -746,11 +773,14 @@ public partial class @MonsterProject : IInputActionCollection2, IDisposable
 }");
         // Player
         m_Player = asset.FindActionMap("Player", throwIfNotFound: true);
-        m_Player_Dpad = m_Player.FindAction("Dpad", throwIfNotFound: true);
         m_Player_A = m_Player.FindAction("A", throwIfNotFound: true);
         m_Player_B = m_Player.FindAction("B", throwIfNotFound: true);
         m_Player_Start = m_Player.FindAction("Start", throwIfNotFound: true);
         m_Player_Select = m_Player.FindAction("Select", throwIfNotFound: true);
+        m_Player_Right = m_Player.FindAction("Right", throwIfNotFound: true);
+        m_Player_Up = m_Player.FindAction("Up", throwIfNotFound: true);
+        m_Player_Left = m_Player.FindAction("Left", throwIfNotFound: true);
+        m_Player_Down = m_Player.FindAction("Down", throwIfNotFound: true);
         // UI
         m_UI = asset.FindActionMap("UI", throwIfNotFound: true);
         m_UI_Navigate = m_UI.FindAction("Navigate", throwIfNotFound: true);
@@ -822,20 +852,26 @@ public partial class @MonsterProject : IInputActionCollection2, IDisposable
     // Player
     private readonly InputActionMap m_Player;
     private IPlayerActions m_PlayerActionsCallbackInterface;
-    private readonly InputAction m_Player_Dpad;
     private readonly InputAction m_Player_A;
     private readonly InputAction m_Player_B;
     private readonly InputAction m_Player_Start;
     private readonly InputAction m_Player_Select;
+    private readonly InputAction m_Player_Right;
+    private readonly InputAction m_Player_Up;
+    private readonly InputAction m_Player_Left;
+    private readonly InputAction m_Player_Down;
     public struct PlayerActions
     {
         private @MonsterProject m_Wrapper;
         public PlayerActions(@MonsterProject wrapper) { m_Wrapper = wrapper; }
-        public InputAction @Dpad => m_Wrapper.m_Player_Dpad;
         public InputAction @A => m_Wrapper.m_Player_A;
         public InputAction @B => m_Wrapper.m_Player_B;
         public InputAction @Start => m_Wrapper.m_Player_Start;
         public InputAction @Select => m_Wrapper.m_Player_Select;
+        public InputAction @Right => m_Wrapper.m_Player_Right;
+        public InputAction @Up => m_Wrapper.m_Player_Up;
+        public InputAction @Left => m_Wrapper.m_Player_Left;
+        public InputAction @Down => m_Wrapper.m_Player_Down;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -845,9 +881,6 @@ public partial class @MonsterProject : IInputActionCollection2, IDisposable
         {
             if (m_Wrapper.m_PlayerActionsCallbackInterface != null)
             {
-                @Dpad.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnDpad;
-                @Dpad.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnDpad;
-                @Dpad.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnDpad;
                 @A.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnA;
                 @A.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnA;
                 @A.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnA;
@@ -860,13 +893,22 @@ public partial class @MonsterProject : IInputActionCollection2, IDisposable
                 @Select.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnSelect;
                 @Select.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnSelect;
                 @Select.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnSelect;
+                @Right.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnRight;
+                @Right.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnRight;
+                @Right.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnRight;
+                @Up.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnUp;
+                @Up.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnUp;
+                @Up.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnUp;
+                @Left.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnLeft;
+                @Left.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnLeft;
+                @Left.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnLeft;
+                @Down.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnDown;
+                @Down.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnDown;
+                @Down.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnDown;
             }
             m_Wrapper.m_PlayerActionsCallbackInterface = instance;
             if (instance != null)
             {
-                @Dpad.started += instance.OnDpad;
-                @Dpad.performed += instance.OnDpad;
-                @Dpad.canceled += instance.OnDpad;
                 @A.started += instance.OnA;
                 @A.performed += instance.OnA;
                 @A.canceled += instance.OnA;
@@ -879,6 +921,18 @@ public partial class @MonsterProject : IInputActionCollection2, IDisposable
                 @Select.started += instance.OnSelect;
                 @Select.performed += instance.OnSelect;
                 @Select.canceled += instance.OnSelect;
+                @Right.started += instance.OnRight;
+                @Right.performed += instance.OnRight;
+                @Right.canceled += instance.OnRight;
+                @Up.started += instance.OnUp;
+                @Up.performed += instance.OnUp;
+                @Up.canceled += instance.OnUp;
+                @Left.started += instance.OnLeft;
+                @Left.performed += instance.OnLeft;
+                @Left.canceled += instance.OnLeft;
+                @Down.started += instance.OnDown;
+                @Down.performed += instance.OnDown;
+                @Down.canceled += instance.OnDown;
             }
         }
     }
@@ -1035,11 +1089,14 @@ public partial class @MonsterProject : IInputActionCollection2, IDisposable
     }
     public interface IPlayerActions
     {
-        void OnDpad(InputAction.CallbackContext context);
         void OnA(InputAction.CallbackContext context);
         void OnB(InputAction.CallbackContext context);
         void OnStart(InputAction.CallbackContext context);
         void OnSelect(InputAction.CallbackContext context);
+        void OnRight(InputAction.CallbackContext context);
+        void OnUp(InputAction.CallbackContext context);
+        void OnLeft(InputAction.CallbackContext context);
+        void OnDown(InputAction.CallbackContext context);
     }
     public interface IUIActions
     {

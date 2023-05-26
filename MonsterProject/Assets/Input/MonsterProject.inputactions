@@ -6,15 +6,6 @@
             "id": "95537d83-55d7-4ba6-9556-a5537f65ec83",
             "actions": [
                 {
-                    "name": "Dpad",
-                    "type": "Value",
-                    "id": "d1785e13-ceca-4fac-87de-b453fd814961",
-                    "expectedControlType": "",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": true
-                },
-                {
                     "name": "A",
                     "type": "Button",
                     "id": "69b60268-4609-424c-9530-15b7f98b2b7e",
@@ -49,53 +40,45 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "Right",
+                    "type": "Button",
+                    "id": "da70cfa8-be8a-42a2-a871-d59c23784213",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Up",
+                    "type": "Button",
+                    "id": "ffb14faf-05ab-4f98-b415-850ad95092c2",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Left",
+                    "type": "Button",
+                    "id": "a77b9cc1-3512-45bd-8b7d-35a5c2d525b8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Down",
+                    "type": "Button",
+                    "id": "318e1e9f-f3ac-458c-9833-5a9ddff2610e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
-                {
-                    "name": "",
-                    "id": "0f09b753-50c3-4a99-8283-c7a0bd98585c",
-                    "path": "<HID::usb gamepad           >/stick/down",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Joystick",
-                    "action": "Dpad",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "7db5cd74-dbc1-4dce-8c10-25b8f61a7d51",
-                    "path": "<HID::usb gamepad           >/stick/left",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Joystick",
-                    "action": "Dpad",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "272f13d5-1004-4ba5-8797-870b7ade86a8",
-                    "path": "<HID::usb gamepad           >/stick/right",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Joystick",
-                    "action": "Dpad",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "6789152d-7e58-48c6-9f03-acfa2a66bb8a",
-                    "path": "<HID::usb gamepad           >/stick/up",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Joystick",
-                    "action": "Dpad",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
                 {
                     "name": "",
                     "id": "6b27e067-bea3-4600-93e1-55f26d904c64",
@@ -137,6 +120,50 @@
                     "processors": "",
                     "groups": "Joystick",
                     "action": "Select",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3f9eeeaf-92ae-4ff2-baca-5206fbdef376",
+                    "path": "<HID::usb gamepad           >/stick/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Right",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0820d3bc-a6d3-43ec-9bc7-1402e8fdc08f",
+                    "path": "<HID::usb gamepad           >/stick/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Up",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4e18270d-07b2-4c01-ab99-adf8a3a83cb3",
+                    "path": "<HID::usb gamepad           >/stick/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Left",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "477e5601-7acc-4223-8843-6e413b2ab4ca",
+                    "path": "<HID::usb gamepad           >/stick/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Down",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
