@@ -29,12 +29,12 @@ public partial class @MonsterProject : IInputActionCollection2, IDisposable
             ""actions"": [
                 {
                     ""name"": ""Dpad"",
-                    ""type"": ""Button"",
+                    ""type"": ""Value"",
                     ""id"": ""d1785e13-ceca-4fac-87de-b453fd814961"",
-                    ""expectedControlType"": ""Button"",
+                    ""expectedControlType"": """",
                     ""processors"": """",
                     ""interactions"": """",
-                    ""initialStateCheck"": false
+                    ""initialStateCheck"": true
                 },
                 {
                     ""name"": ""A"",

@@ -114,30 +114,6 @@ MonoBehaviour:
       m_Calls: []
   m_ActionEvents:
   - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 4482464281046791639}
-        m_TargetAssemblyTypeName: Movement, Assembly-CSharp
-        m_MethodName: OnMove
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: a5597156-f913-4410-a9ab-7817603b6835
-    m_ActionName: Player/Move[/Keyboard/w,/Keyboard/upArrow,/Keyboard/s,/Keyboard/downArrow,/Keyboard/a,/Keyboard/leftArrow,/Keyboard/d,/Keyboard/rightArrow]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: b2b1dae4-894d-480a-89b0-e6b949aa4e52
-    m_ActionName: Player/Look[/Mouse/delta]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 7d33b76a-929b-43b0-8d3c-ec3cd770b12e
-    m_ActionName: Player/Fire[/Mouse/leftButton]
-  - m_PersistentCalls:
       m_Calls: []
     m_ActionId: e8c2dcf0-9e3a-4639-8457-bb7b55840ef5
     m_ActionName: UI/Navigate[/Keyboard/w,/Keyboard/upArrow,/Keyboard/s,/Keyboard/downArrow,/Keyboard/a,/Keyboard/leftArrow,/Keyboard/d,/Keyboard/rightArrow]
@@ -181,8 +157,28 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: d1785e13-ceca-4fac-87de-b453fd814961
     m_ActionName: Player/X
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 69b60268-4609-424c-9530-15b7f98b2b7e
+    m_ActionName: Player/A[/usb gamepad           /button2,/usb gamepad          
+      1/button2]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 03130026-8b55-4370-86ff-474db6dc161c
+    m_ActionName: Player/B[/usb gamepad           /trigger,/usb gamepad          
+      1/trigger]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 1434aa1f-7052-43bc-97d7-fdb4034456f8
+    m_ActionName: Player/Start[/usb gamepad           /button10,/usb gamepad          
+      1/button10]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: df691eec-2fe1-4e66-b85b-a634550a635c
+    m_ActionName: Player/Select[/usb gamepad           /button9,/usb gamepad          
+      1/button9]
   m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: Keyboard&Mouse
+  m_DefaultControlScheme: Joystick
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
@@ -204,6 +200,7 @@ MonoBehaviour:
   dropForce: 5
   gotHitTimer: 1
   checkpoint: {fileID: 0}
+  platforms: []
 --- !u!65 &6624545347357620358
 BoxCollider:
   m_ObjectHideFlags: 0

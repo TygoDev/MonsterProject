@@ -3080,7 +3080,31 @@ MonoBehaviour:
       gamepad           /stick/right,/usb gamepad           1/stick/right,/usb gamepad          
       /stick/up,/usb gamepad           1/stick/up]
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6426990}
+        m_TargetAssemblyTypeName: CharacterSheet, Assembly-CSharp
+        m_MethodName: SelectCharacter
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1590256668}
+        m_TargetAssemblyTypeName: StartButton, Assembly-CSharp
+        m_MethodName: MakeButtonVisible
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: 69b60268-4609-424c-9530-15b7f98b2b7e
     m_ActionName: Player/A[/usb gamepad           /button2,/usb gamepad          
       1/button2]
@@ -3095,7 +3119,19 @@ MonoBehaviour:
     m_ActionName: Player/Start[/usb gamepad           /button10,/usb gamepad          
       1/button10]
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6426990}
+        m_TargetAssemblyTypeName: CharacterSheet, Assembly-CSharp
+        m_MethodName: SelectCharacter
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: df691eec-2fe1-4e66-b85b-a634550a635c
     m_ActionName: Player/Select[/usb gamepad           /button9,/usb gamepad          
       1/button9]
@@ -3260,7 +3296,31 @@ MonoBehaviour:
       gamepad           /stick/right,/usb gamepad           1/stick/right,/usb gamepad          
       /stick/up,/usb gamepad           1/stick/up]
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1092405354}
+        m_TargetAssemblyTypeName: CharacterSheet, Assembly-CSharp
+        m_MethodName: SelectCharacter
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1590256668}
+        m_TargetAssemblyTypeName: StartButton, Assembly-CSharp
+        m_MethodName: MakeButtonVisible
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: 69b60268-4609-424c-9530-15b7f98b2b7e
     m_ActionName: Player/A[/usb gamepad           /button2,/usb gamepad          
       1/button2]
