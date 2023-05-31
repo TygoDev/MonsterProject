@@ -24,7 +24,7 @@ public class ObjectRotator : MonoBehaviour
             float yPos = Mathf.Cos(theta);
 
             Vector3 spawnPosition = transform.position + new Vector3(xPos, yPos, 0f) * radius;
-            spawnedPrefabs[i] = Instantiate(prefab.gameObject, spawnPosition, Quaternion.Euler(-45,0,0));
+            spawnedPrefabs[i] = Instantiate(prefab.gameObject, spawnPosition, Quaternion.Euler(-45,0,0), this.transform);
         }
 
     }

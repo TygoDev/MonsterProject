@@ -73808,6 +73808,7 @@ GameObject:
   - component: {fileID: 699625974}
   - component: {fileID: 699625973}
   - component: {fileID: 699625972}
+  - component: {fileID: 699625975}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -73841,7 +73842,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 2, y: 2, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &699625973
 MonoBehaviour:
@@ -73910,6 +73911,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &699625975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 699625970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06979130d358fe74fb0ece1e9072353e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timerToDisable: 4
 --- !u!1 &701350369
 GameObject:
   m_ObjectHideFlags: 0
@@ -91578,6 +91592,7 @@ GameObject:
   - component: {fileID: 1422133760}
   - component: {fileID: 1422133759}
   - component: {fileID: 1422133761}
+  - component: {fileID: 1422133762}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -91678,8 +91693,21 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 2, y: 2, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1422133762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1422133756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06979130d358fe74fb0ece1e9072353e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timerToDisable: 4
 --- !u!1001 &1423788305
 PrefabInstance:
   m_ObjectHideFlags: 0

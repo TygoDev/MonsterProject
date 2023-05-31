@@ -14,6 +14,7 @@ TagManager:
   - FallingTIle
   - Rock
   - Crush
+  - Bullet
   layers:
   - Default
   - TransparentFX

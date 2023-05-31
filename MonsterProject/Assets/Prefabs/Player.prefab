@@ -154,7 +154,19 @@ MonoBehaviour:
     m_ActionId: 1756b39a-e3b1-4fce-80a9-749482d295d0
     m_ActionName: UI/TrackedDeviceOrientation
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 4482464281046791639}
+        m_TargetAssemblyTypeName: Movement, Assembly-CSharp
+        m_MethodName: Shoot
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: 69b60268-4609-424c-9530-15b7f98b2b7e
     m_ActionName: Player/A[/usb gamepad           /button2,/usb gamepad          
       1/button2]
@@ -267,6 +279,7 @@ MonoBehaviour:
   gotHitTimer: 1
   checkpoint: {fileID: 0}
   platforms: []
+  bulletPrefab: {fileID: 1215379222445347508, guid: b0850a8416da0a34d8c7846602ebb4c6, type: 3}
 --- !u!65 &6624545347357620358
 BoxCollider:
   m_ObjectHideFlags: 0

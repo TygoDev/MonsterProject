@@ -35,6 +35,12 @@ public class Movement : MonoBehaviour
     [HideInInspector]
     public List<GameObject> platforms = new List<GameObject>();
 
+
+
+    [SerializeField] GameObject bulletPrefab;
+    Vector2 lastDirection = new Vector2(0f, 1f); //See, now I'm also a muzician
+    bool canShoot = true;
+
     private void Awake()
     {
         boxCollider = GetComponent<BoxCollider>();
@@ -104,6 +110,10 @@ public class Movement : MonoBehaviour
         }
 
         moveAmount = new Vector2(moveAmountLeft + moveAmountRight, moveAmountDown + moveAmountUp);
+        if (moveAmount != default(Vector2))
+        {
+            lastDirection = moveAmount;
+        }
 
         smoothMove = Vector2.SmoothDamp(smoothMove, moveAmount, ref smoothMoveVelocity, 0.1f);
 
@@ -119,6 +129,23 @@ public class Movement : MonoBehaviour
 
         transform.position = new Vector3(transform.position.x, transform.position.y, 0);
 
+    }
+
+    public void Shoot()
+    {
+        if(canShoot)
+        {
+            canShoot = false;
+            StartCoroutine(SpawnBullet());
+        }
+    }
+
+    IEnumerator SpawnBullet()
+    {
+        var bullet = Instantiate(bulletPrefab, this.transform.position + ((Vector3)lastDirection * 2f), Quaternion.identity);
+        bullet.GetComponent<Rigidbody>().velocity = (Vector3)lastDirection * Time.deltaTime * (Speed * 7f);
+        yield return new WaitForSeconds(1f);
+        canShoot = true;
     }
 
     public void ResetToCheckpoint()
