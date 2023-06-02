@@ -16,6 +16,8 @@ public class OpenDoor : MonoBehaviour
 
     public bool ignore = false;
 
+    public RotatingObstacle rotatingScript;
+
     public IEnumerator OpenOrCloseDoor(Curve path, GameObject door, float timeToMove, bool openDoor = true)
     {
         
@@ -60,6 +62,12 @@ public class OpenDoor : MonoBehaviour
             return;
         if (collision.CompareTag(Tags.T_Player))
         {
+            if (rotatingScript != null)
+            {
+                rotatingScript.stop = true;
+                rotatingScript.gameObject.transform.rotation = Quaternion.identity;
+            }
+
             if (activeCorutine == null)
             {
                 activeCorutine = StartCoroutine(OpenOrCloseDoor(doorPath, door, timeToOpen, true));
@@ -78,6 +86,11 @@ public class OpenDoor : MonoBehaviour
             return;
         if (collision.CompareTag(Tags.T_Player))
         {
+            if (rotatingScript != null)
+            {
+                rotatingScript.stop = false;
+            }
+
             if (closeOnExitTrigger)
             {
                 if (activeCorutine == null)

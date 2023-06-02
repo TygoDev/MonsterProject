@@ -6,6 +6,7 @@ public class RotatingObstacle : MonoBehaviour
 {
     public float speed;
 
+    public bool stop = false;
     public enum rotationAxis { 
         X,
         Y,
@@ -15,6 +16,10 @@ public class RotatingObstacle : MonoBehaviour
     public rotationAxis axis = rotationAxis.Z;
     void Update()
     {
+        if(stop)
+            return;
+
+
         if(axis == rotationAxis.Z)
             this.transform.Rotate(0, 0, speed);
         
