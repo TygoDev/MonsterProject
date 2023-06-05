@@ -216,6 +216,7 @@ public class Movement : MonoBehaviour
                 coinRigidbody.AddForce(Random.insideUnitCircle * dropForce, ForceMode2D.Impulse);
             }
         }
+        GameManager.Instance.candyCountText.text = GameManager.Instance.candyCount.ToString();
         numCoins = 0;
     }
 

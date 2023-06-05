@@ -52,6 +52,7 @@ public class GameManager : MonoBehaviour
         if (next.name.Contains("Level")) //change to level, we will call the scenes with puzzles Level_number
         {
             candyCount = 0;
+            if(!next.name.Contains("Tutorial"))
             candyCountText = GameObject.FindGameObjectWithTag(Tags.T_CandyCount).GetComponent<TMP_Text>();
             GameObject[] spawns = GameObject.FindGameObjectsWithTag(Tags.T_Spawn);
             if (playerPrefab != null)
