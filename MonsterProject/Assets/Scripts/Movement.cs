@@ -189,6 +189,7 @@ public class Movement : MonoBehaviour
         if (collision.CompareTag(Tags.T_Platform))
         {
             transform.parent = null;
+            this.transform.rotation = Quaternion.Euler(-45f, 0, 0);
             isOnPlatform = false;
         }
     }

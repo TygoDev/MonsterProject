@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 [DisallowMultipleComponent]
 public class GameManager : MonoBehaviour
@@ -20,6 +21,11 @@ public class GameManager : MonoBehaviour
 
     public int candyCount = 0;
 
+    public int scoreInScene = 0;
+    public int totalScore = 0;
+
+    public TMP_Text candyCountText;
+
     private void Awake()
     {
         if (instance == null)
@@ -34,11 +40,19 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    public void AddScore(int scoreToAdd)
+    {
+        scoreInScene += scoreToAdd;
+        totalScore += scoreToAdd;
+        candyCountText.text = candyCount.ToString();
+    }
+
     private void ChangedActiveScene(Scene current, Scene next)
     {
         if (next.name.Contains("Level")) //change to level, we will call the scenes with puzzles Level_number
         {
             candyCount = 0;
+            candyCountText = GameObject.FindGameObjectWithTag(Tags.T_CandyCount).GetComponent<TMP_Text>();
             GameObject[] spawns = GameObject.FindGameObjectsWithTag(Tags.T_Spawn);
             if (playerPrefab != null)
             {

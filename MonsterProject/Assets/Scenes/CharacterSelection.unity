@@ -439,6 +439,9 @@ MonoBehaviour:
   player2: {fileID: 0}
   playerPrefab: {fileID: 4482464281046791635, guid: 254622becc776dc4a80904d58156f46d, type: 3}
   candyCount: 0
+  scoreInScene: 0
+  totalScore: 0
+  candyCountText: {fileID: 0}
 --- !u!4 &130181172
 Transform:
   m_ObjectHideFlags: 0
@@ -3721,7 +3724,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac6e0b0a14eab4641b5f0a3cabf2c1ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneIndex: 4
+  sceneIndex: 3
 --- !u!114 &1786985937
 MonoBehaviour:
   m_ObjectHideFlags: 0

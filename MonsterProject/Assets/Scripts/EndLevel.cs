@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class EndLevel : MonoBehaviour
 {
+    public int level;
     private void OnTriggerEnter(Collider other)
     {
         if(other.CompareTag(Tags.T_Player))
         {
-            SceneSwitcher.Instance.SwitchToScene(0);
+            SceneSwitcher.Instance.SwitchToScene(level);
         }
     }
 }

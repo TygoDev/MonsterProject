@@ -15,6 +15,7 @@ TagManager:
   - Rock
   - Crush
   - Bullet
+  - CandyCount
   layers:
   - Default
   - TransparentFX
