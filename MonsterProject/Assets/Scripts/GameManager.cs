@@ -55,6 +55,7 @@ public class GameManager : MonoBehaviour
             if(!next.name.Contains("Tutorial"))
             candyCountText = GameObject.FindGameObjectWithTag(Tags.T_CandyCount).GetComponent<TMP_Text>();
             GameObject[] spawns = GameObject.FindGameObjectsWithTag(Tags.T_Spawn);
+            GameObject[] lifes = GameObject.FindGameObjectsWithTag(Tags.T_Lifes);
             if (playerPrefab != null)
             {
                 var p1 = PlayerInput.Instantiate(playerPrefab, controlScheme: "Joystick", pairWithDevice: Joystick.all[1]);
@@ -77,6 +78,26 @@ public class GameManager : MonoBehaviour
                     {
                         p2.transform.position = spawns[i].transform.position;
                         p2.GetComponent<Movement>().checkpoint = spawns[i].transform;
+                    }
+                }
+
+                for (int i = 0; i < lifes.Length; i++)
+                {
+                    if (lifes[i].name.Contains("1"))
+                    {
+                        for (int j = 0; j < lifes[i].transform.childCount; j++)
+                        {
+                            p1.GetComponent<Movement>().canvasLives.Add(lifes[i].transform.GetChild(j));
+                        }
+                        //p1.GetComponent<Movement>().canvasLives.AddRange(lifes[i].GetComponentsInChildren<Transform>());
+                        //p1.GetComponent<Movement>().canvasLives.RemoveAt(0);
+                    }
+                    else
+                    {
+                        for (int j = 0; j < lifes[i].transform.childCount; j++)
+                        {
+                            p2.GetComponent<Movement>().canvasLives.Add(lifes[i].transform.GetChild(j));
+                        }
                     }
                 }
 

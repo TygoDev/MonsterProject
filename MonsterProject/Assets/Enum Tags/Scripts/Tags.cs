@@ -19,4 +19,5 @@ public const string T_Rock = @"Rock";
 public const string T_Crush = @"Crush";
 public const string T_Bullet = @"Bullet";
 public const string T_CandyCount = @"CandyCount";
+public const string T_Lifes = @"Lifes";
 }

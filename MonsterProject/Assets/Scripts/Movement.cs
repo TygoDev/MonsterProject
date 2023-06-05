@@ -35,11 +35,13 @@ public class Movement : MonoBehaviour
     [HideInInspector]
     public List<GameObject> platforms = new List<GameObject>();
 
-
+    public int lives = 5;
 
     [SerializeField] GameObject bulletPrefab;
     Vector2 lastDirection = new Vector2(0f, 1f); //See, now I'm also a muzician
     bool canShoot = true;
+
+    public List<Transform> canvasLives = new List<Transform>();
 
     private void Awake()
     {
@@ -104,6 +106,11 @@ public class Movement : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if(lives == 0)
+        {
+            SceneSwitcher.Instance.SwitchToScene(0);
+        }
+
         if (CheckIfOverPit() && !isOnPlatform && platforms.Count == 0)
         {
             ResetToCheckpoint();
@@ -151,6 +158,8 @@ public class Movement : MonoBehaviour
     public void ResetToCheckpoint()
     {
         transform.position = checkpoint.position;
+        lives--;
+        canvasLives[lives].gameObject.SetActive(false);
     }
 
     private void OnTriggerEnter(Collider collision)

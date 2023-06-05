@@ -16,6 +16,7 @@ TagManager:
   - Crush
   - Bullet
   - CandyCount
+  - Lifes
   layers:
   - Default
   - TransparentFX
