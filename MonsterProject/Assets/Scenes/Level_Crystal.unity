@@ -2706,7 +2706,7 @@ Transform:
   - {fileID: 544260909}
   - {fileID: 1124642051}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &382498928
 GameObject:
@@ -3350,7 +3350,6 @@ Transform:
   - {fileID: 958286267}
   - {fileID: 1507979834}
   - {fileID: 596485843}
-  - {fileID: 1678884234}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -16776,7 +16775,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4da6c98dd20e1b1479828b820b281d7a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level: 0
+  levelToUnlock: 1
+  nextLevelToLoad: 0
+  level: 3
 --- !u!65 &1678884233
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16808,8 +16809,8 @@ Transform:
   - {fileID: 888512250}
   - {fileID: 1378032910}
   - {fileID: 187735162}
-  m_Father: {fileID: 401980079}
-  m_RootOrder: 21
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1715829615
 GameObject:
@@ -60393,7 +60394,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!4 &1785415676 stripped
 Transform:

@@ -26,8 +26,21 @@ public class GameManager : MonoBehaviour
 
     public TMP_Text candyCountText;
 
+    public enum Levels
+    {
+        FOREST,
+        CRYSTAL,
+        CANDY
+    }
 
-    public int levelIndexToLoad;
+    [HideInInspector]
+    public bool unlockForest = false;
+    [HideInInspector]
+    public bool unlockCrystal = false;
+    [HideInInspector]
+    public bool unlockCandy = false;
+
+    public int levelIndexToLoad; 
     private void Awake()
     {
         if (instance == null)
