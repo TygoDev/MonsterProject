@@ -26,6 +26,8 @@ public class GameManager : MonoBehaviour
 
     public TMP_Text candyCountText;
 
+
+    public int levelIndexToLoad;
     private void Awake()
     {
         if (instance == null)
@@ -52,8 +54,15 @@ public class GameManager : MonoBehaviour
         if (next.name.Contains("Level")) //change to level, we will call the scenes with puzzles Level_number
         {
             candyCount = 0;
-            if(!next.name.Contains("Tutorial"))
-            candyCountText = GameObject.FindGameObjectWithTag(Tags.T_CandyCount).GetComponent<TMP_Text>();
+            //if(!next.name.Contains("Tutorial"))
+            try
+            {
+                candyCountText = GameObject.FindGameObjectWithTag(Tags.T_CandyCount).GetComponent<TMP_Text>();
+            }
+            catch
+            {
+                Debug.LogWarning("No candy text in this scene!");
+            }
             GameObject[] spawns = GameObject.FindGameObjectsWithTag(Tags.T_Spawn);
             GameObject[] lifes = GameObject.FindGameObjectsWithTag(Tags.T_Lifes);
             if (playerPrefab != null)

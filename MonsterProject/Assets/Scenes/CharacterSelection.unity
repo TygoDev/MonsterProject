@@ -442,6 +442,7 @@ MonoBehaviour:
   scoreInScene: 0
   totalScore: 0
   candyCountText: {fileID: 0}
+  levelIndexToLoad: 0
 --- !u!4 &130181172
 Transform:
   m_ObjectHideFlags: 0
@@ -3725,6 +3726,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneIndex: 3
+  hasToChangeTheSceneIndex: 1
+  hasToLoadALevel: 0
+  levelIndexToLoadInCharacterScreen: 0
 --- !u!114 &1786985937
 MonoBehaviour:
   m_ObjectHideFlags: 0
