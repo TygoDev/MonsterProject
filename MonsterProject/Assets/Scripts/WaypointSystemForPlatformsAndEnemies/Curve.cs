@@ -23,5 +23,6 @@ public class Curve : MonoBehaviour {
 		Debug.Log("Applying curve");
 		if (OnApply != null) OnApply();
 	}
+
 }
 
