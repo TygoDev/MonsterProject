@@ -1199,10 +1199,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac6e0b0a14eab4641b5f0a3cabf2c1ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneIndex: 4
+  sceneIndex: 1
   hasToChangeTheSceneIndex: 0
-  hasToLoadALevel: 0
-  levelIndexToLoadInCharacterScreen: 0
+  hasToLoadALevel: 1
+  levelIndexToLoadInCharacterScreen: 4
 --- !u!1 &1879161441
 GameObject:
   m_ObjectHideFlags: 0
@@ -1241,6 +1241,9 @@ MonoBehaviour:
   scoreInScene: 0
   totalScore: 0
   candyCountText: {fileID: 0}
+  unlockForest: 0
+  unlockCrystal: 0
+  unlockCandy: 0
   levelIndexToLoad: 0
 --- !u!4 &1879161443
 Transform:
