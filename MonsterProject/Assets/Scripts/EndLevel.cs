@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EndLevel : MonoBehaviour
 {
@@ -28,6 +29,8 @@ public class EndLevel : MonoBehaviour
                     break;
             }
             GameManager.Instance.levelIndexToLoad = nextLevelToLoad;
+
+            PlayerPrefs.SetInt(SceneManager.GetActiveScene().name, GameManager.Instance.candyCount);
             SceneSwitcher.Instance.SwitchToScene(level);
         }
     }
