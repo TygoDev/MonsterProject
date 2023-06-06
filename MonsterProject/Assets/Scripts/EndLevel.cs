@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class EndLevel : MonoBehaviour
 {
@@ -10,10 +11,14 @@ public class EndLevel : MonoBehaviour
     [SerializeField] int nextLevelToLoad;
 
     public int level;
-    private void OnTriggerEnter(Collider other)
+
+    private void Awake()
     {
-        if(other.CompareTag(Tags.T_Player))
-        {
+        GetComponent<Button>().onClick.AddListener(Continue);
+    }
+    private void Continue()
+    {
+        
             switch(levelToUnlock)
             {
                 case GameManager.Levels.FOREST:
@@ -32,6 +37,6 @@ public class EndLevel : MonoBehaviour
 
             PlayerPrefs.SetInt(SceneManager.GetActiveScene().name, GameManager.Instance.candyCount);
             SceneSwitcher.Instance.SwitchToScene(level);
-        }
+        
     }
 }
