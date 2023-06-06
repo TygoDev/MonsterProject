@@ -13,6 +13,11 @@ public class ActivateCanvasAtEnd : MonoBehaviour
     {
         if(other.CompareTag(Tags.T_Player))
         {
+            var players = GameObject.FindGameObjectsWithTag(Tags.T_Player);
+            foreach(var p in players)
+            {
+                p.gameObject.SetActive(false);
+            }
             playerOneInput.SetActive(true);
             playerTwoInput.SetActive(true);
             canvas.SetActive(true);

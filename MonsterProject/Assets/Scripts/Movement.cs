@@ -205,10 +205,14 @@ public class Movement : MonoBehaviour
 
     private bool CheckIfOverPit()
     {
-        Vector3Int playerCellPos = pitTilemap.WorldToCell(transform.position);
-        TileBase tile = pitTilemap.GetTile(playerCellPos);
-        //Debug.Log(tile != null);
-        return tile != null;
+        if (pitTilemap != null)
+        {
+            Vector3Int playerCellPos = pitTilemap.WorldToCell(transform.position);
+            TileBase tile = pitTilemap.GetTile(playerCellPos);
+            //Debug.Log(tile != null);
+            return tile != null;
+        }
+        return false;
     }
 
     public void DropCandy()
