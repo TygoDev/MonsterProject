@@ -13,7 +13,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 07faa32e55486354c899c9e758b57231, type: 3}
     - target: {fileID: 3623798895008082007, guid: 7feccc62c2be5ea47adb53889ef04bf5, type: 3}
       propertyPath: m_Name
-      value: CandyKey
+      value: 10P
       objectReference: {fileID: 0}
     - target: {fileID: 8279517127757989409, guid: 7feccc62c2be5ea47adb53889ef04bf5, type: 3}
       propertyPath: m_RootOrder
@@ -33,11 +33,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8279517127757989409, guid: 7feccc62c2be5ea47adb53889ef04bf5, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.92387956
       objectReference: {fileID: 0}
     - target: {fileID: 8279517127757989409, guid: 7feccc62c2be5ea47adb53889ef04bf5, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0.38268343
       objectReference: {fileID: 0}
     - target: {fileID: 8279517127757989409, guid: 7feccc62c2be5ea47adb53889ef04bf5, type: 3}
       propertyPath: m_LocalRotation.y
@@ -49,7 +49,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8279517127757989409, guid: 7feccc62c2be5ea47adb53889ef04bf5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: -45
       objectReference: {fileID: 0}
     - target: {fileID: 8279517127757989409, guid: 7feccc62c2be5ea47adb53889ef04bf5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y

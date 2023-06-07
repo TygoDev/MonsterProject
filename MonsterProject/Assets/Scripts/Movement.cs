@@ -205,6 +205,7 @@ public class Movement : MonoBehaviour
         if (collision.CompareTag(Tags.T_Enemy))
         {
             DropCandy();
+            StartCoroutine(StopHitboxForSeconds(gotHitTimer, collision));
         }
     }
 
@@ -232,7 +233,7 @@ public class Movement : MonoBehaviour
 
     public void DropCandy()
     {
-        StartCoroutine(StopHitboxForSeconds(gotHitTimer));
+        
         GameManager.Instance.candyCount -= numCoins;
         for (int i = 0; i < numCoins; i++)
         {
@@ -248,11 +249,11 @@ public class Movement : MonoBehaviour
         numCoins = 0;
     }
 
-    private IEnumerator StopHitboxForSeconds(float secondsToDeactivate)
+    private IEnumerator StopHitboxForSeconds(float secondsToDeactivate, Collider collider)
     {
-        boxCollider.enabled = false;
+        collider.enabled = false;
         yield return new WaitForSeconds(secondsToDeactivate);
-        boxCollider.enabled = true;
+        collider.enabled = true;
     }
 
 }
