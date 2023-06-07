@@ -636,7 +636,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: d49882210532ec7448bc27a23eaf2c4c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -750,7 +750,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: d49882210532ec7448bc27a23eaf2c4c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -864,7 +864,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: d49882210532ec7448bc27a23eaf2c4c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1167,7 +1167,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   curve: {fileID: 408863340}
   speed: 3
-  adjustAlways: 0
 --- !u!65 &184560307
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1299,7 +1298,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: d49882210532ec7448bc27a23eaf2c4c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1428,7 +1427,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: d49882210532ec7448bc27a23eaf2c4c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1507,7 +1506,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   curve: {fileID: 1143931879}
   speed: 3
-  adjustAlways: 0
 --- !u!65 &194324456
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1849,7 +1847,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: d49882210532ec7448bc27a23eaf2c4c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1963,7 +1961,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: d49882210532ec7448bc27a23eaf2c4c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2077,7 +2075,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: d49882210532ec7448bc27a23eaf2c4c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2954,7 +2952,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   curve: {fileID: 777959224}
   speed: 3
-  adjustAlways: 1
 --- !u!4 &384449799 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7750604562975892175, guid: 4b2d0f2244725744ea9609d2d4243eda, type: 3}
@@ -3044,7 +3041,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: d49882210532ec7448bc27a23eaf2c4c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3123,7 +3120,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   curve: {fileID: 1356751415}
   speed: 3
-  adjustAlways: 0
 --- !u!65 &396920616
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3547,7 +3543,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   curve: {fileID: 1194172320}
   speed: 3
-  adjustAlways: 1
 --- !u!4 &429631346 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7750604562975892175, guid: 4b2d0f2244725744ea9609d2d4243eda, type: 3}
@@ -3683,7 +3678,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: d49882210532ec7448bc27a23eaf2c4c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3919,7 +3914,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: d49882210532ec7448bc27a23eaf2c4c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4421,7 +4416,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: d49882210532ec7448bc27a23eaf2c4c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4562,7 +4557,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   curve: {fileID: 1035373157}
   speed: 3
-  adjustAlways: 0
 --- !u!65 &645153599
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4772,7 +4766,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: d49882210532ec7448bc27a23eaf2c4c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4851,7 +4845,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   curve: {fileID: 831596211}
   speed: 3
-  adjustAlways: 0
 --- !u!65 &698870097
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4999,7 +4992,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: d49882210532ec7448bc27a23eaf2c4c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5109,7 +5102,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   curve: {fileID: 1365373918}
   speed: 3
-  adjustAlways: 1
 --- !u!4 &703273798 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7750604562975892175, guid: 4b2d0f2244725744ea9609d2d4243eda, type: 3}
@@ -5537,7 +5529,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   curve: {fileID: 1161842229}
   speed: 3
-  adjustAlways: 0
 --- !u!65 &779743657
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5975,7 +5966,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: d49882210532ec7448bc27a23eaf2c4c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6102,7 +6093,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   curve: {fileID: 1567216800}
   speed: 3
-  adjustAlways: 0
 --- !u!65 &883921250
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6365,7 +6355,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: d49882210532ec7448bc27a23eaf2c4c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6478,7 +6468,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: d49882210532ec7448bc27a23eaf2c4c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7281,7 +7271,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   curve: {fileID: 357162419}
   speed: 3
-  adjustAlways: 1
 --- !u!4 &1011817022 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7750604562975892175, guid: 4b2d0f2244725744ea9609d2d4243eda, type: 3}
@@ -7501,7 +7490,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: d49882210532ec7448bc27a23eaf2c4c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -12352,7 +12341,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   curve: {fileID: 934687366}
   speed: 3
-  adjustAlways: 0
 --- !u!65 &1106319340
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12527,7 +12515,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   curve: {fileID: 1154190529}
   speed: 3
-  adjustAlways: 0
 --- !u!65 &1123001463
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12874,7 +12861,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   curve: {fileID: 6852748}
   speed: 3
-  adjustAlways: 1
 --- !u!4 &1142564195 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7750604562975892175, guid: 4b2d0f2244725744ea9609d2d4243eda, type: 3}
@@ -13284,7 +13270,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: d49882210532ec7448bc27a23eaf2c4c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -13363,7 +13349,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   curve: {fileID: 474917946}
   speed: 3
-  adjustAlways: 0
 --- !u!65 &1189532360
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13558,7 +13543,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: d49882210532ec7448bc27a23eaf2c4c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -13720,7 +13705,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: d49882210532ec7448bc27a23eaf2c4c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -13913,7 +13898,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   curve: {fileID: 1084031631}
   speed: 3
-  adjustAlways: 0
 --- !u!65 &1232174165
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14144,7 +14128,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   curve: {fileID: 1992141975}
   speed: 3
-  adjustAlways: 0
 --- !u!65 &1286037352
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14498,7 +14481,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   curve: {fileID: 1893467175}
   speed: 3
-  adjustAlways: 1
 --- !u!4 &1322524527 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7750604562975892175, guid: 4b2d0f2244725744ea9609d2d4243eda, type: 3}
@@ -14945,7 +14927,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: d49882210532ec7448bc27a23eaf2c4c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -15163,7 +15145,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   curve: {fileID: 1662467255}
   speed: 3
-  adjustAlways: 0
 --- !u!65 &1416363746
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15311,7 +15292,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: d49882210532ec7448bc27a23eaf2c4c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -15395,7 +15376,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   curve: {fileID: 958286268}
   speed: 3
-  adjustAlways: 0
 --- !u!65 &1465696320
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15798,7 +15778,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   curve: {fileID: 383001574}
   speed: 3
-  adjustAlways: 0
 --- !u!65 &1490528544
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16348,7 +16327,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: d49882210532ec7448bc27a23eaf2c4c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -16462,7 +16441,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   curve: {fileID: 199795905}
   speed: 3
-  adjustAlways: 0
 --- !u!65 &1550322953
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16789,7 +16767,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: d49882210532ec7448bc27a23eaf2c4c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -16903,7 +16881,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: d49882210532ec7448bc27a23eaf2c4c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -17468,7 +17446,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   curve: {fileID: 1895777851}
   speed: 3
-  adjustAlways: 1
 --- !u!4 &1730809244 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7750604562975892175, guid: 4b2d0f2244725744ea9609d2d4243eda, type: 3}
@@ -60829,7 +60806,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: d49882210532ec7448bc27a23eaf2c4c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -60869,6 +60846,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1779780307}
   - component: {fileID: 1779780306}
+  - component: {fileID: 1779780308}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -60953,6 +60931,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!114 &1779780308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1779780305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 1
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
 --- !u!4 &1785415676 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8531479508363779136, guid: a55eeab1e06366c448037600e853975d, type: 3}
@@ -61121,7 +61119,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   curve: {fileID: 1293466480}
   speed: 3
-  adjustAlways: 0
 --- !u!65 &1853137762
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -61601,7 +61598,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: d49882210532ec7448bc27a23eaf2c4c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -62091,7 +62088,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   curve: {fileID: 1299206324}
   speed: 3
-  adjustAlways: 0
 --- !u!65 &1970033667
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -62396,7 +62392,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   curve: {fileID: 1043560932}
   speed: 3
-  adjustAlways: 1
 --- !u!4 &2024497669 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7750604562975892175, guid: 4b2d0f2244725744ea9609d2d4243eda, type: 3}
@@ -62698,7 +62693,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: d49882210532ec7448bc27a23eaf2c4c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -62827,7 +62822,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: d49882210532ec7448bc27a23eaf2c4c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -63055,7 +63050,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: d49882210532ec7448bc27a23eaf2c4c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -63134,7 +63129,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   curve: {fileID: 1131245293}
   speed: 3
-  adjustAlways: 1
 --- !u!65 &2145479388
 BoxCollider:
   m_ObjectHideFlags: 0
