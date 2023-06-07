@@ -43,6 +43,9 @@ public class Movement : MonoBehaviour
 
     public List<Transform> canvasLives = new List<Transform>();
 
+    public GameObject footstepPrefab;
+    private Coroutine coroutineForFootsteps;
+
     private void Awake()
     {
         boxCollider = GetComponent<BoxCollider>();
@@ -120,6 +123,10 @@ public class Movement : MonoBehaviour
         if (moveAmount != default(Vector2))
         {
             lastDirection = moveAmount;
+            if (coroutineForFootsteps == null)
+            {
+                coroutineForFootsteps = StartCoroutine(SpawnFootSteps());
+            }
         }
 
         smoothMove = Vector2.SmoothDamp(smoothMove, moveAmount, ref smoothMoveVelocity, 0.1f);
@@ -134,8 +141,16 @@ public class Movement : MonoBehaviour
         transform.position = Camera.main.ViewportToWorldPoint(pos);
 
 
-        transform.position = new Vector3(transform.position.x, transform.position.y, 0);
+        transform.position = new Vector3(transform.position.x, transform.position.y, -0.2f);
 
+    }
+
+    IEnumerator SpawnFootSteps()
+    {
+        var footstep = Instantiate(footstepPrefab, transform.position - (Vector3)lastDirection, Quaternion.identity);
+        footstep.transform.position = new Vector3(footstep.transform.position.x, footstep.transform.position.y, 0f);
+        yield return new WaitForSeconds(0.5f);
+        coroutineForFootsteps = null;
     }
 
     public void Shoot()

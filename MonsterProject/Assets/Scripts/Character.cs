@@ -4,7 +4,8 @@ using UnityEngine;
 public class Character : ScriptableObject
 {
     public Sprite sprite;
-    public Sprite footPrint;
+    public GameObject footPrint;
+    public Sprite footPrintSprite;
     public new string name;
     public string species;
 }

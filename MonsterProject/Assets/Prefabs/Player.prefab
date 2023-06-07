@@ -29,7 +29,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4482464281046791635}
   m_LocalRotation: {x: -0.38268343, y: 0, z: 0, w: 0.92387956}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.2}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -279,7 +279,10 @@ MonoBehaviour:
   gotHitTimer: 1
   checkpoint: {fileID: 0}
   platforms: []
+  lives: 5
   bulletPrefab: {fileID: 1215379222445347508, guid: b0850a8416da0a34d8c7846602ebb4c6, type: 3}
+  canvasLives: []
+  footstepPrefab: {fileID: 2493320650665387946, guid: ebbe35a8a3c608e499b305e7465a4444, type: 3}
 --- !u!65 &6624545347357620358
 BoxCollider:
   m_ObjectHideFlags: 0

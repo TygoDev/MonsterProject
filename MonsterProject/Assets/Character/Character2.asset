@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Character2
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: 62b10c5fc33426f4c9abcf104288490d, type: 3}
-  footPrint: {fileID: 21300000, guid: 9125c204f566db048a92ebcb64d9d14a, type: 3}
+  footPrint: {fileID: 2493320650665387946, guid: ebbe35a8a3c608e499b305e7465a4444, type: 3}
+  footPrintSprite: {fileID: 21300000, guid: 4ad70266424e4034496c69ea6a02a02a, type: 3}
   name: Character2
   species: OwlWithHat

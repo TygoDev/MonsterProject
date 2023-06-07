@@ -87,7 +87,7 @@ public class CharacterSheet : MonoBehaviour
     private void UpdateCharacterInfo()
     {
         sprite = character.sprite;
-        footPrint = character.footPrint;
+        footPrint = character.footPrintSprite;
         name = character.name;
         species = character.species;
 
