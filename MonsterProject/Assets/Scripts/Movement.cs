@@ -141,7 +141,7 @@ public class Movement : MonoBehaviour
         transform.position = Camera.main.ViewportToWorldPoint(pos);
 
 
-        transform.position = new Vector3(transform.position.x, transform.position.y, -0.2f);
+        transform.position = new Vector3(transform.position.x, transform.position.y, -0.4f);
 
     }
 

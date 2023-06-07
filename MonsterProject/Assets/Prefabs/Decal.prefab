@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2493320650399768900}
   - component: {fileID: 2493320650399768901}
   - component: {fileID: 2493320650399768906}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: CubeToRender
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -110,7 +110,7 @@ GameObject:
   - component: {fileID: 2493320650665387943}
   - component: {fileID: 2493320650665387940}
   - component: {fileID: 2914279864407939680}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: Decal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
