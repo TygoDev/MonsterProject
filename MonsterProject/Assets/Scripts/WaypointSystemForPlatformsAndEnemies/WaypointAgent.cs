@@ -6,7 +6,7 @@ public class WaypointAgent : MonoBehaviour
 	Curve curve;
 
 	public float speed = 3f;
-	public bool adjustAlways = false;
+	private bool adjustAlways = true;
 
 	private int targetWaypoint = 0;
     private Vector3 direction;
