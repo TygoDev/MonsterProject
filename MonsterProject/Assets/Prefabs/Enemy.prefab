@@ -111,3 +111,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06979130d358fe74fb0ece1e9072353e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timerToDisable: 4
+  disabled: 1
