@@ -46,10 +46,15 @@ public class Movement : MonoBehaviour
     public GameObject footstepPrefab;
     private Coroutine coroutineForFootsteps;
 
+    AudioSource audioSource;
+    [SerializeField] AudioClip walkingSound;
+
     private void Awake()
     {
         boxCollider = GetComponent<BoxCollider>();
         rb = GetComponent<Rigidbody>();
+        audioSource = GetComponent<AudioSource>();
+        audioSource.clip = walkingSound;
     }
 
     private void Start()
@@ -147,6 +152,7 @@ public class Movement : MonoBehaviour
 
     IEnumerator SpawnFootSteps()
     {
+        audioSource.Play();
         var footstep = Instantiate(footstepPrefab, transform.position - (Vector3)lastDirection, Quaternion.identity);
         footstep.transform.rotation = Quaternion.Euler(0,0, Vector2.Angle(Vector2.up, lastDirection));
         footstep.transform.position = new Vector3(footstep.transform.position.x, footstep.transform.position.y, 0f);

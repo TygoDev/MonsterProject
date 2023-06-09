@@ -18,6 +18,16 @@ public class OpenDoor : MonoBehaviour
 
     public RotatingObstacle rotatingScript;
 
+    [Header("SoundEffects")]
+    AudioSource audioSource;
+
+    [SerializeField] AudioClip doorOpen;
+    [SerializeField] AudioClip doorClose;
+
+    private void Awake()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
     public IEnumerator OpenOrCloseDoor(Curve path, GameObject door, float timeToMove, bool openDoor = true)
     {
         
@@ -68,6 +78,9 @@ public class OpenDoor : MonoBehaviour
                 rotatingScript.gameObject.transform.rotation = Quaternion.identity;
             }
 
+            audioSource.clip = doorOpen;
+            audioSource.Play();
+
             if (activeCorutine == null)
             {
                 activeCorutine = StartCoroutine(OpenOrCloseDoor(doorPath, door, timeToOpen, true));
@@ -93,6 +106,9 @@ public class OpenDoor : MonoBehaviour
 
             if (closeOnExitTrigger)
             {
+                audioSource.clip = doorClose;
+                audioSource.Play();
+
                 if (activeCorutine == null)
                 {
                     activeCorutine = StartCoroutine(OpenOrCloseDoor(doorPath, door, timeToClose, false));
