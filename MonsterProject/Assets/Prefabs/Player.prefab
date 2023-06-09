@@ -332,6 +332,7 @@ MonoBehaviour:
   buttonPress: {fileID: 8300000, guid: 0b792526ffd7f6e4b9483903f5cf2515, type: 3}
   buttonRelease: {fileID: 8300000, guid: e31cbe4b176cb3f4098b84f5c55456d6, type: 3}
   pickUpSound: {fileID: 8300000, guid: 1d02e5b8ed663b04eb51e3194f7b5a8a, type: 3}
+  loseSound: {fileID: 8300000, guid: dd1eadaf1c0c1804c960f97bc54b69de, type: 3}
 --- !u!82 &5297665593909449170
 AudioSource:
   m_ObjectHideFlags: 0

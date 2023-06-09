@@ -13,6 +13,7 @@ public class SoundEffectForPlayer : MonoBehaviour
 
     [Header("Pickups")]
     [SerializeField] AudioClip pickUpSound;
+    [SerializeField] AudioClip loseSound;
 
     private void Awake()
     {
@@ -31,6 +32,12 @@ public class SoundEffectForPlayer : MonoBehaviour
         if(other.CompareTag(Tags.T_Candy))
         {
             audioSource.clip = pickUpSound;
+            audioSource.Play();
+        }
+
+        if(other.CompareTag(Tags.T_Enemy))
+        {
+            audioSource.clip = loseSound;
             audioSource.Play();
         }
     }
