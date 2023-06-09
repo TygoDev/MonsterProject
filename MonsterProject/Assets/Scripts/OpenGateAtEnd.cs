@@ -27,7 +27,7 @@ public class OpenGateAtEnd : MonoBehaviour
             StartCoroutine(FadeText(fadeIn));
             fadeIn = true;
             animator.SetBool("OpenDoor", true);
-            animator.SetBool("OpenDoor", false);
+            //animator.SetBool("OpenDoor", false);
         }
     }
 
