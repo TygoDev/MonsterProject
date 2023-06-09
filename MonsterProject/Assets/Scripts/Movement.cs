@@ -48,6 +48,7 @@ public class Movement : MonoBehaviour
 
     AudioSource audioSource;
     [SerializeField] AudioClip walkingSound;
+    [SerializeField] AudioClip loseHealth;
 
     private void Awake()
     {
@@ -181,6 +182,9 @@ public class Movement : MonoBehaviour
     {
         transform.position = checkpoint.position;
         lives--;
+        audioSource.clip = loseHealth;
+        audioSource.Play();
+        audioSource.clip = walkingSound;
         canvasLives[lives].gameObject.SetActive(false);
     }
 

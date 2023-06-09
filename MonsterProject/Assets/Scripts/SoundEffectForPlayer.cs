@@ -11,6 +11,9 @@ public class SoundEffectForPlayer : MonoBehaviour
     [SerializeField] AudioClip buttonPress;
     [SerializeField] AudioClip buttonRelease;
 
+    [Header("Pickups")]
+    [SerializeField] AudioClip pickUpSound;
+
     private void Awake()
     {
         buttonPress.LoadAudioData();
@@ -22,6 +25,12 @@ public class SoundEffectForPlayer : MonoBehaviour
         if(other.CompareTag(Tags.T_Button))
         {
             audioSource.clip = buttonPress;
+            audioSource.Play();
+        }
+
+        if(other.CompareTag(Tags.T_Candy))
+        {
+            audioSource.clip = pickUpSound;
             audioSource.Play();
         }
     }
