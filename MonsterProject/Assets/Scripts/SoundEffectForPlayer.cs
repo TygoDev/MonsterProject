@@ -29,11 +29,11 @@ public class SoundEffectForPlayer : MonoBehaviour
             audioSource.Play();
         }
 
-        if(other.CompareTag(Tags.T_Candy))
+        /*if(other.CompareTag(Tags.T_Candy))
         {
             audioSource.clip = pickUpSound;
             audioSource.Play();
-        }
+        }*/
 
         if(other.CompareTag(Tags.T_Enemy))
         {
