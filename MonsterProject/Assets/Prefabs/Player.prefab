@@ -276,7 +276,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isOnPlatform: 0
   pitTilemap: {fileID: 0}
-  coinPrefab: {fileID: 3623798895008082007, guid: 7feccc62c2be5ea47adb53889ef04bf5, type: 3}
+  coinPrefab: {fileID: 870794960355481769, guid: 64d625cea059e6d4e986a554f23cc1f0, type: 3}
   dropForce: 5
   gotHitTimer: 1
   checkpoint: {fileID: 0}
