@@ -80,10 +80,10 @@ public class GameManager : MonoBehaviour
             GameObject[] lifes = GameObject.FindGameObjectsWithTag(Tags.T_Lifes);
             if (playerPrefab != null)
             {
-                //var p1 = PlayerInput.Instantiate(playerPrefab, controlScheme: "Joystick", pairWithDevice: Joystick.all[1]);
+                var p1 = PlayerInput.Instantiate(playerPrefab, controlScheme: "Joystick", pairWithDevice: Joystick.all[1]);
                 var p2 = PlayerInput.Instantiate(playerPrefab, controlScheme: "Joystick", pairWithDevice: Joystick.all[0]);
 
-                var p1 = PlayerInput.Instantiate(playerPrefab, controlScheme: "Keyboard&Mouse");
+                //var p1 = PlayerInput.Instantiate(playerPrefab, controlScheme: "Keyboard&Mouse");
                 //var p2 = PlayerInput.Instantiate(playerPrefab, controlScheme: "Keyboard&Mouse");
 
                 SetPlayerSprite(p1.gameObject, player1Character);
