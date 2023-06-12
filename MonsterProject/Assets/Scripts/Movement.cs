@@ -215,8 +215,8 @@ public class Movement : MonoBehaviour
 
         if (collision.CompareTag(Tags.T_Enemy))
         {
-            DropCandy();
             StartCoroutine(StopHitboxForSeconds(gotHitTimer, collision));
+            DropCandy();
         }
     }
 
@@ -244,16 +244,19 @@ public class Movement : MonoBehaviour
 
     public void DropCandy()
     {
-        
-        GameManager.Instance.candyCount -= numCoins;
-        for (int i = 0; i < numCoins; i++)
+        var a = Mathf.Min(3, numCoins);
+        GameManager.Instance.candyCount -= a;
+        numCoins -= a;
+
+
+        for (int i = 0; i < a; i++)
         {
             Vector2 dropPosition = transform.position + Random.insideUnitSphere;
             GameObject coin = Instantiate(coinPrefab, dropPosition, Quaternion.identity);
-            Rigidbody2D coinRigidbody = coin.GetComponent<Rigidbody2D>();
+            Rigidbody coinRigidbody = coin.GetComponent<Rigidbody>();
             if (coinRigidbody != null)
             {
-                coinRigidbody.AddForce(Random.insideUnitCircle * dropForce, ForceMode2D.Impulse);
+                coinRigidbody.AddForce(Random.insideUnitCircle * dropForce, ForceMode.Impulse);
             }
         }
         GameManager.Instance.candyCountText.text = GameManager.Instance.candyCount.ToString();
