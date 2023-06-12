@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 5946074738442304976}
   - component: {fileID: 7141643666158956518}
   - component: {fileID: 4975678813342009139}
+  - component: {fileID: 1818177811204318230}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -136,9 +137,9 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 15
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -171,7 +172,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -230,3 +231,16 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 656b8efb9fa629b4b9405da53731c340, type: 3}
   - {fileID: 8300000, guid: 941a9e05563f89346addbea5267545d2, type: 3}
   - {fileID: 8300000, guid: 6372168fdaa3fe443817dbe50db7f602, type: 3}
+--- !u!114 &1818177811204318230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7750604562975892161}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42adf5e9bcee3794d8b208b3f4edaec8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  updateTheLayer: 1

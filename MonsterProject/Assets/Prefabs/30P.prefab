@@ -11,6 +11,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 30P
       objectReference: {fileID: 0}
+    - target: {fileID: 1849033253625518165, guid: 64d625cea059e6d4e986a554f23cc1f0, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2431200285262441536, guid: 64d625cea059e6d4e986a554f23cc1f0, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -65,3 +69,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64d625cea059e6d4e986a554f23cc1f0, type: 3}
+--- !u!1 &1017158604196957139 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 870794960355481769, guid: 64d625cea059e6d4e986a554f23cc1f0, type: 3}
+  m_PrefabInstance: {fileID: 146370542500582266}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &-6552595760822231609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1017158604196957139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29e4b78f9b9563d42bdc49e51ac59193, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

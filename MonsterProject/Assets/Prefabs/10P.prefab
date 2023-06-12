@@ -19,6 +19,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 134d7fff337de104586010c922f72da8, type: 3}
+    - target: {fileID: 2879747881145952427, guid: 7feccc62c2be5ea47adb53889ef04bf5, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3623798895008082007, guid: 7feccc62c2be5ea47adb53889ef04bf5, type: 3}
       propertyPath: m_Name
       value: 10P
@@ -87,3 +91,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreValue: 10
+--- !u!114 &-2798045255560319100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 870794960355481769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29e4b78f9b9563d42bdc49e51ac59193, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
