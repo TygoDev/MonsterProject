@@ -3,7 +3,12 @@ guid: a2ddfa7bc15acd749a1951a8a40e3e9e
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - door: {instanceID: 0}
+  - doorPath: {instanceID: 0}
+  - rotatingScript: {instanceID: 0}
+  - doorOpen: {fileID: 8300000, guid: 9d9a11468e2ef7b4c96402a6fd11a6b9, type: 3}
+  - doorClose: {fileID: 8300000, guid: 37f32cab21c91a648ad9a973cf9a741c, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
