@@ -13,6 +13,8 @@ public class OpenGateAtEnd : MonoBehaviour
     [SerializeField] TMP_Text moreKeysRequired;
     bool fadeIn;
 
+    [SerializeField] Animator animator;
+
     private void Start()
     {
         openDoor = GetComponent<OpenDoor>();
@@ -22,15 +24,10 @@ public class OpenGateAtEnd : MonoBehaviour
     {
         if(other.CompareTag(Tags.T_Player))
         {
-            if(numberOfKeysRequired == GameManager.Instance.candyCount)
-            {
-                openDoor.activeCorutine = StartCoroutine(openDoor.OpenOrCloseDoor(openDoor.doorPath, openDoor.door, openDoor.timeToOpen, true));
-            }
-            else
-            {
-                StartCoroutine(FadeText(fadeIn));
-                fadeIn = true;
-            }
+            StartCoroutine(FadeText(fadeIn));
+            fadeIn = true;
+            animator.SetBool("OpenDoor", true);
+            //animator.SetBool("OpenDoor", false);
         }
     }
 
