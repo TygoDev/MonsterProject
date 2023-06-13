@@ -41,7 +41,7 @@ public class ActivateDeactiveObject : MonoBehaviour
         yield return new WaitForSeconds(delayAmount);
 
         if (objectToChange != null)
-            objectToChange.SetActive(objectToChange.activeInHierarchy);
+            objectToChange.SetActive(boolToggle(objectToChange.activeInHierarchy));
 
         if (ObjectsToChange.Count > 0)
         {
@@ -67,7 +67,7 @@ public class ActivateDeactiveObject : MonoBehaviour
         yield return new WaitForSeconds(delayAmount);
 
         if (objectToChange != null)
-            objectToChange.SetActive(objectToChange.activeInHierarchy);
+            objectToChange.SetActive(boolToggle(objectToChange.activeInHierarchy));
 
         if (SecondaryObjectsList.Count > 0)
         {
