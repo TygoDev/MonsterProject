@@ -14,7 +14,7 @@ public class RayForFade : MonoBehaviour
         {
             foreach(var p in players)
             {
-                Vector3 dir = transform.position - p.transform.position;
+                Vector3 dir = p.transform.position - transform.position;
                 Ray ray = new Ray(p.transform.position, dir);
                 RaycastHit hit;
 

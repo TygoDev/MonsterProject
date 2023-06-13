@@ -50,6 +50,8 @@ public class Movement : MonoBehaviour
     [SerializeField] AudioClip walkingSound;
     [SerializeField] AudioClip loseHealth;
 
+    bool canDash = true;
+
     private void Awake()
     {
         boxCollider = GetComponent<BoxCollider>();
@@ -138,6 +140,7 @@ public class Movement : MonoBehaviour
         smoothMove = Vector2.SmoothDamp(smoothMove, moveAmount, ref smoothMoveVelocity, 0.1f);
 
         //transform.position += (Vector3)moveAmount * Time.smoothDeltaTime * Speed;
+        if(canDash)
         rb.velocity = (Vector3)smoothMove * Time.deltaTime * Speed;
 
         Vector3 pos = Camera.main.WorldToViewportPoint(transform.position);
@@ -160,7 +163,20 @@ public class Movement : MonoBehaviour
         yield return new WaitForSeconds(0.4f);
         coroutineForFootsteps = null;
     }
-
+    public void Dash()
+    {
+        if(canDash)
+        {
+            canDash = false;
+            StartCoroutine(DashIn());
+        }
+    }
+    IEnumerator DashIn()
+    {
+        rb.velocity = (Vector3)lastDirection * Time.deltaTime * Speed * 5;
+        yield return new WaitForSeconds(0.4f);
+        canDash = true;
+    }
     public void Shoot()
     {
         if(canShoot)
@@ -172,8 +188,8 @@ public class Movement : MonoBehaviour
 
     IEnumerator SpawnBullet()
     {
-        var bullet = Instantiate(bulletPrefab, this.transform.position + ((Vector3)lastDirection * 2f), Quaternion.identity);
-        bullet.GetComponent<Rigidbody>().velocity = (Vector3)lastDirection * Time.deltaTime * (Speed * 7f);
+        var bullet = Instantiate(bulletPrefab, this.transform.position + new Vector3(0, 1, 0) * 2f /*+ ((Vector3)lastDirection * 2f)*/, Quaternion.identity);
+        bullet.GetComponent<Rigidbody>().velocity = /*(Vector3)lastDirection*/ new Vector3(0,1,0) * Time.deltaTime * (Speed * 7f);
         yield return new WaitForSeconds(1f);
         canShoot = true;
     }
