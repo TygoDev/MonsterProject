@@ -64,6 +64,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9007764634090576996, guid: 64d625cea059e6d4e986a554f23cc1f0, type: 3}
+      propertyPath: particle
+      value: 
+      objectReference: {fileID: 7226583673155636401, guid: a2ab56839e1c9504ea9d141e95d0b16b, type: 3}
+    - target: {fileID: 9007764634090576996, guid: 64d625cea059e6d4e986a554f23cc1f0, type: 3}
       propertyPath: scoreValue
       value: 30
       objectReference: {fileID: 0}
