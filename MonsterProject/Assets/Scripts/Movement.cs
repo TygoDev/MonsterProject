@@ -139,6 +139,10 @@ public class Movement : MonoBehaviour
             ResetToCheckpoint();
         }
 
+        if(isOnPlatform)
+        {
+            transform.rotation = Quaternion.Euler(-45f, 0, 0);
+        }
         moveAmount = new Vector2(moveAmountLeft + moveAmountRight, moveAmountDown + moveAmountUp);
         if (moveAmount != default(Vector2))
         {
