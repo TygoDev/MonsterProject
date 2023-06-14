@@ -6,6 +6,7 @@ using UnityEngine.Tilemaps;
 
 public class Movement : MonoBehaviour
 {
+    #region Movement_Var
     private const float Speed = 300f;
 
     private float moveAmountUp;
@@ -22,13 +23,19 @@ public class Movement : MonoBehaviour
     public bool isOnPlatform = false;
 
     [SerializeField] private Tilemap pitTilemap;
+    
+    private Rigidbody rb;
+
+    bool canDash = true;
+    #endregion
+
+    #region Candy_Dropping_Var
     [SerializeField] private GameObject coinPrefab;
     [SerializeField] private float dropForce = 5f;
     [SerializeField] private float gotHitTimer = 1f;
     private int numCoins = 0;
     private BoxCollider boxCollider;
-
-    private Rigidbody rb;
+    #endregion
 
     public Transform checkpoint;
 
@@ -37,12 +44,17 @@ public class Movement : MonoBehaviour
 
     public int lives = 5;
 
+
     [SerializeField] GameObject bulletPrefab;
     Vector2 lastDirection = new Vector2(0f, 1f); //See, now I'm also a muzician
     bool canShoot = true;
+    float angle = 0f;
+    float orbitSpeed = 2f;
+    [SerializeField] Transform targetToSpin;
 
     public List<Transform> canvasLives = new List<Transform>();
 
+    #region Audio_and_footsteps
     public GameObject footstepPrefab;
     private Coroutine coroutineForFootsteps;
 
@@ -50,7 +62,7 @@ public class Movement : MonoBehaviour
     [SerializeField] AudioClip walkingSound;
     [SerializeField] AudioClip loseHealth;
 
-    bool canDash = true;
+    #endregion
 
     private void Awake()
     {
@@ -140,7 +152,7 @@ public class Movement : MonoBehaviour
         smoothMove = Vector2.SmoothDamp(smoothMove, moveAmount, ref smoothMoveVelocity, 0.1f);
 
         //transform.position += (Vector3)moveAmount * Time.smoothDeltaTime * Speed;
-        if(canDash)
+        if(canDash && smoothMove != default)
         rb.velocity = (Vector3)smoothMove * Time.deltaTime * Speed;
 
         Vector3 pos = Camera.main.WorldToViewportPoint(transform.position);
@@ -152,6 +164,9 @@ public class Movement : MonoBehaviour
 
         transform.position = new Vector3(transform.position.x, transform.position.y, -0.4f);
 
+        angle = Time.time * orbitSpeed;
+
+        targetToSpin.position = this.transform.position + new Vector3(Mathf.Cos(angle), Mathf.Sin(angle), 0);
     }
 
     IEnumerator SpawnFootSteps()
@@ -188,8 +203,10 @@ public class Movement : MonoBehaviour
 
     IEnumerator SpawnBullet()
     {
-        var bullet = Instantiate(bulletPrefab, this.transform.position + new Vector3(0, 1, 0) * 2f /*+ ((Vector3)lastDirection * 2f)*/, Quaternion.identity);
-        bullet.GetComponent<Rigidbody>().velocity = /*(Vector3)lastDirection*/ new Vector3(0,1,0) * Time.deltaTime * (Speed * 7f);
+        float x = Mathf.Cos(angle);
+        float y = Mathf.Sin(angle);
+        var bullet = Instantiate(bulletPrefab, this.transform.position + new Vector3(x, y, 0) * 2f /*+ ((Vector3)lastDirection * 2f)*/, Quaternion.identity);
+        bullet.GetComponent<Rigidbody>().velocity = /*(Vector3)lastDirection*/ new Vector3(x, y, 0) * Time.deltaTime * (Speed * 7f);
         yield return new WaitForSeconds(1f);
         canShoot = true;
     }
