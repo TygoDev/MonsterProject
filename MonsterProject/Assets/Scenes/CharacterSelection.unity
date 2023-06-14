@@ -445,7 +445,7 @@ MonoBehaviour:
   unlockForest: 0
   unlockCrystal: 0
   unlockCandy: 0
-  levelIndexToLoad: 7
+  levelIndexToLoad: 5
 --- !u!4 &130181172
 Transform:
   m_ObjectHideFlags: 0
