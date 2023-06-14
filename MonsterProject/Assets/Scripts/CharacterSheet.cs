@@ -88,12 +88,8 @@ public class CharacterSheet : MonoBehaviour
     {
         sprite = character.sprite;
         footPrint = character.footPrintSprite;
-        name = character.name;
-        species = character.species;
 
         spriteImage.sprite = sprite;
         footPrintImage.sprite = footPrint;
-        nameText.text = "Name: " + name;
-        speciesText.text = "Species: " + species;
     }
 }
