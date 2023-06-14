@@ -7,38 +7,78 @@ public class RayForFade : MonoBehaviour
     [HideInInspector]
     public GameObject[] players = new GameObject[2];
 
-    FadeInOut fade;
+    List<FadeInOut> hitFades = new List<FadeInOut>();
+    List<FadeInOut> hitFades1 = new List<FadeInOut>();
     private void Update()
     {
-        if(players != default)
+        Player1Check();
+        Player2Check();
+    }
+
+    void Player1Check()
+    {
+        Vector3 dir = players[0].transform.position - transform.position;
+        Ray ray = new Ray(transform.position, dir);
+        RaycastHit hit;
+
+        if (Physics.Raycast(ray, out hit))
         {
-            foreach(var p in players)
+            if (hit.collider.gameObject.CompareTag("Player"))
             {
-                Vector3 dir = transform.position - p.transform.position;
-                Ray ray = new Ray(p.transform.position, dir);
-                RaycastHit hit;
-
-                if(Physics.Raycast(ray, out hit))
+                foreach (var item in hitFades1)
                 {
-                    if (hit.collider == null)
-                        return;
+                    if (!hitFades.Contains(item))
+                        item.FadeIn();
+                }
+                hitFades1.Clear();
+            }
 
-                    if(hit.collider.CompareTag(Tags.T_Player))
+            if (hit.collider.GetComponent<FadeInOut>())
+            {
+                foreach (var item in hitFades1)
+                {
+                    if (item != hit.collider.GetComponent<FadeInOut>())
                     {
-                        if(fade != null)
-                        {
-                            fade.doFade = false;
-                        }
-                    }
-                    else
-                    {
-                        fade = hit.collider.gameObject.GetComponent<FadeInOut>();
-                        if(fade != null)
-                        {
-                            fade.doFade = true;
-                        }
+                        item.FadeIn();
                     }
                 }
+
+                hit.collider.GetComponent<FadeInOut>().FadeOut();
+                hitFades1.Add(hit.collider.GetComponent<FadeInOut>());
+            }
+        }
+    }
+
+    void Player2Check()
+    {
+        Vector3 dir = players[1].transform.position - transform.position;
+        Ray ray = new Ray(transform.position, dir);
+        RaycastHit hit;
+
+        if (Physics.Raycast(ray, out hit))
+        {
+            if (hit.collider.gameObject.CompareTag("Player"))
+            {
+                foreach (var item in hitFades)
+                {
+                    if (!hitFades1.Contains(item))
+                        item.FadeIn();
+                }
+                hitFades.Clear();
+            }
+
+            if (hit.collider.GetComponent<FadeInOut>())
+            {
+                foreach (var item in hitFades)
+                {
+                    if (item != hit.collider.GetComponent<FadeInOut>())
+                    {
+                        item.FadeIn();
+                    }
+                }
+
+                hit.collider.GetComponent<FadeInOut>().FadeOut();
+                hitFades.Add(hit.collider.GetComponent<FadeInOut>());
             }
         }
     }

@@ -67,6 +67,7 @@ public class StopEnemy : MonoBehaviour
         }
 
         //Debug.Log("I finished wiggle");
+        if(rotatingParent != null)
         foreach (Transform child in rotatingParent.transform)
         {
             child.gameObject.GetComponent<StopEnemy>().disabled = false;

@@ -18,6 +18,9 @@ public class CandyScore : MonoBehaviour
                 textPickUpPrefab.GetComponentInChildren<TMP_Text>().text = "+" + scoreValue;
             else
                 textPickUpPrefab.GetComponentInChildren<TMP_Text>().text = "";
+            
+            // = particle.main;
+            
             Instantiate(textPickUpPrefab, transform.position, Quaternion.identity);
         }
     }
