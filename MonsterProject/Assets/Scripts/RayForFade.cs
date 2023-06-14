@@ -7,39 +7,47 @@ public class RayForFade : MonoBehaviour
     [HideInInspector]
     public GameObject[] players = new GameObject[2];
 
-    FadeInOut fade;
+    List<FadeInOut> fades = new List<FadeInOut>();
     private void Update()
     {
-        if(players != default)
+        if (players != default)
         {
-            foreach(var p in players)
+            foreach (var p in players)
             {
                 Vector3 dir = p.transform.position - transform.position;
-                Ray ray = new Ray(p.transform.position, dir);
+                Ray ray = new Ray(transform.position, dir);
                 RaycastHit hit;
 
-                if(Physics.Raycast(ray, out hit))
+                if (Physics.Raycast(ray, out hit))
                 {
                     if (hit.collider == null)
                         return;
 
-                    if(hit.collider.CompareTag(Tags.T_Player))
+                    if (hit.collider.CompareTag(Tags.T_Player))
                     {
-                        if(fade != null)
+                        /*foreach (var fade in fades)
                         {
-                            fade.doFade = false;
-                        }
+                            if (fade != null)
+                            {
+                                fade.doFade = false;
+                            }
+                        }*/
                     }
                     else
                     {
-                        fade = hit.collider.gameObject.GetComponent<FadeInOut>();
-                        if(fade != null)
+                        fades.Add(hit.collider.gameObject.GetComponent<FadeInOut>());
+                        foreach (var fade in fades)
                         {
-                            fade.doFade = true;
+                            if (fades != null)
+                            {
+                                Debug.Log("Hobho");
+                                fade.doFade = true;
+                            }
                         }
                     }
                 }
             }
+            fades.Clear();
         }
     }
 }

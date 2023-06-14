@@ -15,7 +15,7 @@ public class FadeInOut : MonoBehaviour
 
     private void Start()
     {
-        mat = GetComponent<Renderer>().sharedMaterial;
+        mat = GetComponent<Renderer>().material;
         initialOpacity = mat.color.a;
     }
 
@@ -34,14 +34,14 @@ public class FadeInOut : MonoBehaviour
     private void ResetFade()
     {
         Color currentColor = mat.color;
-        Color smoothColor = new Color(currentColor.r, currentColor.g, currentColor.b, Mathf.Lerp(currentColor.a, fadeAmount, fadeSpeed));
+        Color smoothColor = new Color(currentColor.r, currentColor.g, currentColor.b, Mathf.Lerp(currentColor.a, initialOpacity, fadeSpeed));
         mat.color = smoothColor;
     }
 
     private void FadeNow()
     {
         Color currentColor = mat.color;
-        Color smoothColor = new Color(currentColor.r, currentColor.g, currentColor.b, Mathf.Lerp(currentColor.a, initialOpacity, fadeSpeed));
+        Color smoothColor = new Color(currentColor.r, currentColor.g, currentColor.b, Mathf.Lerp(currentColor.a, fadeAmount, fadeSpeed));
         mat.color = smoothColor;
     }
 }

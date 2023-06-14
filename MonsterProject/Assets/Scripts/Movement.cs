@@ -156,7 +156,7 @@ public class Movement : MonoBehaviour
         smoothMove = Vector2.SmoothDamp(smoothMove, moveAmount, ref smoothMoveVelocity, 0.1f);
 
         //transform.position += (Vector3)moveAmount * Time.smoothDeltaTime * Speed;
-        if(canDash && smoothMove != default)
+        if(canDash)
         rb.velocity = (Vector3)smoothMove * Time.deltaTime * Speed;
 
         Vector3 pos = Camera.main.WorldToViewportPoint(transform.position);
