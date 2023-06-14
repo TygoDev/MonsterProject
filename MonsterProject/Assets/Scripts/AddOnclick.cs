@@ -10,6 +10,7 @@ public class AddOnclick : MonoBehaviour
     [SerializeField] private bool hasToChangeTheSceneIndex = false;
     [SerializeField] private bool hasToLoadALevel = false;
     [SerializeField] private int levelIndexToLoadInCharacterScreen = 0;
+    [SerializeField] bool isStartButton;
 
     private void Awake()
     {
@@ -28,6 +29,14 @@ public class AddOnclick : MonoBehaviour
         {
             GameManager.Instance.levelIndexToLoad = levelIndexToLoadInCharacterScreen;
         }
-        SceneSwitcher.Instance.SwitchToScene(sceneIndex);
+        if (!isStartButton)
+        {
+            SceneSwitcher.Instance.SwitchToScene(sceneIndex);
+        }
+        else
+            if (GameManager.Instance.BothCharactersSelected())
+        {
+            SceneSwitcher.Instance.SwitchToScene(sceneIndex);
+        }
     }
 }
