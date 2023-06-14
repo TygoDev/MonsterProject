@@ -7,5 +7,4 @@ public class Character : ScriptableObject
     public GameObject footPrint;
     public Sprite footPrintSprite;
     public new string name;
-    public string species;
 }
