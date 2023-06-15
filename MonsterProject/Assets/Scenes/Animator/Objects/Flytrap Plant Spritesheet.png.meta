@@ -1,0 +1,3841 @@
+fileFormatVersion: 2
+guid: e5427baeb595fe643a82af44115aa903
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1505.5385
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff87a152fd7579d4cab2d54d40f7d9c9
+      internalID: -257530156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 1505.5385
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e946741ede98aff4bbbc3eb1ac2e655d
+      internalID: -685629170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 1505.5385
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd1a581c5d34f884bb19d30694a5f58a
+      internalID: 839674066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 1505.5385
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a78a6495def8f64fa721bd12aefbc6a
+      internalID: -1886165404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 1505.5385
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72bc87ede51c3cf49afc46e1d7dd39bd
+      internalID: 1127384917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 1505.5385
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2d44f2860fdc2040887e51eac6b269b
+      internalID: -1646351206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 1505.5385
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 793252a4ae738634391e8871cff4049d
+      internalID: 1790402490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 1505.5385
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cd00911ec1edcb448f4c92f018c3b1b
+      internalID: -2036676753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 1505.5385
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b938b994c94e4c4459d1922c2d553bba
+      internalID: -1485178216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 1505.5385
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b89a1fe028916fb4eadb3463322c6d74
+      internalID: 232975224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 1505.5385
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1744072ddd0a81747a229698b31acc89
+      internalID: -378473056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 1505.5385
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f2f6f141db9c1d499959a56e4591384
+      internalID: 372813093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 1505.5385
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 387e97791315f304384a7a4adb240963
+      internalID: -2030286140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1380.5385
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d46379200b370ac44b326f4374ee39a5
+      internalID: -2091562310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 1380.5385
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ebebf9568c8d2e4882e0d34f084349b
+      internalID: 1268531410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 1380.5385
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2830e1c348c290a428eef7dbe4bab7f4
+      internalID: 1832911226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 1380.5385
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff37b4b393b8ba24faaea5e6e320d5a5
+      internalID: -606343113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 1380.5385
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfba7f6d298670d4880c4e551b454eef
+      internalID: -1286394297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 1380.5385
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a03ad24439df5a54bb3e80006eb1db68
+      internalID: 802790728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 1380.5385
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a17287ca2b639c4f881209745329941
+      internalID: -1103569132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 1380.5385
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90838a0d38784ac48bc34da07fc37a2c
+      internalID: -1594313607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 1380.5385
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16594437f3359734e8b577cfaaf569d2
+      internalID: -2003629570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 1380.5385
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dc083f0112b9ac46b4f6407107d55c1
+      internalID: -1778445904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 1380.5385
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39ece7fa347d7004792da5c4d5d4a4e6
+      internalID: 114157002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 1380.5385
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac7e026b8f1d75b4a8881080516e01cd
+      internalID: 146084749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 1380.5385
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7951624a1b9cb094d8ae38d19184b000
+      internalID: -1562364598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1255.5385
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03e02f1c943330a46b7dab1465148814
+      internalID: -1626153375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 1255.5385
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 670ea1b1934e7ad4f9c10500a0cc2e32
+      internalID: 215206974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 1255.5385
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d7d0bd3ddedde948bbea841548f1014
+      internalID: -1582797173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 1255.5385
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dc4eb2d32a64ad4cabb72bb204770ef
+      internalID: 1319542060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 1255.5385
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5107bd6d2d615247bf17937509c735c
+      internalID: 147745938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 1255.5385
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 557c8175dd70d5341accb37db653b770
+      internalID: -737670926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 1255.5385
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31fca00aa8b333946885316460549273
+      internalID: -199079467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 1255.5385
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 694e9bdd8de07564ba07a03348cd69aa
+      internalID: -1066591259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 1255.5385
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eb1a2b8743b5e54a9c5c13fd8debc1f
+      internalID: 1605178941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 1255.5385
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d264a6d752df6b64c9a72a6d0ad86368
+      internalID: 1456469056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 1255.5385
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02edc78f23cfaa2499dbadb383fc2720
+      internalID: -67953681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 1255.5385
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 659001576e33e064291aca94d75c0b28
+      internalID: -790571713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 1255.5385
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2f53b6a14cc8354092e3130bb37a19b
+      internalID: -1677749820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1130.5385
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d396d2cbf2942f84d90db575174f2483
+      internalID: 2143755446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 1130.5385
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fce802d29eec2f94abd1e0648dbb77ac
+      internalID: -1937831520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 1130.5385
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 878e1bd390e07c541a9d6719fe27fcb9
+      internalID: -665167069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 1130.5385
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 630bc70a6743c0a47aa527dc67049f0a
+      internalID: -1203995467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 1130.5385
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73349d5f52850fa419c5443e3590cfc5
+      internalID: 1242729864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 1130.5385
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a28c85be5441e3478bfa13843be9f04
+      internalID: 584065475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 1130.5385
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 861a3567f5b67494caaa7cee217cd763
+      internalID: -930437175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 1130.5385
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b26bfa9d1652eaa4cae05f0bbece4621
+      internalID: 2136294649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 1130.5385
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb19d90103f67644d9797e281a4df356
+      internalID: 1325317799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 1130.5385
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91d38eebf20bc9c45abcddd868d79516
+      internalID: -204414563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 1130.5385
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44d96a0f347b1894785755344d8b3a5c
+      internalID: -765637752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_50
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 1130.5385
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c39572ab34703d64883fdce054581e79
+      internalID: -381395894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_51
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 1130.5385
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d259c8a722e9a2f458fe4903cb221fe0
+      internalID: 986254174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1005.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46466cdcb490d4a4f8f32dd7c9a59e97
+      internalID: -79945296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_53
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 1005.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8848c18a605b81346984991137aa5cef
+      internalID: -1149555469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_54
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 1005.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 149074dda6b64624eb42221ca8391edd
+      internalID: -1326161781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_55
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 1005.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd89ccef9e1f9c544b3fbd9614c472ec
+      internalID: 602185091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_56
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 1005.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 990cc6a579dc9134c84ee83c7aa80426
+      internalID: 1191578953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_57
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 1005.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90423579ebd678949badf104eb8ec126
+      internalID: 703453120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_58
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 1005.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de38e5c9241cc2c47b7c78ace71fc050
+      internalID: -1015495322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_59
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 1005.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97ab1a1a215c304429407bb5c11665db
+      internalID: -498949095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_60
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 1005.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a054e41a8c5b9645aaf89e87847552c
+      internalID: 56102016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_61
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 1005.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c72f67f8ef1fa7f43bb19b5fe86efcc0
+      internalID: 1426071659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_62
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 1005.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69b1c9fd47653f9409a0bfb20b2da2f2
+      internalID: -1623536774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_63
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 1005.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53fe6e1aa06b386429970521fe7de547
+      internalID: -2062468762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_64
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 1005.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f1aaf9d84a0c642abb4e73af6c96b5
+      internalID: 895546229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 880.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 459b6763cff426046ba0882b971c513c
+      internalID: -559311505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_66
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 880.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78ca09184e82e8e4595a5e8011cf3646
+      internalID: 179650943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_67
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 880.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10cf8c5c60df22e4d9c81dcd0a4cfc5f
+      internalID: 1605840458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_68
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 880.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eb822ed18e11714497c53cfa4baef33
+      internalID: -522030632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_69
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 880.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8013a9bd0591aa445aaf1e0cd7762c17
+      internalID: -364672348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_70
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 880.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4972d69183d2cf54aa69c6f9bacb0e7e
+      internalID: 940978245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_71
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 880.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d33de1df48778a42b014865a6037af6
+      internalID: 586706888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_72
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 880.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4615c0d380444a9449951acfd62e3777
+      internalID: 797979893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_73
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 880.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0e5b67238a4dc346a32d24df6f91322
+      internalID: 805247300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_74
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 880.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dbd394772670df438cfe11e16b22d0d
+      internalID: -328384497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_75
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 880.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dbe1a028b028f94d8d2ad4c23363e39
+      internalID: 1848973002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_76
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 880.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05b6b865be230004885046a39b8e60f1
+      internalID: -1362086286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_77
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 880.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abc7416d677d2e74a8e498b4d725ac76
+      internalID: -726456357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_78
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 755.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1438f5bf2dbbd274a86ad41ee3d0e830
+      internalID: -842516869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_79
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 755.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7020ecdc5ac70714ab52febe107f4ae3
+      internalID: 2007510061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_80
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 755.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4198e25f73e81240b645ff6931b239b
+      internalID: -1477464020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_81
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 755.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcf63f524913f7546854330fc66dd48f
+      internalID: 1546495039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_82
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 755.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 068d4f31cc0406f438b2e0cb8674dab9
+      internalID: -534974373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_83
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 755.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d6ae4a05f1ae9d469f181fbeb7b08ec
+      internalID: -863182610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_84
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 755.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02487a6a6030b6140ad4f314ebe68aa0
+      internalID: -1035085880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_85
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 755.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9266b8bc54f1ddc4e80093b37985dc74
+      internalID: 209490449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_86
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 755.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82e68c5348c16404bade3f52402ecef9
+      internalID: 2063332815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_87
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 755.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8326ab2d7abbbfb449225683f3053bde
+      internalID: -1875989372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_88
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 755.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf4f83e33f6c00044b5a75a58424d10a
+      internalID: 2137168768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_89
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 755.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5aebe893dde1164fbc14685492db53d
+      internalID: 421653442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_90
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 755.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff26c470126ec624e9ae099af84c59f9
+      internalID: 317183915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_91
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 630.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42d10e1c25f131a40aff02c8b5282059
+      internalID: 647598541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_92
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 630.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdf88aa1e0a86544c87835a09916b81e
+      internalID: 948677892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_93
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 630.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d466b1add4ee4f347862d067bbb22572
+      internalID: -119633140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_94
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 630.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 024c14e59efa52a4b8659cbf9ba0df35
+      internalID: 1978174751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_95
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 630.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f27fa94b75cfede4a90d681502713b00
+      internalID: -1318396026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_96
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 630.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55d48461ff4759545ad334fda9988fc2
+      internalID: 1845287757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_97
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 630.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54b049625b070fe4fb7390974adfe661
+      internalID: -1945617413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_98
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 630.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a764f4d4917e004589ae288a3c859c9
+      internalID: -432435397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_99
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 630.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2d1ccfd422b7f944be92578850e630a
+      internalID: 1429071143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_100
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 630.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b35b96509c2104f8e22ea99ff10734
+      internalID: 1343895028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_101
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 630.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c54bc67cd89ebf4a87e3b71042a1a3d
+      internalID: 1324056032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_102
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 630.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 875d09ebba3c7ee4d89993538c67ca74
+      internalID: 182192794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_103
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 630.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f539e97615105f14595c2518dca114fb
+      internalID: 647942670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_104
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 505.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d75b05d3f279a6349b364ec7b2857628
+      internalID: 478926256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_105
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 505.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 156425d6a27087441a32e7b5dfce6e0e
+      internalID: -1461140321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_106
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 505.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ababf1c69edf0940b2b8391859433b4
+      internalID: 1443470195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_107
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 505.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 126cb3ec36706234dbcc4f57e28d7a1c
+      internalID: 308112993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_108
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 505.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b9380e285970844a8b940a89a1a9627
+      internalID: 730211251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_109
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 505.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc8b12db8e2cd3d44bbd20b38e3aac81
+      internalID: -528891785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_110
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 505.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fada7d6085c75b54c9d1a0756f08a947
+      internalID: -1301845263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_111
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 505.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 209ee2930f53d4c4b8a9a17ab53ccacd
+      internalID: 97727630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_112
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 505.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d984748445b6585469a62bf946a2c787
+      internalID: -258700233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_113
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 505.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5174ea16167b4443b2390217fd13b8a
+      internalID: 484321210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_114
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 505.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fabacdc2867c484ea088353c42ccd71
+      internalID: -1199747048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_115
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 505.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 764344c66cc307d4ca31db6019b607cd
+      internalID: -358425632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_116
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 505.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5066b43e021239b429d6b04b0b7e9633
+      internalID: 114559555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_117
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 380.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef23f09226e6aa743934202c5b22a6b1
+      internalID: 980863182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_118
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 380.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a51de15aae7018148b789fff90d16812
+      internalID: -1428433111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_119
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 380.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2ac2bc5cf823cb42a2a70ea3a6dc1e6
+      internalID: -67169225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_120
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 380.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40990bc58226e544d8f6183cea4adafe
+      internalID: -1847190717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_121
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 380.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e8dc9b785db2e2479d1bee2af61ab20
+      internalID: -1971913708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_122
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 380.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de38bcbb02246f54a86dec7da266debf
+      internalID: 1341457593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_123
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 380.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a50d10ce3ef3a84bb166979a1f86726
+      internalID: -1061755431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_124
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 380.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f77dbdba9b5900145818b77bd27f7f63
+      internalID: -1448019914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_125
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 380.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bac0b43cca141c5499ff1243731f25a5
+      internalID: 657700753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_126
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 380.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5121cee819a1edd4da07c5f3cdb9fcbd
+      internalID: 1390720917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_127
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 380.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c7b40f5309243c41889912717030e7e
+      internalID: 1924658094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_128
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 380.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a0a8069c4f86747b51cbfb04ef8690
+      internalID: 108882930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_129
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 380.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e11ef4abc2ae00649bbc6d2ea0ba2920
+      internalID: -679098411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_130
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 255.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8570331ccc1a2dc4e967a6caaf60922d
+      internalID: -1187742328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_131
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 255.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8200ee30f2916cd4a9877bf67e7347cb
+      internalID: -1334482934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_132
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 255.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7dcc2fa7c4c1a04c9b09ba1a14a1fba
+      internalID: 1694149095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_133
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 255.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2da5ff60d6b6804585b7a46fd03a197
+      internalID: -345734497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_134
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 255.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aadd77958f2e4e14f85d589b0f5320fa
+      internalID: 607078665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_135
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 255.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbcc27a925933b546bdadb04dc509ddb
+      internalID: -1519859971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_136
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 255.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad653d9e9b2cb7043bfc18bf01c51c74
+      internalID: -208469508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_137
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 255.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9713b7c8cd8232942a1d95d89575da7b
+      internalID: -1016968318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_138
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 255.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b40b7522e130cf40af1252fc8ee82ad
+      internalID: -2136157862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_139
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 255.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98a082bda043b8d4e938a10a035f96b4
+      internalID: 538556217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_140
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 255.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13f11e1e3ec0ddf429ed4ba58050f5e0
+      internalID: 1526851596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_141
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 255.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9093dd869e3e8c4b82421c39d631e56
+      internalID: -946517690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_142
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 255.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae3df90be2be4364d8ac483285f94d5f
+      internalID: 2087679813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_143
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 130.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 988810e7db0e7a34689aec507cdbea53
+      internalID: 2057822481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_144
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 130.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10995c52ac5d2f94bba7f5c577da72b9
+      internalID: -824990121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_145
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 130.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b16d4726ec319e479ed3e53a7720fd7
+      internalID: 1513585596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_146
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 130.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 473ffe122ac419c429014ca5e405b69e
+      internalID: -1565008606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_147
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 130.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46fa01ba06c310f4fb7e0c90a826eef1
+      internalID: -1328181867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_148
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 130.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c2bb3054a83e2147a550a4732ba4d09
+      internalID: 1344422883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_149
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 130.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ffe050bcb19a944a9923950a73a36bf
+      internalID: 1975273483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_150
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 130.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69335cec36fdcb54d9e227a9f2f2a682
+      internalID: 2108248795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_151
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 130.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e7cf68b13c637f47a5c5a6e3bd7d563
+      internalID: 959211836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_152
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 130.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb79882b5626efe43ba37fa84c94fea5
+      internalID: 351518314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_153
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 130.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94783df838b20e040aa7ce74b493256c
+      internalID: 1742922061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_154
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 130.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66262a9ce8e65cc438c21b71c96d4ca7
+      internalID: -528459685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_155
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 130.53845
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51f312e017715df419279f82d1e0c6f2
+      internalID: -451346272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_156
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5.53846
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79fd8eefea971044ab5cbaf2a14bb4d8
+      internalID: -1485581275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_157
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 5.53846
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0394450b9c52b548becc219c66ca807
+      internalID: -1164286164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_158
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 5.53846
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43485b9091ae8b7448c9a5ecd982a113
+      internalID: 2131740388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_159
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 5.53846
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d46d816c466150409a4fe26f609125b
+      internalID: 843352078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_160
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 5.53846
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 428534484f34b4b4999b88a19dc4db2d
+      internalID: -1298493252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_161
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 5.53846
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce15a6facf7989e40b8e538ebaaa4732
+      internalID: -245479589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_162
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 5.53846
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bcc68ddb8497074db3efc623d370178
+      internalID: 1258355324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_163
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 5.53846
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5bbaf258fd5ac54882eec92eba39df6
+      internalID: -1692677796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_164
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 5.53846
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce7afa70c11073f4aad73c5256a41a81
+      internalID: -1297946585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_165
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 5.53846
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df0d6acacbe583c4b8dbe874e0843815
+      internalID: 1239460780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_166
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 5.53846
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 619b2b9524d00544d9a3d3eb419b0767
+      internalID: -262548247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_167
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 5.53846
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eacc091f3243d0c42a48c4098aef0508
+      internalID: -187494881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flytrap Plant Spritesheet_168
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 5.53846
+        width: 157.53847
+        height: 125.46154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51d2e57b6a6d2b64b9ee576b6c517004
+      internalID: -1226250922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Flytrap Plant Spritesheet_45: -930437175
+      Flytrap Plant Spritesheet_13: -2091562310
+      Flytrap Plant Spritesheet_47: 1325317799
+      Flytrap Plant Spritesheet_42: -1203995467
+      Flytrap Plant Spritesheet_83: -863182610
+      Flytrap Plant Spritesheet_144: -824990121
+      Flytrap Plant Spritesheet_1: -685629170
+      Flytrap Plant Spritesheet_99: 1429071143
+      Flytrap Plant Spritesheet_151: 959211836
+      Flytrap Plant Spritesheet_31: -737670926
+      Flytrap Plant Spritesheet_49: -765637752
+      Flytrap Plant Spritesheet_108: 730211251
+      Flytrap Plant Spritesheet_64: 895546229
+      Flytrap Plant Spritesheet_79: 2007510061
+      Flytrap Plant Spritesheet_112: -258700233
+      Flytrap Plant Spritesheet_145: 1513585596
+      Flytrap Plant Spritesheet_136: -208469508
+      Flytrap Plant Spritesheet_137: -1016968318
+      Flytrap Plant Spritesheet_20: -1594313607
+      Flytrap Plant Spritesheet_166: -262548247
+      Flytrap Plant Spritesheet_149: 1975273483
+      Flytrap Plant Spritesheet_8: -1485178216
+      Flytrap Plant Spritesheet_92: 948677892
+      Flytrap Plant Spritesheet_104: 478926256
+      Flytrap Plant Spritesheet_117: 980863182
+      Flytrap Plant Spritesheet_75: 1848973002
+      Flytrap Plant Spritesheet_36: -67953681
+      Flytrap Plant Spritesheet_105: -1461140321
+      Flytrap Plant Spritesheet_32: -199079467
+      Flytrap Plant Spritesheet_67: 1605840458
+      Flytrap Plant Spritesheet_63: -2062468762
+      Flytrap Plant Spritesheet_55: 602185091
+      Flytrap Plant Spritesheet_28: -1582797173
+      Flytrap Plant Spritesheet_109: -528891785
+      Flytrap Plant Spritesheet_50: -381395894
+      Flytrap Plant Spritesheet_23: 114157002
+      Flytrap Plant Spritesheet_2: 839674066
+      Flytrap Plant Spritesheet_90: 317183915
+      Flytrap Plant Spritesheet_142: 2087679813
+      Flytrap Plant Spritesheet_34: 1605178941
+      Flytrap Plant Spritesheet_9: 232975224
+      Flytrap Plant Spritesheet_118: -1428433111
+      Flytrap Plant Spritesheet_60: 56102016
+      Flytrap Plant Spritesheet_72: 797979893
+      Flytrap Plant Spritesheet_73: 805247300
+      Flytrap Plant Spritesheet_4: 1127384917
+      Flytrap Plant Spritesheet_74: -328384497
+      Flytrap Plant Spritesheet_59: -498949095
+      Flytrap Plant Spritesheet_88: 2137168768
+      Flytrap Plant Spritesheet_93: -119633140
+      Flytrap Plant Spritesheet_98: -432435397
+      Flytrap Plant Spritesheet_163: -1692677796
+      Flytrap Plant Spritesheet_134: 607078665
+      Flytrap Plant Spritesheet_152: 351518314
+      Flytrap Plant Spritesheet_0: -257530156
+      Flytrap Plant Spritesheet_100: 1343895028
+      Flytrap Plant Spritesheet_158: 2131740388
+      Flytrap Plant Spritesheet_46: 2136294649
+      Flytrap Plant Spritesheet_160: -1298493252
+      Flytrap Plant Spritesheet_146: -1565008606
+      Flytrap Plant Spritesheet_86: 2063332815
+      Flytrap Plant Spritesheet_125: 657700753
+      Flytrap Plant Spritesheet_71: 586706888
+      Flytrap Plant Spritesheet_81: 1546495039
+      Flytrap Plant Spritesheet_5: -1646351206
+      Flytrap Plant Spritesheet_56: 1191578953
+      Flytrap Plant Spritesheet_43: 1242729864
+      Flytrap Plant Spritesheet_120: -1847190717
+      Flytrap Plant Spritesheet_12: -2030286140
+      Flytrap Plant Spritesheet_95: -1318396026
+      Flytrap Plant Spritesheet_139: 538556217
+      Flytrap Plant Spritesheet_21: -2003629570
+      Flytrap Plant Spritesheet_159: 843352078
+      Flytrap Plant Spritesheet_138: -2136157862
+      Flytrap Plant Spritesheet_165: 1239460780
+      Flytrap Plant Spritesheet_111: 97727630
+      Flytrap Plant Spritesheet_162: 1258355324
+      Flytrap Plant Spritesheet_114: -1199747048
+      Flytrap Plant Spritesheet_68: -522030632
+      Flytrap Plant Spritesheet_15: 1832911226
+      Flytrap Plant Spritesheet_77: -726456357
+      Flytrap Plant Spritesheet_153: 1742922061
+      Flytrap Plant Spritesheet_164: -1297946585
+      Flytrap Plant Spritesheet_157: -1164286164
+      Flytrap Plant Spritesheet_106: 1443470195
+      Flytrap Plant Spritesheet_89: 421653442
+      Flytrap Plant Spritesheet_96: 1845287757
+      Flytrap Plant Spritesheet_121: -1971913708
+      Flytrap Plant Spritesheet_115: -358425632
+      Flytrap Plant Spritesheet_101: 1324056032
+      Flytrap Plant Spritesheet_103: 647942670
+      Flytrap Plant Spritesheet_10: -378473056
+      Flytrap Plant Spritesheet_87: -1875989372
+      Flytrap Plant Spritesheet_22: -1778445904
+      Flytrap Plant Spritesheet_66: 179650943
+      Flytrap Plant Spritesheet_16: -606343113
+      Flytrap Plant Spritesheet_26: -1626153375
+      Flytrap Plant Spritesheet_80: -1477464020
+      Flytrap Plant Spritesheet_119: -67169225
+      Flytrap Plant Spritesheet_85: 209490449
+      Flytrap Plant Spritesheet_133: -345734497
+      Flytrap Plant Spritesheet_116: 114559555
+      Flytrap Plant Spritesheet_91: 647598541
+      Flytrap Plant Spritesheet_94: 1978174751
+      Flytrap Plant Spritesheet_3: -1886165404
+      Flytrap Plant Spritesheet_6: 1790402490
+      Flytrap Plant Spritesheet_33: -1066591259
+      Flytrap Plant Spritesheet_7: -2036676753
+      Flytrap Plant Spritesheet_57: 703453120
+      Flytrap Plant Spritesheet_78: -842516869
+      Flytrap Plant Spritesheet_48: -204414563
+      Flytrap Plant Spritesheet_70: 940978245
+      Flytrap Plant Spritesheet_126: 1390720917
+      Flytrap Plant Spritesheet_41: -665167069
+      Flytrap Plant Spritesheet_25: -1562364598
+      Flytrap Plant Spritesheet_97: -1945617413
+      Flytrap Plant Spritesheet_102: 182192794
+      Flytrap Plant Spritesheet_129: -679098411
+      Flytrap Plant Spritesheet_131: -1334482934
+      Flytrap Plant Spritesheet_155: -451346272
+      Flytrap Plant Spritesheet_150: 2108248795
+      Flytrap Plant Spritesheet_122: 1341457593
+      Flytrap Plant Spritesheet_30: 147745938
+      Flytrap Plant Spritesheet_156: -1485581275
+      Flytrap Plant Spritesheet_168: -1226250922
+      Flytrap Plant Spritesheet_69: -364672348
+      Flytrap Plant Spritesheet_27: 215206974
+      Flytrap Plant Spritesheet_19: -1103569132
+      Flytrap Plant Spritesheet_29: 1319542060
+      Flytrap Plant Spritesheet_123: -1061755431
+      Flytrap Plant Spritesheet_140: 1526851596
+      Flytrap Plant Spritesheet_61: 1426071659
+      Flytrap Plant Spritesheet_147: -1328181867
+      Flytrap Plant Spritesheet_132: 1694149095
+      Flytrap Plant Spritesheet_143: 2057822481
+      Flytrap Plant Spritesheet_38: -1677749820
+      Flytrap Plant Spritesheet_128: 108882930
+      Flytrap Plant Spritesheet_40: -1937831520
+      Flytrap Plant Spritesheet_17: -1286394297
+      Flytrap Plant Spritesheet_84: -1035085880
+      Flytrap Plant Spritesheet_62: -1623536774
+      Flytrap Plant Spritesheet_82: -534974373
+      Flytrap Plant Spritesheet_107: 308112993
+      Flytrap Plant Spritesheet_135: -1519859971
+      Flytrap Plant Spritesheet_148: 1344422883
+      Flytrap Plant Spritesheet_127: 1924658094
+      Flytrap Plant Spritesheet_161: -245479589
+      Flytrap Plant Spritesheet_65: -559311505
+      Flytrap Plant Spritesheet_53: -1149555469
+      Flytrap Plant Spritesheet_58: -1015495322
+      Flytrap Plant Spritesheet_18: 802790728
+      Flytrap Plant Spritesheet_76: -1362086286
+      Flytrap Plant Spritesheet_124: -1448019914
+      Flytrap Plant Spritesheet_113: 484321210
+      Flytrap Plant Spritesheet_167: -187494881
+      Flytrap Plant Spritesheet_35: 1456469056
+      Flytrap Plant Spritesheet_37: -790571713
+      Flytrap Plant Spritesheet_39: 2143755446
+      Flytrap Plant Spritesheet_11: 372813093
+      Flytrap Plant Spritesheet_44: 584065475
+      Flytrap Plant Spritesheet_154: -528459685
+      Flytrap Plant Spritesheet_24: 146084749
+      Flytrap Plant Spritesheet_51: 986254174
+      Flytrap Plant Spritesheet_54: -1326161781
+      Flytrap Plant Spritesheet_14: 1268531410
+      Flytrap Plant Spritesheet_52: -79945296
+      Flytrap Plant Spritesheet_110: -1301845263
+      Flytrap Plant Spritesheet_130: -1187742328
+      Flytrap Plant Spritesheet_141: -946517690
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

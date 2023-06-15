@@ -1,0 +1,3841 @@
+fileFormatVersion: 2
+guid: e87d401daa6b4e64f9720f6f8c10ba7a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bush Fox_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1403.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5644c975a3db3d54eb169518cd4d9dc8
+      internalID: -18022351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_1
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 1403.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 238f223006abbd944abd0baa2c9255a6
+      internalID: -238111924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_2
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 1403.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 163d1553be940f34ea636b99d9766c28
+      internalID: -1206771075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_3
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 1403.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2824ff3e50f0d940b810eb06db94cfe
+      internalID: 1631474825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_4
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 1403.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23504400a45108f489196cde2e693afa
+      internalID: 1044994970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_5
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 1403.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 965859d81ddefb44a859f0ea1233f72b
+      internalID: -1282570105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_6
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 1403.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2d8d03ef1948074baf3371289882ce1
+      internalID: 2069811945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_7
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 1403.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bef7f8364f5beea4d9bf19d79b034914
+      internalID: 10482019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_8
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 1403.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 587b8234f4f11bd4e8c0adba5b6a767f
+      internalID: -1023189139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_9
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 1403.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b1b60904b3955d4ba09b2ec446ac4d7
+      internalID: 207845039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_10
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 1403.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca819b4535ed7c84e8e2bc4eca69f18c
+      internalID: -42048667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_11
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 1403.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f20eb56b3ee0914f96f3490a9939ae8
+      internalID: 717763875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_12
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 1403.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de722e9a76dfae144811832d82dec666
+      internalID: -1607473598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1287.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e01c152a3e5eb0c459384f6a002ee807
+      internalID: 492978292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_14
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 1287.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc2d2996b30c7d944a0b6f3a30e6c021
+      internalID: 1632806672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_15
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 1287.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28b9f88bc2facd64f8e7c2c9839443ac
+      internalID: 65300549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_16
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 1287.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30790f93b25326c4f9a66291f1f990c8
+      internalID: -517404872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_17
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 1287.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e40053642aa26d043a12db767ceee996
+      internalID: -1859526148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_18
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 1287.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 228bc1c043373ea4e9cd3b39a71e869b
+      internalID: -193651982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_19
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 1287.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 862770cd37ec87f42ad9d80dccc2ec78
+      internalID: -694276235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_20
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 1287.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2b8325d57f9e9e47a7c0df64f63ad7a
+      internalID: -1761774191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_21
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 1287.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f02187bee2ffe0b43a5cb65cddbd445e
+      internalID: -1856368001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_22
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 1287.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f1e3779717f40449d053ee89638425
+      internalID: 98744991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_23
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 1287.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05b663afd6010714b90aba6c24be3e3d
+      internalID: -1097208552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_24
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 1287.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0dedb295c764de41a2d70ab17a64c15
+      internalID: -1665804251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_25
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 1287.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2393b11212e06a94abd9f71550867258
+      internalID: -1386993900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1171.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8431e6415d9501145ad99fc6b209263f
+      internalID: -1918696089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_27
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 1171.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2c080e87006cbb49bd829c4488d20b0
+      internalID: -1355473287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_28
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 1171.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89c670da497bb7e43aa629d3ebed59c4
+      internalID: -900054483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_29
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 1171.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5339d03aaaae6b64380f8d4938183ef9
+      internalID: -2019495505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_30
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 1171.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c742d90d5c0654e8cc622ba7cb60ed
+      internalID: 955208507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_31
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 1171.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd65384139d7c6a4c8d19d1c49617c02
+      internalID: 1891009224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_32
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 1171.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46ff75a172f9c0141b6ff1de7748de1e
+      internalID: -513042663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_33
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 1171.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9170bc61f12701a44a49d9f1c711c732
+      internalID: -1898208702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_34
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 1171.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae566b3ce434c904fb331943e76e1258
+      internalID: 1658124249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_35
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 1171.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b67e60988ec256045b3e41b2ee3a00e2
+      internalID: -2127083400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_36
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 1171.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58e7f6697a493a8408d2fadb462542a4
+      internalID: -658239950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_37
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 1171.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da3a7b468ae6ae94cbed8c8b598b4aa1
+      internalID: 599069704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_38
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 1171.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2f05f4521752274f9bad300ef0adad8
+      internalID: 1860452753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1055.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d97b7ee977280a4494d5000f4cb28bd
+      internalID: 1555901804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_40
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 1055.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6fa9a79288c6a246a050deba391bdb5
+      internalID: -141523025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_41
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 1055.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 633438568f0115144b0a6f0afad63a5e
+      internalID: 1495777885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_42
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 1055.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d32a687aec87054a9fac9985519fbf8
+      internalID: 1756380999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_43
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 1055.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f2d810e628cddc44b349a96223ae42e
+      internalID: -704295552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_44
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 1055.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e2c31e9a3f35424dbd828c08c479749
+      internalID: 951964956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_45
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 1055.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59c1e01db60e148438a73c2be73989a7
+      internalID: -581502205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_46
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 1055.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52335e42033197d4883ee773bf2d9267
+      internalID: -1271813782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_47
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 1055.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49d58116a0eb76c4d87cd4328178e5f6
+      internalID: 970794983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_48
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 1055.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28414a1efdbd25d4fb9107520349dc61
+      internalID: 6218390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_49
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 1055.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab22c5355caf79e4a8e62d684099f4ce
+      internalID: 1938500809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_50
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 1055.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83dff2229ff20cf4d8d54eccb7595e6c
+      internalID: 1495964507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_51
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 1055.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b9975c579952d14592457986d28a6ad
+      internalID: 841967658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 939.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5bd836a866abd741bb495708343092f
+      internalID: 1600004810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_53
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 939.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b7ad1521adf828439a12fd4ca9e061a
+      internalID: -117056250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_54
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 939.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0a800ce392020e48bce6f0b9740277b
+      internalID: 359736177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_55
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 939.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d724de71b6554c94cbd4b3019f3574e0
+      internalID: 2140628679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_56
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 939.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64984431f4a4dbc4591be6db06ac6c90
+      internalID: 163084184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_57
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 939.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a296e764040d7e4cb24fa3a2883154e
+      internalID: -1550965119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_58
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 939.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d43e95e9ae81a694ba95a25edc0e2d4c
+      internalID: -652928559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_59
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 939.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfd92beaee226c44c8c8a50140e597d2
+      internalID: -150757702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_60
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 939.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 516d23aa962d1f94e9b1cd5fe34d069e
+      internalID: 333762672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_61
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 939.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12f8597559724ab44b24bdf900960564
+      internalID: 95939836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_62
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 939.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eef7b21a992a384da70c640d659e63c
+      internalID: -1784516430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_63
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 939.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96bef3d9cccaf2848a5709ad911a43e4
+      internalID: 1094699536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_64
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 939.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28405626463b522439c2d91cd456d540
+      internalID: 1403717948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 823.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3b439ce4659b3540b1ef27a6d18ab5c
+      internalID: -1968810167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_66
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 823.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f0409a49f4c43542910c48e611f8ea3
+      internalID: 2139173795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_67
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 823.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5195b988645d25c41aba1bd51019d57a
+      internalID: 1133741635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_68
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 823.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00c480b697b06024e8f2942d287bcca2
+      internalID: 1202618413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_69
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 823.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4cb540af5efd1849b09fcc4e7ce3ab2
+      internalID: 610532005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_70
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 823.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0462dd23506a40a41877c5aaf01a719c
+      internalID: 1489957519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_71
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 823.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 319ec7b491203d042bc2c2de120b2e0c
+      internalID: -1694136843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_72
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 823.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da834257d4d5ff44092c546e81211662
+      internalID: -2124775092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_73
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 823.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97d28d1dc1c376546afb27e641612a9c
+      internalID: -1116271885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_74
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 823.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79154757d70d7454e83a6ef09be6a49b
+      internalID: -1917577431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_75
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 823.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21e318cacb405d44daf21cf7d0148537
+      internalID: 1299827930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_76
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 823.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7df8d66ce0918746b10876b146b1f90
+      internalID: 883120497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_77
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 823.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 693817aae803ed74d91c62735dc8f314
+      internalID: -20023876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_78
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 707.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db5a4a10867eb8442bfe0891870cd979
+      internalID: 2036855995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_79
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 707.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de31a0d438f37f43857f17910002beb
+      internalID: -1484861290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_80
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 707.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f9a18b8d7f9f98418b784df3dcecebc
+      internalID: 1063118993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_81
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 707.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42f41b7c56317f041804b23ff83fd345
+      internalID: -1109347773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_82
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 707.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2328098e28dd7384c9b73742979bd7dd
+      internalID: -1585053155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_83
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 707.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5068f30a5efc444a8ffcb88ded6b71f
+      internalID: 365663262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_84
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 707.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fe6807388ea40b4e864ad01c0bd4796
+      internalID: -112442817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_85
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 707.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 047759c72f4cef445835e32a4722d7dd
+      internalID: -1387701065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_86
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 707.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc7265a052d95f14f8c2697d751789a1
+      internalID: 744461370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_87
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 707.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b36e28575379ea41856a07f9b00ff61
+      internalID: 1446314550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_88
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 707.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3c519c38562be5418282b28be1b9465
+      internalID: -1422900391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_89
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 707.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b389f6c1f2e58c459edcafb2710cd25
+      internalID: -27639033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_90
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 707.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c84860b364884104a863f2b63001f6de
+      internalID: 2076067643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_91
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 591.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4708675624c0ad3428a55d5b9be69d15
+      internalID: 978054469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_92
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 591.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13f48a2b709b621408080119e79a2bd6
+      internalID: 1162881780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_93
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 591.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6a376e32f57fd2478386cc7f5d6e1b2
+      internalID: 641610637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_94
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 591.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10193f8192b28e841a39d494080f7306
+      internalID: -1704183951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_95
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 591.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d119d948f062d449a653c505e6c290d
+      internalID: 1178149124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_96
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 591.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c516b1089ee6f2e4d8edb769a67ac9ab
+      internalID: -125127562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_97
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 591.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bf3fcc9f800b4a489ed5bdce106cfa0
+      internalID: -1243023700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_98
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 591.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c549cd3761664e4bbf4fcbbb6744a5e
+      internalID: -1974976108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_99
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 591.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7470c3e4d9f33424a8d541531651fa0a
+      internalID: -181556203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_100
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 591.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 610de083738b7d844b9ef3fa29fb50c9
+      internalID: -1625127745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_101
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 591.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec805f904eb89774d8e47a8c11ca756e
+      internalID: 688904746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_102
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 591.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d58f96ce2ef65242901d1515d01d51f
+      internalID: -12808645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_103
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 591.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c05b18fc38dfdb045ba21a4ac1296ac1
+      internalID: -956244110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_104
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 475.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5c9dc2655119fc49b3fbc64e1cdfc4b
+      internalID: -675010795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_105
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 475.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17911eac521d37b4ea586603489b7f45
+      internalID: -814565862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_106
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 475.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6744bbca811367e43801c94902b869ca
+      internalID: 1395423209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_107
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 475.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adec83094a28f8947921b976852adb1a
+      internalID: 1488772685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_108
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 475.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e59a89c0d62c5848bdb56a8fed41d17
+      internalID: 1727621487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_109
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 475.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6c347ff7b4898a4b85b34aa72d2326b
+      internalID: -576496587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_110
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 475.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe6153945177aca4d8cb816632206767
+      internalID: -307402572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_111
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 475.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b5c93c8ae7677e40a14f6b81ccceefa
+      internalID: 1902214898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_112
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 475.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1602ea75eb7e36c4883792a017dfa529
+      internalID: -985190846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_113
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 475.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96f22d9853ac04147a25a0c29036e60f
+      internalID: 997995410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_114
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 475.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e42a51ea8a2be604f900d54d109ff94d
+      internalID: 1120116228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_115
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 475.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc9a862b59f9e6b4a898194408cee6d8
+      internalID: -1527918716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_116
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 475.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd9d7b676e9612d4691da7a2c9667ef1
+      internalID: 1728408349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_117
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 359.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b9024c25894b3a41ae50da839a979f8
+      internalID: -687418283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_118
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 359.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b66a2ec8d1eb4f4090e819d6e6f1232
+      internalID: 237731291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_119
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 359.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 152fa00e7a26e9d4599171c8cccf6b79
+      internalID: 742660727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_120
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 359.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87ea0fe4e2405d74db864713b4c1c02b
+      internalID: 1489251308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_121
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 359.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05475135540f434489a3d43519b4983d
+      internalID: 1368362404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_122
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 359.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2643a1dfef7c5d4e80323082df8ae53
+      internalID: 167358775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_123
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 359.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0023da49b5308434196c364158ba0715
+      internalID: 1043889075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_124
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 359.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68b89c028ae0e3447af034e2407df803
+      internalID: -1987750287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_125
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 359.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9e1bf28086194944b2ae93dbcc32d98
+      internalID: -122233940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_126
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 359.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51bae9b6a02cd214dac918fb46dbc3f0
+      internalID: -768506578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_127
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 359.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ef0339052afe4c459ffc91e778c92b1
+      internalID: -649287936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_128
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 359.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06819436a9b6aa84780587700e2417f9
+      internalID: -255417775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_129
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 359.0769
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa2b8cd7ab47eb341ab0bed6c5e477ea
+      internalID: 1392914312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_130
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 243.07692
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a967bae0dd355544a5150620aee47c6
+      internalID: 1456972940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_131
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 243.07692
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e370d3e722d81ff49ae8952d56eb6f4b
+      internalID: -692942052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_132
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 243.07692
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4357478308fb7ef4f88ef86d7e86b759
+      internalID: -833054984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_133
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 243.07692
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e24c8fdbb13bda7449f0a5cb9de618a9
+      internalID: -1286408576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_134
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 243.07692
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47ce83e70b6e8974eba7c906745cb35e
+      internalID: -640308747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_135
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 243.07692
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 891d72ec839068348a4d284d7b6e5620
+      internalID: -958496833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_136
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 243.07692
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df9651c2a641c2c4b828f8a87f0c8fef
+      internalID: 706215707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_137
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 243.07692
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a12d8e6a65459149a9b2b71b7f8708a
+      internalID: 238348529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_138
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 243.07692
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00618614921299f4ca70a3dc4c4c8227
+      internalID: -2118218335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_139
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 243.07692
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d62237bc6d74c745a025b1c90bb9b1f
+      internalID: -1727717668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_140
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 243.07692
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 743ef1c564b965a438bcbf0958231a4e
+      internalID: -711058441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_141
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 243.07692
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80a7a65a84123f84faa57d73b13a3f20
+      internalID: -1096925608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_142
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 243.07692
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 523d5dfe228854e4eb97c6117d48258c
+      internalID: -1846289198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_143
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 127.07692
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcc6c6be498e5b9439a1a0fb1d604705
+      internalID: -2056845107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_144
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 127.07692
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b73f9ac776640614eb8f19af96ce58a7
+      internalID: -717182489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_145
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 127.07692
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1657ebe9d0e1385499173f47cfdc2bd7
+      internalID: 578883161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_146
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 127.07692
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fb48a2740a13c34fb0dce10fd6a34a1
+      internalID: -296941235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_147
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 127.07692
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0e66f06c8262874c88849d92ba8fc7b
+      internalID: 1068926651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_148
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 127.07692
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bca679fc8be185640818b3b4c77bc77c
+      internalID: -842989709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_149
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 127.07692
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f37b2a10b0783b64e8011b62ced48b0c
+      internalID: 2094643762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_150
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 127.07692
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeac72ffa594cbb4aa51b5231a2fe848
+      internalID: 92713567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_151
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 127.07692
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9bd9993845450c46a6c8579590f0283
+      internalID: -1477104708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_152
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 127.07692
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb31a79f4bc68db40b1f1b58189505ea
+      internalID: 290138350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_153
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 127.07692
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd8e36fb29c19c43835401e15b26825
+      internalID: 148632876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_154
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 127.07692
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87f5c4f88cb793f4491bf9858d8cb3c6
+      internalID: -1862005780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_155
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 127.07692
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44f16c50189d07e489e804f4eac7048f
+      internalID: -1991167877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_156
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11.07692
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ccd435e979552149a8aa905bafc544d
+      internalID: -1818166884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_157
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 11.07692
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 250a80e472036ce4cb9f978c968f1804
+      internalID: -1903106696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_158
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 11.07692
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c68cc96641018874c8826b5e9e92b579
+      internalID: 1024127517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_159
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 11.07692
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f45ddc8fa7784364c929a14e4a1c0e56
+      internalID: 1761983297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_160
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 11.07692
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04e48b274c1e12b4da2ce993edbb8963
+      internalID: -1653838053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_161
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 11.07692
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e593afd1b247be4d9825cb5b9bea09e
+      internalID: -182502629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_162
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 11.07692
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 396c999a475b48e48baf74f25fe733c6
+      internalID: -279180954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_163
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 11.07692
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7c3f3088b19bd94e94e5d6920876aa9
+      internalID: 1043832533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_164
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 11.07692
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb74b0787f3de364ca55dc8cd585742a
+      internalID: -946998747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_165
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 11.07692
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0df10928ad436964ba028284ad9ecbde
+      internalID: -622986225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_166
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 11.07692
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3c5417780d03ba4d8c586812629e72a
+      internalID: 98811601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_167
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 11.07692
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57be29f6027faef458f740ea59a8e13f
+      internalID: -1479508307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush Fox_168
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 11.07692
+        width: 157.53847
+        height: 116.92308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7fe6fe24beab3e4b9c24d9b369e8a2d
+      internalID: 1862726046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Bush Fox_85: -1387701065
+      Bush Fox_23: -1097208552
+      Bush Fox_74: -1917577431
+      Bush Fox_126: -768506578
+      Bush Fox_121: 1368362404
+      Bush Fox_102: -12808645
+      Bush Fox_122: 167358775
+      Bush Fox_27: -1355473287
+      Bush Fox_33: -1898208702
+      Bush Fox_49: 1938500809
+      Bush Fox_57: -1550965119
+      Bush Fox_124: -1987750287
+      Bush Fox_103: -956244110
+      Bush Fox_158: 1024127517
+      Bush Fox_29: -2019495505
+      Bush Fox_43: -704295552
+      Bush Fox_47: 970794983
+      Bush Fox_22: 98744991
+      Bush Fox_167: -1479508307
+      Bush Fox_13: 492978292
+      Bush Fox_4: 1044994970
+      Bush Fox_68: 1202618413
+      Bush Fox_168: 1862726046
+      Bush Fox_64: 1403717948
+      Bush Fox_109: -576496587
+      Bush Fox_118: 237731291
+      Bush Fox_123: 1043889075
+      Bush Fox_9: 207845039
+      Bush Fox_17: -1859526148
+      Bush Fox_37: 599069704
+      Bush Fox_3: 1631474825
+      Bush Fox_14: 1632806672
+      Bush Fox_31: 1891009224
+      Bush Fox_46: -1271813782
+      Bush Fox_63: 1094699536
+      Bush Fox_95: 1178149124
+      Bush Fox_136: 706215707
+      Bush Fox_108: 1727621487
+      Bush Fox_139: -1727717668
+      Bush Fox_90: 2076067643
+      Bush Fox_150: 92713567
+      Bush Fox_89: -27639033
+      Bush Fox_130: 1456972940
+      Bush Fox_137: 238348529
+      Bush Fox_79: -1484861290
+      Bush Fox_86: 744461370
+      Bush Fox_53: -117056250
+      Bush Fox_146: -296941235
+      Bush Fox_18: -193651982
+      Bush Fox_151: -1477104708
+      Bush Fox_11: 717763875
+      Bush Fox_36: -658239950
+      Bush Fox_77: -20023876
+      Bush Fox_65: -1968810167
+      Bush Fox_88: -1422900391
+      Bush Fox_141: -1096925608
+      Bush Fox_62: -1784516430
+      Bush Fox_71: -1694136843
+      Bush Fox_56: 163084184
+      Bush Fox_162: -279180954
+      Bush Fox_145: 578883161
+      Bush Fox_45: -581502205
+      Bush Fox_61: 95939836
+      Bush Fox_92: 1162881780
+      Bush Fox_76: 883120497
+      Bush Fox_1: -238111924
+      Bush Fox_5: -1282570105
+      Bush Fox_157: -1903106696
+      Bush Fox_19: -694276235
+      Bush Fox_81: -1109347773
+      Bush Fox_156: -1818166884
+      Bush Fox_42: 1756380999
+      Bush Fox_117: -687418283
+      Bush Fox_163: 1043832533
+      Bush Fox_34: 1658124249
+      Bush Fox_35: -2127083400
+      Bush Fox_161: -182502629
+      Bush Fox_73: -1116271885
+      Bush Fox_82: -1585053155
+      Bush Fox_153: 148632876
+      Bush Fox_80: 1063118993
+      Bush Fox_134: -640308747
+      Bush Fox_52: 1600004810
+      Bush Fox_39: 1555901804
+      Bush Fox_115: -1527918716
+      Bush Fox_94: -1704183951
+      Bush Fox_93: 641610637
+      Bush Fox_0: -18022351
+      Bush Fox_41: 1495777885
+      Bush Fox_48: 6218390
+      Bush Fox_7: 10482019
+      Bush Fox_105: -814565862
+      Bush Fox_107: 1488772685
+      Bush Fox_30: 955208507
+      Bush Fox_101: 688904746
+      Bush Fox_72: -2124775092
+      Bush Fox_55: 2140628679
+      Bush Fox_12: -1607473598
+      Bush Fox_97: -1243023700
+      Bush Fox_140: -711058441
+      Bush Fox_2: -1206771075
+      Bush Fox_25: -1386993900
+      Bush Fox_84: -112442817
+      Bush Fox_127: -649287936
+      Bush Fox_21: -1856368001
+      Bush Fox_129: 1392914312
+      Bush Fox_66: 2139173795
+      Bush Fox_160: -1653838053
+      Bush Fox_44: 951964956
+      Bush Fox_120: 1489251308
+      Bush Fox_78: 2036855995
+      Bush Fox_10: -42048667
+      Bush Fox_142: -1846289198
+      Bush Fox_58: -652928559
+      Bush Fox_143: -2056845107
+      Bush Fox_119: 742660727
+      Bush Fox_165: -622986225
+      Bush Fox_8: -1023189139
+      Bush Fox_69: 610532005
+      Bush Fox_112: -985190846
+      Bush Fox_114: 1120116228
+      Bush Fox_135: -958496833
+      Bush Fox_133: -1286408576
+      Bush Fox_159: 1761983297
+      Bush Fox_125: -122233940
+      Bush Fox_128: -255417775
+      Bush Fox_28: -900054483
+      Bush Fox_67: 1133741635
+      Bush Fox_20: -1761774191
+      Bush Fox_154: -1862005780
+      Bush Fox_87: 1446314550
+      Bush Fox_38: 1860452753
+      Bush Fox_60: 333762672
+      Bush Fox_99: -181556203
+      Bush Fox_148: -842989709
+      Bush Fox_51: 841967658
+      Bush Fox_113: 997995410
+      Bush Fox_149: 2094643762
+      Bush Fox_70: 1489957519
+      Bush Fox_24: -1665804251
+      Bush Fox_32: -513042663
+      Bush Fox_83: 365663262
+      Bush Fox_111: 1902214898
+      Bush Fox_110: -307402572
+      Bush Fox_131: -692942052
+      Bush Fox_164: -946998747
+      Bush Fox_98: -1974976108
+      Bush Fox_132: -833054984
+      Bush Fox_50: 1495964507
+      Bush Fox_91: 978054469
+      Bush Fox_6: 2069811945
+      Bush Fox_54: 359736177
+      Bush Fox_59: -150757702
+      Bush Fox_16: -517404872
+      Bush Fox_166: 98811601
+      Bush Fox_138: -2118218335
+      Bush Fox_100: -1625127745
+      Bush Fox_96: -125127562
+      Bush Fox_116: 1728408349
+      Bush Fox_26: -1918696089
+      Bush Fox_152: 290138350
+      Bush Fox_15: 65300549
+      Bush Fox_106: 1395423209
+      Bush Fox_144: -717182489
+      Bush Fox_155: -1991167877
+      Bush Fox_40: -141523025
+      Bush Fox_147: 1068926651
+      Bush Fox_75: 1299827930
+      Bush Fox_104: -675010795
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

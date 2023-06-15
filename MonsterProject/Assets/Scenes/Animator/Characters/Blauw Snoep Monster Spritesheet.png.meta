@@ -1,0 +1,563 @@
+fileFormatVersion: 2
+guid: c1fafa7f51add1846b69530482909655
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Blauw Snoep Monster Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1533
+        width: 409.6
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7488a7c4a64342245a79dfb7ef50c943
+      internalID: 1403327558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blauw Snoep Monster Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 1533
+        width: 409.6
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29e09a80683304046b3d827356d1558b
+      internalID: -1413289817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blauw Snoep Monster Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 1533
+        width: 409.6
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d9490c13b80f0047bacf82eccb5c211
+      internalID: -640212740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blauw Snoep Monster Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 1533
+        width: 409.6
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3a293bcf29f166448fda043716651f5
+      internalID: 1792322416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blauw Snoep Monster Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 1533
+        width: 409.6
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9571f22e4e7135342ae51464773e46b2
+      internalID: -460602892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blauw Snoep Monster Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1022
+        width: 409.6
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 515705ef0f5994d40bb4a4a180a2df88
+      internalID: -1729345103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blauw Snoep Monster Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 1022
+        width: 409.6
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aea051dea608c6649b67abc9c48e0a60
+      internalID: 447135185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blauw Snoep Monster Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 1022
+        width: 409.6
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 892eb79dd3911e64f9080eeabeeeb6d1
+      internalID: -538983251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blauw Snoep Monster Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 1022
+        width: 409.6
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a85778141c280c40b994d9b5e5094a8
+      internalID: 447836543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blauw Snoep Monster Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 1022
+        width: 409.6
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e9c97ee1ed6ffb48a254e62bb86b8be
+      internalID: 739922633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blauw Snoep Monster Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 511
+        width: 409.6
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7b5ed4225746aa4a99c9d804dadd3db
+      internalID: -1534102042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blauw Snoep Monster Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 511
+        width: 409.6
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d8c445d407853749b094e963f176f5c
+      internalID: -752816432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blauw Snoep Monster Spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 511
+        width: 409.6
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34b9e3a978eda224ab89076a25341b1b
+      internalID: -1057059648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blauw Snoep Monster Spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 511
+        width: 409.6
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2c5790ef2e390c46b3a7493a6ff0714
+      internalID: -424736995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blauw Snoep Monster Spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 511
+        width: 409.6
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 931e1adab66487f42994ba3242e4f5d0
+      internalID: -2025691408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blauw Snoep Monster Spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 409.6
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f709c99d2033ec4eb0b7acbf2cb6957
+      internalID: 883302638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blauw Snoep Monster Spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 0
+        width: 409.6
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 704caa0e369ac094fa6b2966b4218f6f
+      internalID: 883373888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blauw Snoep Monster Spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 0
+        width: 409.6
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e457f6aaecc9ba45a24fe0e6d22b2bb
+      internalID: -1101237944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blauw Snoep Monster Spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 0
+        width: 409.6
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6654ef16ace4d2f408c64530caf2aebe
+      internalID: 1752639144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blauw Snoep Monster Spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 0
+        width: 409.6
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33359c08dcaa1ec4bbccc9b8dae73e97
+      internalID: -1417699656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Blauw Snoep Monster Spritesheet_18: 1752639144
+      Blauw Snoep Monster Spritesheet_4: -460602892
+      Blauw Snoep Monster Spritesheet_15: 883302638
+      Blauw Snoep Monster Spritesheet_6: 447135185
+      Blauw Snoep Monster Spritesheet_11: -752816432
+      Blauw Snoep Monster Spritesheet_14: -2025691408
+      Blauw Snoep Monster Spritesheet_0: 1403327558
+      Blauw Snoep Monster Spritesheet_9: 739922633
+      Blauw Snoep Monster Spritesheet_16: 883373888
+      Blauw Snoep Monster Spritesheet_3: 1792322416
+      Blauw Snoep Monster Spritesheet_8: 447836543
+      Blauw Snoep Monster Spritesheet_10: -1534102042
+      Blauw Snoep Monster Spritesheet_7: -538983251
+      Blauw Snoep Monster Spritesheet_1: -1413289817
+      Blauw Snoep Monster Spritesheet_5: -1729345103
+      Blauw Snoep Monster Spritesheet_12: -1057059648
+      Blauw Snoep Monster Spritesheet_13: -424736995
+      Blauw Snoep Monster Spritesheet_19: -1417699656
+      Blauw Snoep Monster Spritesheet_2: -640212740
+      Blauw Snoep Monster Spritesheet_17: -1101237944
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

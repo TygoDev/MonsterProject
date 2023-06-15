@@ -1,0 +1,1905 @@
+fileFormatVersion: 2
+guid: b72edfa83561c124c91e48660b73d5cc
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1820.4445
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d72199f0edcaf84480586f992765b36
+      internalID: -330410614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 1820.4445
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8486249aa1c87174983f6579077ddce4
+      internalID: -779715497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1820.4445
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4256a42dc94c4c4194838d4b2b5930d
+      internalID: 1427135012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 1820.4445
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aa28dc1c29b4724a8946f0f827c65fd
+      internalID: 1140844403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1820.4445
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e40aee991fa196c48ba3d1c52e70fe8f
+      internalID: -304768923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 1820.4445
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 609c76492f01adb41b85c1a4fd9ed2f8
+      internalID: -1756241338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 1820.4445
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cd76c0b37a89ca4c818c3c3bd024324
+      internalID: -1594087629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 1820.4445
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8afc96e9155a49048a79ba4622930ddb
+      internalID: -1463482389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 1820.4445
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91365a7119be43c488934939d2c05ebe
+      internalID: 296672625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1593.4445
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4dff476001df64408249d2a347dc7ce
+      internalID: -1651687215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 1593.4445
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 464c28074e89eee4583530a38d963ecc
+      internalID: -1110729367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1593.4445
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93c32c706c9c08542805a938569cb921
+      internalID: -1495190172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 1593.4445
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0eb5e3035b3bda4994614c556fc2b80
+      internalID: -599718060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1593.4445
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63dd1f26836ca254fa0bdcda063b1112
+      internalID: -1269633011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 1593.4445
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72edf4864850c034283932335af6d2da
+      internalID: 621906200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 1593.4445
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55438c655467c3b4ab5619b502e7b9f4
+      internalID: 1558701318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 1593.4445
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c504f7c89843ab54c8336259ed1aabc7
+      internalID: -1779448233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 1593.4445
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61479c41085fc5e4bbbb59325dd15f25
+      internalID: -627462708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1366.4445
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e76568d261e4ad24e913508708e5be2a
+      internalID: -1401722154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 1366.4445
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de6121da167c3f54b94b04e2eb8c0e99
+      internalID: -995806967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1366.4445
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 122052d7bd08dd84cb24022f19ab61f1
+      internalID: 1501280843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 1366.4445
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63a25a7328a2d3b4e8a52bc97a084632
+      internalID: -16045251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1366.4445
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbcb57f6d454ad34fafa64e34faa7fb0
+      internalID: 1955246145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 1366.4445
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f107ce3da422154c9104d58d8926a83
+      internalID: -1618601192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 1366.4445
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0361a46aff7023f49bf8cfba2539cc9e
+      internalID: 77927264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 1366.4445
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0f58d5a8a007c3439e801a3dbbda571
+      internalID: -1168665610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 1366.4445
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37b16fa6092a5f440b7414f433f48efc
+      internalID: -1714253412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1139.4445
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fe57911806fc174ea43b168621df27d
+      internalID: 624337821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 1139.4445
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48c4480f3b4e41d47ac5be9fddb6f9fb
+      internalID: 2085509521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1139.4445
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 822cd4b73946b484cb1fac0de48c5617
+      internalID: -1790279351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 1139.4445
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9614e58f1cd888a45bd4b0c679ff536d
+      internalID: -2069222934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1139.4445
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 459f8628ee7006740a999a8bb056ca8a
+      internalID: -383988719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 1139.4445
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3845e4d9949e70245b73d465c80a8bba
+      internalID: -507315765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 1139.4445
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf76ec5f02103354a8b07871df9ca22d
+      internalID: -358899016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 1139.4445
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efdc814a1b3a4cb4b8d974df842358a4
+      internalID: 1120503976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 1139.4445
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e30d9255b74f1a345be86619e409f6b1
+      internalID: 1392642898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 912.44446
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f0be415df8d7a7439318b437f3cfa1c
+      internalID: -183567917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 912.44446
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adc41d2e48164f2408490b4181f8aa94
+      internalID: -1756352866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 912.44446
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11fb7847293813c43a68ed8e7483f263
+      internalID: -16790169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 912.44446
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f3dc101b52cce841b5f61e8dd72821e
+      internalID: -1680932938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 912.44446
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c54767790db762c4cacbcb3aa2d1e9e8
+      internalID: -235188918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 912.44446
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1c7f8b0d7e175242b338d7858da62e8
+      internalID: 1490694950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 912.44446
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3570d85f24b31f243835245fe21a7eaf
+      internalID: 565819876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 912.44446
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0833012ec08c4b44993fc3b2cfe6c600
+      internalID: -83460675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 912.44446
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 753c3da0399c9a94eb85e7a6c8d4e98f
+      internalID: -1716481310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 685.44446
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49fdaff3a13439b4aa9daf3643e376a7
+      internalID: -418337400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 685.44446
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d1de1fa520e67d4db4f6263388058f2
+      internalID: -1817457414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 685.44446
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7a7368df6f639b49889ee8a7c594720
+      internalID: 378236215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 685.44446
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32a71dba80047cf46955ecee418aa791
+      internalID: -150461563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 685.44446
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f61d8ceb003efbe429482fa8cfbba3d7
+      internalID: -2040345171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_50
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 685.44446
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ac7af5be6e6a9842bf0e155781956ed
+      internalID: 1380728250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_51
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 685.44446
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dd85d579bd042441a41a713e3dc4f8c
+      internalID: -1174957961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_52
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 685.44446
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a1075863f8f8034d9808abff111e2dc
+      internalID: 1329991936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_53
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 685.44446
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf082d6dec60f941abb4c0c1595c439
+      internalID: 476057812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 458.44446
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7a0d9e15fafe16489099075bac51857
+      internalID: 1770992441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_55
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 458.44446
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 002e54463e5723b47948c035fe6e983d
+      internalID: 646954175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_56
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 458.44446
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e976ab7ea4f0904da02f5f6e09d1d7a
+      internalID: 17978468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_57
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 458.44446
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37a027d9a1547844b80adfe9ffd0a7c5
+      internalID: -1479839867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_58
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 458.44446
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e0e50e12292bb04d9e9955329a16511
+      internalID: -1714009196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_59
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 458.44446
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4822eb67b5c2c664687f351b8bd3b859
+      internalID: 1479572953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_60
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 458.44446
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09c59c72435b76c4fab074ee085e465b
+      internalID: -1023506817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_61
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 458.44446
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92620fc13f375a341abbf60dcd28e6eb
+      internalID: -1300549089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_62
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 458.44446
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90b6bb4cb926bd34db775a8f1e4304f8
+      internalID: -2116163250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 231.44444
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a25c9d371fd2464da2ae66cb65b9a66
+      internalID: 1105647999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_64
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 231.44444
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c47e6e7ca6ee943985aee75990c5d2
+      internalID: -540058119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_65
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 231.44444
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74e00364a6c15fa48a92da18d252b536
+      internalID: 502175804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_66
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 231.44444
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30542b9e264ff0a46bd9d220a0573de1
+      internalID: -1222583999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_67
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 231.44444
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f43e4c1591a772448cb97df547d1fbb
+      internalID: -1653458977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_68
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 231.44444
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a191445bb08b7374c96f54810a211fc6
+      internalID: 1610884325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_69
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 231.44444
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3f206fff2614104bbb9ce2942561ae8
+      internalID: -1048596123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_70
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 231.44444
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f038b18952307e4cb5b13e3e3565715
+      internalID: 1920726176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_71
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 231.44444
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 685ab55d58b41234a88fbf09808f8598
+      internalID: -1126336375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4.4444427
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ea166ee30b117848a8508e273f68dfc
+      internalID: 236872916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_73
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 4.4444427
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52ac607cf4ac25e4cb15beb592cfad18
+      internalID: 1091209163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_74
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 4.4444427
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f132a5d1529aa94285bbbddf39fef11
+      internalID: 944329187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_75
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 4.4444427
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 460cf5f349c8131479ce36b0b758adce
+      internalID: 72440272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_76
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 4.4444427
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd94d087c21ad9f45bdb4bbd691b3885
+      internalID: -546335806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_77
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 4.4444427
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7c4e87861f696240a07a3f5648168ca
+      internalID: -1377080329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_78
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 4.4444427
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfae7bcce89ec3b41a91de1c4f3aa21c
+      internalID: 1428247000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_79
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 4.4444427
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28d03206702122348b8a7145b5111b2d
+      internalID: -418022634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owl Bush Spritesheet_80
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 4.4444427
+        width: 153
+        height: 227.55556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed516f7dead76f84f885f2664957fbe9
+      internalID: 1495625871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Owl Bush Spritesheet_52: 1329991936
+      Owl Bush Spritesheet_57: -1479839867
+      Owl Bush Spritesheet_76: -546335806
+      Owl Bush Spritesheet_12: -599718060
+      Owl Bush Spritesheet_61: -1300549089
+      Owl Bush Spritesheet_55: 646954175
+      Owl Bush Spritesheet_67: -1653458977
+      Owl Bush Spritesheet_7: -1463482389
+      Owl Bush Spritesheet_8: 296672625
+      Owl Bush Spritesheet_73: 1091209163
+      Owl Bush Spritesheet_63: 1105647999
+      Owl Bush Spritesheet_54: 1770992441
+      Owl Bush Spritesheet_71: -1126336375
+      Owl Bush Spritesheet_38: -16790169
+      Owl Bush Spritesheet_0: -330410614
+      Owl Bush Spritesheet_43: -83460675
+      Owl Bush Spritesheet_68: 1610884325
+      Owl Bush Spritesheet_60: -1023506817
+      Owl Bush Spritesheet_47: 378236215
+      Owl Bush Spritesheet_20: 1501280843
+      Owl Bush Spritesheet_35: 1392642898
+      Owl Bush Spritesheet_49: -2040345171
+      Owl Bush Spritesheet_50: 1380728250
+      Owl Bush Spritesheet_42: 565819876
+      Owl Bush Spritesheet_4: -304768923
+      Owl Bush Spritesheet_13: -1269633011
+      Owl Bush Spritesheet_26: -1714253412
+      Owl Bush Spritesheet_40: -235188918
+      Owl Bush Spritesheet_77: -1377080329
+      Owl Bush Spritesheet_37: -1756352866
+      Owl Bush Spritesheet_79: -418022634
+      Owl Bush Spritesheet_3: 1140844403
+      Owl Bush Spritesheet_75: 72440272
+      Owl Bush Spritesheet_58: -1714009196
+      Owl Bush Spritesheet_41: 1490694950
+      Owl Bush Spritesheet_16: -1779448233
+      Owl Bush Spritesheet_17: -627462708
+      Owl Bush Spritesheet_18: -1401722154
+      Owl Bush Spritesheet_65: 502175804
+      Owl Bush Spritesheet_44: -1716481310
+      Owl Bush Spritesheet_56: 17978468
+      Owl Bush Spritesheet_74: 944329187
+      Owl Bush Spritesheet_2: 1427135012
+      Owl Bush Spritesheet_45: -418337400
+      Owl Bush Spritesheet_48: -150461563
+      Owl Bush Spritesheet_36: -183567917
+      Owl Bush Spritesheet_6: -1594087629
+      Owl Bush Spritesheet_31: -383988719
+      Owl Bush Spritesheet_27: 624337821
+      Owl Bush Spritesheet_78: 1428247000
+      Owl Bush Spritesheet_1: -779715497
+      Owl Bush Spritesheet_72: 236872916
+      Owl Bush Spritesheet_70: 1920726176
+      Owl Bush Spritesheet_14: 621906200
+      Owl Bush Spritesheet_19: -995806967
+      Owl Bush Spritesheet_66: -1222583999
+      Owl Bush Spritesheet_28: 2085509521
+      Owl Bush Spritesheet_11: -1495190172
+      Owl Bush Spritesheet_46: -1817457414
+      Owl Bush Spritesheet_64: -540058119
+      Owl Bush Spritesheet_9: -1651687215
+      Owl Bush Spritesheet_22: 1955246145
+      Owl Bush Spritesheet_24: 77927264
+      Owl Bush Spritesheet_25: -1168665610
+      Owl Bush Spritesheet_69: -1048596123
+      Owl Bush Spritesheet_62: -2116163250
+      Owl Bush Spritesheet_5: -1756241338
+      Owl Bush Spritesheet_30: -2069222934
+      Owl Bush Spritesheet_59: 1479572953
+      Owl Bush Spritesheet_10: -1110729367
+      Owl Bush Spritesheet_33: -358899016
+      Owl Bush Spritesheet_21: -16045251
+      Owl Bush Spritesheet_15: 1558701318
+      Owl Bush Spritesheet_23: -1618601192
+      Owl Bush Spritesheet_34: 1120503976
+      Owl Bush Spritesheet_32: -507315765
+      Owl Bush Spritesheet_29: -1790279351
+      Owl Bush Spritesheet_80: 1495625871
+      Owl Bush Spritesheet_39: -1680932938
+      Owl Bush Spritesheet_51: -1174957961
+      Owl Bush Spritesheet_53: 476057812
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

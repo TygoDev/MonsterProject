@@ -1,0 +1,3643 @@
+fileFormatVersion: 2
+guid: 45f56fcaaffb6164eaa955c969d10260
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1891
+        width: 116
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 423fcbf528fc5b847a016c97f9b351b6
+      internalID: -34445382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1891
+        width: 116
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdd12fdde2e092e479ee44421b3657a5
+      internalID: 2122213203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1891
+        width: 116
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 268a6952dc3964a40b388350034f8418
+      internalID: -585483505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 1891
+        width: 116
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 583dbc13ae5228c4a8fbebe46415f21a
+      internalID: 122899623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 1891
+        width: 116
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 958e2a337cdfad944b401e6ab84373a6
+      internalID: -843444963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 1891
+        width: 116
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef45e199f9dc3e94ca1294f2a91dc5da
+      internalID: -348058001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 1891
+        width: 116
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86b2e53b6d77e184e95e5804985d4631
+      internalID: 714352945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 1891
+        width: 116
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aedcd758b5a7ac74586b3503c7c70e36
+      internalID: -385013348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 1891
+        width: 116
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afee96fc5085696449f93c9ed994b9a3
+      internalID: 1276827598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 1891
+        width: 116
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0069d7e7e3550904f83293df9045b2ec
+      internalID: 304870940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 1891
+        width: 117
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88088e4e6ad78de4fa95ad470f33e131
+      internalID: -2130208779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 1891
+        width: 116
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8cd2dc7af76c954298c1fde3173f5a7
+      internalID: 1118329368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 1891
+        width: 117
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d61ed11a5ab31a842bd74907a9f45000
+      internalID: -1268374484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1733
+        width: 116
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5cab734bc6ce8a488c8efa4d228eaa9
+      internalID: -863985673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1733
+        width: 117
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a163403433801fc45ba1bb85423a9928
+      internalID: 1615212508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 1733
+        width: 116
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50724265df22b404ea93d3c99fafede4
+      internalID: 1062376899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 1733
+        width: 117
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 781584515989fc148a47e14e509fd374
+      internalID: 1914696771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 1733
+        width: 116
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a47612aafa3524447a2fe599799f5a69
+      internalID: -1700028607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 1733
+        width: 117
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 656975bed0358c54586e2644ab5bbe0c
+      internalID: -695230928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 1733
+        width: 117
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 675beb996b184df4caaf930b6e6beeec
+      internalID: -1098778670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1733
+        width: 117
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 041c56182ec9d194a80829ce09e8d13d
+      internalID: -1554950816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 1733
+        width: 117
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c040b16f2b6a84344ab60c87c1befc09
+      internalID: -1315030954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 1733
+        width: 117
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61ebd513bdc05ac43b6ea418eda290f0
+      internalID: -716530092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 1733
+        width: 117
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab9769b2d75d1bc4d8c5fa08d1711d30
+      internalID: 754592107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 1733
+        width: 117
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dad8149e3dbd29540b22e23d7784a4b7
+      internalID: -405582451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 1733
+        width: 117
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3421ff9699b4fb46a849ca86bf796db
+      internalID: 445677756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1576
+        width: 117
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a1cdc3328713284e94080bfe9c08f34
+      internalID: -164418803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1576
+        width: 118
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d53a4addd1ecb27409e77bb21273455b
+      internalID: -471878571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1576
+        width: 117
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d54f3503c98d7b94b94418a36b229006
+      internalID: -1272540540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 1576
+        width: 118
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 605c9e10b8777684086e4a464faeff25
+      internalID: 1705940857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1576
+        width: 117
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70fcd74caa4c8ab42b6ef0cf964c45da
+      internalID: -597183574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 1576
+        width: 118
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c966643848b117948934f31fdb3e447d
+      internalID: -824835283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 1576
+        width: 118
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1bf43686c74fe744b694aa940bffe13
+      internalID: 2137631781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 1576
+        width: 117
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98b6a70148d05e440b29b47eb3578d85
+      internalID: -486683630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 1576
+        width: 118
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3015546ade0db3e44b4c93dc56ba0429
+      internalID: 1717243547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 1576
+        width: 118
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e58a2ce2c2b75b14c9fc9406de64b8a0
+      internalID: -1852263285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 1576
+        width: 118
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b68bf9d7943b75a4ba9ed12decae95f4
+      internalID: -1491247793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 1576
+        width: 118
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad53bf2698b7e1b44893c208519623f4
+      internalID: -1230849654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 1576
+        width: 119
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fc469d7d181c5f4d95ce2cef9b43ec9
+      internalID: -954870882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1418
+        width: 118
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bce9231745ee0143a64e48e456e5342
+      internalID: -185323673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 1418
+        width: 119
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52a4e899fe0637b4d9a3230e3f00298c
+      internalID: -1850829092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 1418
+        width: 119
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 617ed4c5baa41654da33bed00a8750bf
+      internalID: 1574183884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 1418
+        width: 119
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2e9e41c66ba01c48a560deec4ad2119
+      internalID: 1884888500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 1418
+        width: 119
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 096d6091271006642ab81d65cbde12b0
+      internalID: 1653184900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 1418
+        width: 120
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 593a61f1125456445b0ece3384ddafcd
+      internalID: -1521751095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 1418
+        width: 119
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5651bd3f37c05c348ab343dfc3c5bab5
+      internalID: 51733542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 1418
+        width: 119
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04051dc4f75bd9746907303344ea9241
+      internalID: 1282269733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 1418
+        width: 119
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e469b716d6eb551458ceefb211f57298
+      internalID: 1461815555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 1418
+        width: 119
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20e25fbf7c97d6d47ad6917b5cc182bd
+      internalID: 23761219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 1418
+        width: 120
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c93c314cc3928a46880cb4fc88c977a
+      internalID: 586588262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_50
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 1418
+        width: 119
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 223c4bf0bf2d01c41981b443b926aba3
+      internalID: 317913399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_51
+      rect:
+        serializedVersion: 2
+        x: 1546
+        y: 1418
+        width: 120
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba1ab018126ee374c8961cc23ced903a
+      internalID: 1439558449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_52
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1261
+        width: 119
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df6b6e6d7ff122240879d6f0c6ae2353
+      internalID: -932991950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_53
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 1261
+        width: 120
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1025bad7a16de94a8294adbd9373478
+      internalID: -1583583679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_54
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1261
+        width: 120
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b931a9746f6786c4580c943228bd5e20
+      internalID: -265650734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_55
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 1261
+        width: 120
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce6941e7617c1194b88549dd18c01364
+      internalID: 804824148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_56
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 1261
+        width: 120
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e357f1b57bb10b545978c607823cf285
+      internalID: -1844866176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_57
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 1261
+        width: 120
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 248f88a6b4889f4409735969b460ed55
+      internalID: -821483870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_58
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 1261
+        width: 120
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b936ee34e046584cad1f92a1181038a
+      internalID: -1709115549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_59
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 1261
+        width: 120
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5efafa9950605534f86c518f1a66d224
+      internalID: 2135682238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_60
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 1261
+        width: 120
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7532683a78e85b45bf3f2b338f753eb
+      internalID: 1526501961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_61
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 1261
+        width: 120
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f4d11945aca3324f829d89d58a11d45
+      internalID: -665494373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_62
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 1261
+        width: 120
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88ec75fe9a1419242a4b2edf5ea99d79
+      internalID: -1766608954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_63
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 1261
+        width: 120
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 023f28a08fdbdf34ba1615fe510c16bb
+      internalID: -443646174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_64
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 1261
+        width: 120
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 340423819756cd14fb0ced7ff7b16f21
+      internalID: -1433765222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_65
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1103
+        width: 120
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88c12e2c9c586c64aa8837d5b107a79f
+      internalID: -1541131456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_66
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1103
+        width: 120
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efd259f7b7fd3be4b90111caa0257ee6
+      internalID: -1474418576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_67
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1103
+        width: 120
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fc61c36366a7d441afd8f3111a617c8
+      internalID: -1201520572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_68
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 1103
+        width: 120
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a05fae3edda8edb429c76b71e1426315
+      internalID: 368878675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_69
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 1103
+        width: 120
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06d7127696fe1e546a4a0b935100454f
+      internalID: 1677625634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_70
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 1103
+        width: 120
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83664d26019d97043ba2e42fba85c41d
+      internalID: 1994238452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_71
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 1103
+        width: 120
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14030a253d2ead846861e727ecfad448
+      internalID: 1766923726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_72
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 1103
+        width: 120
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5bfd375f4e611b4daf94ef6fb3ceef6
+      internalID: -483486789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_73
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 1103
+        width: 120
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25704e347bfe5d246811d7006a5783ee
+      internalID: 498092501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_74
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 1103
+        width: 120
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e892dbfcaf85c324d9dd8abeadc3634f
+      internalID: -159450217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_75
+      rect:
+        serializedVersion: 2
+        x: 1292
+        y: 1103
+        width: 120
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e742ea73a86996e4cb188232e2233715
+      internalID: -308080530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_76
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 1103
+        width: 120
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4205a0c90ef157440926995be2cdaaf5
+      internalID: -594071926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_77
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 1103
+        width: 120
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28416a57825293b43b223dcd7dfa97e2
+      internalID: 1873259314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_78
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 945
+        width: 120
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 008e2ec6b00d3e84484e6c2bdd493867
+      internalID: 1571927122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_79
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 945
+        width: 120
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff3b38d8324f95d41ba3fb8323bc15d0
+      internalID: -407104865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_80
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 945
+        width: 120
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 561433f5084653647833017256be5f94
+      internalID: 222806471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_81
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 945
+        width: 120
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64879347cec65da4096fc49199d3038d
+      internalID: 1233421563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_82
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 945
+        width: 120
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7720a35a0a32d64f9bc50d76bdab66e
+      internalID: 1495113137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_83
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 945
+        width: 120
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 813e5d45c27635d49a7944546cfefd0f
+      internalID: 318430863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_84
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 945
+        width: 120
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74858107df63abd4693756aea9fc8a26
+      internalID: 1728675394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_85
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 945
+        width: 121
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a48e772acba2964f9c04acabee2f667
+      internalID: -785905089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_86
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 945
+        width: 120
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c619bb6a0d1adbe41964d0c0a163a397
+      internalID: -1399441197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_87
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 945
+        width: 120
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd22adc4b6d097547920d79061d32d5c
+      internalID: -1988237814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_88
+      rect:
+        serializedVersion: 2
+        x: 1292
+        y: 945
+        width: 120
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b922c55c4551922459c8d4c1c172fe82
+      internalID: -1830866482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_89
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 945
+        width: 120
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1735c4e103477754b97a66951668c4cb
+      internalID: 1021747051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_90
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 945
+        width: 120
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bc4e1f1d334f8e41b2656e0430b15b2
+      internalID: -1913207741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_91
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 788
+        width: 121
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2af9932e5033f7449b731b64f85656ce
+      internalID: -950723315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_92
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 788
+        width: 120
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24a82b92837c4db4389b3293d2f70a65
+      internalID: 2132336008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_93
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 788
+        width: 120
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3edb87daa1f78b4f9d2e70bb0dc125f
+      internalID: 1724149145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_94
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 788
+        width: 121
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9145e303f5394b446b5f6648705867fc
+      internalID: -1230189549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_95
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 788
+        width: 120
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bedee41d8d65be4893bdff300293bb1
+      internalID: -1617816956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_96
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 788
+        width: 120
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7201f7e08eb2624f93a8a11040c29ae
+      internalID: -495794905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_97
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 788
+        width: 120
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b585e56eb2ca1474d8ebfd2a11c9c834
+      internalID: 307643012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_98
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 788
+        width: 120
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a34d8af0200a1a4894f55e75abb2410
+      internalID: 1838380339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_99
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 788
+        width: 120
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60a2419614ffc3a47abd0297fab4ec3b
+      internalID: -1356584389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_100
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 788
+        width: 120
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc26714901f0c814793287d345376f30
+      internalID: -1130182050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_101
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 788
+        width: 121
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 475ac4c39d52bc14ca30fac52a36308e
+      internalID: 1614424467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_102
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 788
+        width: 121
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab3d1c6817fb32a4f8951a2c0c3b2fbe
+      internalID: 1474952392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_103
+      rect:
+        serializedVersion: 2
+        x: 1547
+        y: 788
+        width: 120
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4501613f1c06e64b8d2a0571842322a
+      internalID: 510330123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_104
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 630
+        width: 120
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34f0c108c1d32b040a95e749ce658638
+      internalID: 1314921855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_105
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 630
+        width: 120
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fefd1f0ee77c3e40b41e37133fbda0f
+      internalID: 1705840973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_106
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 630
+        width: 121
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c479008aaff09fb458eb3ced6224660c
+      internalID: 1246867145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_107
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 630
+        width: 120
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 337829a843e58d94da3d84dc377db993
+      internalID: -239318895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_108
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 630
+        width: 120
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb12ffc07e70744c80b4c0a00649747
+      internalID: 1032662161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_109
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 630
+        width: 120
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d59c565acf9c8243974cb30cb32cce4
+      internalID: 2011955761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_110
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 630
+        width: 121
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 468060ad467b74a49862b532cbcc5c8d
+      internalID: -357388327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_111
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 630
+        width: 120
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7c5f57445255f540861823dd2bd5669
+      internalID: -332118600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_112
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 630
+        width: 120
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 390a1a95b79482541bb7b0ce17e69d6f
+      internalID: -1068563912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_113
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 630
+        width: 120
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20f529d1bbacdbb4b9ec459f1b04bdbb
+      internalID: -1129692657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_114
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 630
+        width: 120
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ab472f66d3abfc448a6014d6977b648
+      internalID: 1488008590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_115
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 630
+        width: 119
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 949f58235b3573a4d8a9f9c792738c9a
+      internalID: -326895104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_116
+      rect:
+        serializedVersion: 2
+        x: 1545
+        y: 630
+        width: 119
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 697aec0e5f2d25b46a7bbd6bb900c9fa
+      internalID: -1554185554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_117
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 473
+        width: 120
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fc8b52bb4ab1b142acd7e39f57c41d4
+      internalID: -742120536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_118
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 473
+        width: 120
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74b98238a3250574b8db52540576f03a
+      internalID: -1663981762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_119
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 473
+        width: 120
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a03507b3459dcdb43b58541aad932101
+      internalID: 730755539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_120
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 473
+        width: 119
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fee95fdbebf3b04b908b065d7633ff3
+      internalID: 2124435973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_121
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 473
+        width: 119
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cab820c1aae07d64dbaf11962faf55bf
+      internalID: 33242421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_122
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 473
+        width: 119
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9724ff1fb8499df4fb46441f601d3920
+      internalID: -1654060973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_123
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 473
+        width: 118
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8076f8427eacda40ba81bcdc40915d7
+      internalID: -278262366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_124
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 473
+        width: 118
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35dbdea7d210af34695c1cf0e42025c0
+      internalID: 1694822970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_125
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 473
+        width: 119
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ea08b9038e6da44a979d5f3a518ca4a
+      internalID: -692489235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_126
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 473
+        width: 119
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81b5db40cd06a844a8c1add37459d537
+      internalID: 2097108673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_127
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 473
+        width: 118
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7b17e0635ecd8f41b5879313699ca03
+      internalID: 139513679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_128
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 473
+        width: 118
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d5d2bec3c03e144980d9a9f496a4c2e
+      internalID: 1706501401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_129
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 473
+        width: 118
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91ba8334308150344be16c5dcebe94fd
+      internalID: -1891282530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_130
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 315
+        width: 118
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39ed89853c86420409e85d91fa6b627c
+      internalID: -840044277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_131
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 315
+        width: 118
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac6c36d1d66c27a49af1502b92f8123a
+      internalID: 1588247531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_132
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 315
+        width: 118
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f966ff39ea6d7df42a4267ec7edefffa
+      internalID: -1292854632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_133
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 315
+        width: 118
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91c1d47874b53f94789d1ecd893c45ac
+      internalID: -1447435167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_134
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 315
+        width: 118
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b354f7ef36f54af44b9a144ee0a87677
+      internalID: 564955126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_135
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 315
+        width: 117
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2973d502da2264469beea872adae95a
+      internalID: -454023529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_136
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 315
+        width: 117
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5845ee05c7a635c4981d14a93227c909
+      internalID: -293576205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_137
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 315
+        width: 117
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5b511fad60a1f243ad8d618cdb11294
+      internalID: 1857547722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_138
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 315
+        width: 118
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a191a927c29ea4469aa910fed636da4
+      internalID: -1739352099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_139
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 315
+        width: 117
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a62749d060995bf4e99313f36c37a6c5
+      internalID: 1141316292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_140
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 315
+        width: 117
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8ca035a1f468bf41917112eb0184f84
+      internalID: -2040410743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_141
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 315
+        width: 117
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47091a303984b884db61411be561894c
+      internalID: 874358496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_142
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 315
+        width: 117
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78132b44ad19e0043afbb7164a7f9c49
+      internalID: -582773134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_143
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 158
+        width: 117
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 832fffccdaae35247aa6ebd69d1359de
+      internalID: -850823929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_144
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 158
+        width: 117
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ef8c59992dda324aaacf6955d31a2b0
+      internalID: 281052738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_145
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 158
+        width: 116
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2957e2c1929c2034fadadf44c5db0343
+      internalID: 510480116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_146
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 158
+        width: 116
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a69e3c9493bb2e4886c4b173cc3c1ac
+      internalID: 91989104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_147
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 158
+        width: 117
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32fa1df3219878c42a9df6aece0ddd24
+      internalID: -1702075205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_148
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 158
+        width: 116
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0193e4686e2c8284c949fd2d6fae23d2
+      internalID: 1772352588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_149
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 158
+        width: 116
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21db5ea550fd8254db2be3036f2a7fb6
+      internalID: -571586704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_150
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 158
+        width: 117
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5409f3977d0ee349a85e6c394d48c85
+      internalID: -655331164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_151
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 158
+        width: 116
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e474a2b698d72743989f66a32394ec2
+      internalID: -1041574565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_152
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 158
+        width: 116
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0b8fbae020eded45993975a51f3aa8e
+      internalID: 102163664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_153
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 158
+        width: 117
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4b309e5df2687e4d8617bf5b24642a0
+      internalID: -756127632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_154
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 158
+        width: 116
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f19cbba23c02aba41b002748a657e522
+      internalID: -2124091577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_155
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 158
+        width: 116
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4c2b2ba7f580cc429edc7d7c2badbf4
+      internalID: 1993085394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_156
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 115
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b77c90ec10e02de4b9f936e436b32e9c
+      internalID: 656519162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_157
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 0
+        width: 116
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b23cbd1920841bb4fa80acb64697020d
+      internalID: -2099357494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_158
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 0
+        width: 116
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 088ec5bd2ade1974b93a569e1f5b90d6
+      internalID: -162406692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birch Tree Spritesheet_159
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 0
+        width: 115
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0f9e3c979681314c9a1398437cc48ef
+      internalID: 1114108292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Birch Tree Spritesheet_22: -716530092
+      Birch Tree Spritesheet_121: 33242421
+      Birch Tree Spritesheet_159: 1114108292
+      Birch Tree Spritesheet_11: 1118329368
+      Birch Tree Spritesheet_12: -1268374484
+      Birch Tree Spritesheet_30: -597183574
+      Birch Tree Spritesheet_31: -824835283
+      Birch Tree Spritesheet_107: -239318895
+      Birch Tree Spritesheet_33: -486683630
+      Birch Tree Spritesheet_134: 564955126
+      Birch Tree Spritesheet_148: 1772352588
+      Birch Tree Spritesheet_13: -863985673
+      Birch Tree Spritesheet_156: 656519162
+      Birch Tree Spritesheet_77: 1873259314
+      Birch Tree Spritesheet_83: 318430863
+      Birch Tree Spritesheet_135: -454023529
+      Birch Tree Spritesheet_119: 730755539
+      Birch Tree Spritesheet_122: -1654060973
+      Birch Tree Spritesheet_149: -571586704
+      Birch Tree Spritesheet_93: 1724149145
+      Birch Tree Spritesheet_64: -1433765222
+      Birch Tree Spritesheet_100: -1130182050
+      Birch Tree Spritesheet_136: -293576205
+      Birch Tree Spritesheet_144: 281052738
+      Birch Tree Spritesheet_7: -385013348
+      Birch Tree Spritesheet_50: 317913399
+      Birch Tree Spritesheet_126: 2097108673
+      Birch Tree Spritesheet_140: -2040410743
+      Birch Tree Spritesheet_16: 1914696771
+      Birch Tree Spritesheet_26: -164418803
+      Birch Tree Spritesheet_155: 1993085394
+      Birch Tree Spritesheet_124: 1694822970
+      Birch Tree Spritesheet_49: 586588262
+      Birch Tree Spritesheet_151: -1041574565
+      Birch Tree Spritesheet_56: -1844866176
+      Birch Tree Spritesheet_141: 874358496
+      Birch Tree Spritesheet_109: 2011955761
+      Birch Tree Spritesheet_44: -1521751095
+      Birch Tree Spritesheet_69: 1677625634
+      Birch Tree Spritesheet_94: -1230189549
+      Birch Tree Spritesheet_76: -594071926
+      Birch Tree Spritesheet_106: 1246867145
+      Birch Tree Spritesheet_132: -1292854632
+      Birch Tree Spritesheet_29: 1705940857
+      Birch Tree Spritesheet_108: 1032662161
+      Birch Tree Spritesheet_133: -1447435167
+      Birch Tree Spritesheet_127: 139513679
+      Birch Tree Spritesheet_147: -1702075205
+      Birch Tree Spritesheet_41: 1574183884
+      Birch Tree Spritesheet_35: -1852263285
+      Birch Tree Spritesheet_142: -582773134
+      Birch Tree Spritesheet_3: 122899623
+      Birch Tree Spritesheet_46: 1282269733
+      Birch Tree Spritesheet_152: 102163664
+      Birch Tree Spritesheet_53: -1583583679
+      Birch Tree Spritesheet_1: 2122213203
+      Birch Tree Spritesheet_139: 1141316292
+      Birch Tree Spritesheet_116: -1554185554
+      Birch Tree Spritesheet_125: -692489235
+      Birch Tree Spritesheet_43: 1653184900
+      Birch Tree Spritesheet_52: -932991950
+      Birch Tree Spritesheet_78: 1571927122
+      Birch Tree Spritesheet_18: -695230928
+      Birch Tree Spritesheet_71: 1766923726
+      Birch Tree Spritesheet_27: -471878571
+      Birch Tree Spritesheet_113: -1129692657
+      Birch Tree Spritesheet_129: -1891282530
+      Birch Tree Spritesheet_24: -405582451
+      Birch Tree Spritesheet_111: -332118600
+      Birch Tree Spritesheet_118: -1663981762
+      Birch Tree Spritesheet_55: 804824148
+      Birch Tree Spritesheet_66: -1474418576
+      Birch Tree Spritesheet_117: -742120536
+      Birch Tree Spritesheet_115: -326895104
+      Birch Tree Spritesheet_97: 307643012
+      Birch Tree Spritesheet_14: 1615212508
+      Birch Tree Spritesheet_15: 1062376899
+      Birch Tree Spritesheet_81: 1233421563
+      Birch Tree Spritesheet_32: 2137631781
+      Birch Tree Spritesheet_99: -1356584389
+      Birch Tree Spritesheet_112: -1068563912
+      Birch Tree Spritesheet_21: -1315030954
+      Birch Tree Spritesheet_154: -2124091577
+      Birch Tree Spritesheet_54: -265650734
+      Birch Tree Spritesheet_0: -34445382
+      Birch Tree Spritesheet_19: -1098778670
+      Birch Tree Spritesheet_40: -1850829092
+      Birch Tree Spritesheet_48: 23761219
+      Birch Tree Spritesheet_4: -843444963
+      Birch Tree Spritesheet_74: -159450217
+      Birch Tree Spritesheet_153: -756127632
+      Birch Tree Spritesheet_102: 1474952392
+      Birch Tree Spritesheet_68: 368878675
+      Birch Tree Spritesheet_45: 51733542
+      Birch Tree Spritesheet_59: 2135682238
+      Birch Tree Spritesheet_51: 1439558449
+      Birch Tree Spritesheet_110: -357388327
+      Birch Tree Spritesheet_138: -1739352099
+      Birch Tree Spritesheet_120: 2124435973
+      Birch Tree Spritesheet_2: -585483505
+      Birch Tree Spritesheet_80: 222806471
+      Birch Tree Spritesheet_75: -308080530
+      Birch Tree Spritesheet_96: -495794905
+      Birch Tree Spritesheet_37: -1230849654
+      Birch Tree Spritesheet_58: -1709115549
+      Birch Tree Spritesheet_47: 1461815555
+      Birch Tree Spritesheet_36: -1491247793
+      Birch Tree Spritesheet_145: 510480116
+      Birch Tree Spritesheet_57: -821483870
+      Birch Tree Spritesheet_131: 1588247531
+      Birch Tree Spritesheet_73: 498092501
+      Birch Tree Spritesheet_72: -483486789
+      Birch Tree Spritesheet_23: 754592107
+      Birch Tree Spritesheet_63: -443646174
+      Birch Tree Spritesheet_86: -1399441197
+      Birch Tree Spritesheet_84: 1728675394
+      Birch Tree Spritesheet_79: -407104865
+      Birch Tree Spritesheet_103: 510330123
+      Birch Tree Spritesheet_105: 1705840973
+      Birch Tree Spritesheet_60: 1526501961
+      Birch Tree Spritesheet_82: 1495113137
+      Birch Tree Spritesheet_101: 1614424467
+      Birch Tree Spritesheet_143: -850823929
+      Birch Tree Spritesheet_70: 1994238452
+      Birch Tree Spritesheet_157: -2099357494
+      Birch Tree Spritesheet_114: 1488008590
+      Birch Tree Spritesheet_146: 91989104
+      Birch Tree Spritesheet_28: -1272540540
+      Birch Tree Spritesheet_61: -665494373
+      Birch Tree Spritesheet_42: 1884888500
+      Birch Tree Spritesheet_38: -954870882
+      Birch Tree Spritesheet_158: -162406692
+      Birch Tree Spritesheet_130: -840044277
+      Birch Tree Spritesheet_67: -1201520572
+      Birch Tree Spritesheet_85: -785905089
+      Birch Tree Spritesheet_10: -2130208779
+      Birch Tree Spritesheet_98: 1838380339
+      Birch Tree Spritesheet_88: -1830866482
+      Birch Tree Spritesheet_20: -1554950816
+      Birch Tree Spritesheet_8: 1276827598
+      Birch Tree Spritesheet_123: -278262366
+      Birch Tree Spritesheet_92: 2132336008
+      Birch Tree Spritesheet_6: 714352945
+      Birch Tree Spritesheet_5: -348058001
+      Birch Tree Spritesheet_62: -1766608954
+      Birch Tree Spritesheet_90: -1913207741
+      Birch Tree Spritesheet_17: -1700028607
+      Birch Tree Spritesheet_9: 304870940
+      Birch Tree Spritesheet_128: 1706501401
+      Birch Tree Spritesheet_137: 1857547722
+      Birch Tree Spritesheet_34: 1717243547
+      Birch Tree Spritesheet_104: 1314921855
+      Birch Tree Spritesheet_25: 445677756
+      Birch Tree Spritesheet_95: -1617816956
+      Birch Tree Spritesheet_89: 1021747051
+      Birch Tree Spritesheet_39: -185323673
+      Birch Tree Spritesheet_87: -1988237814
+      Birch Tree Spritesheet_65: -1541131456
+      Birch Tree Spritesheet_91: -950723315
+      Birch Tree Spritesheet_150: -655331164
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -12,8 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56a719671207bb540a9def20c32f13de, type: 3}
   m_Name: Character1
   m_EditorClassIdentifier: 
-  sprite: {fileID: 21300000, guid: 1c9f059291987b04ba63d647321996ed, type: 3}
+  sprite: {fileID: -1466961620, guid: 0e541c98550902e47bbf6baadcbfd454, type: 3}
   footPrint: {fileID: 2493320650665387946, guid: ebbe35a8a3c608e499b305e7465a4444, type: 3}
   footPrintSprite: {fileID: 21300000, guid: c9a4d6e93d908114080fb40b2aaedf99, type: 3}
   name: Character1
-  species: Owl
