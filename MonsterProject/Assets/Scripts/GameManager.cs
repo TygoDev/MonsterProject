@@ -40,7 +40,8 @@ public class GameManager : MonoBehaviour
     [HideInInspector]
     public bool unlockCandy = false;
 
-    public int levelIndexToLoad; 
+    public int levelIndexToLoad;
+
     private void Awake()
     {
         if (instance == null)
@@ -64,6 +65,7 @@ public class GameManager : MonoBehaviour
 
     private void ChangedActiveScene(Scene current, Scene next)
     {
+
         if (next.name.Contains("Level")) //change to level, we will call the scenes with puzzles Level_number
         {
             candyCount = 0;

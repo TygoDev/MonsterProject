@@ -17,6 +17,7 @@ TagManager:
   - Bullet
   - CandyCount
   - Lifes
+  - UI_Input
   layers:
   - Default
   - TransparentFX

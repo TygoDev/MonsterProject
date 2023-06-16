@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 301275055}
   m_Layer: 0
   m_Name: MultiplayerEventSystemP1
-  m_TagString: Untagged
+  m_TagString: UI_Input
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1257,7 +1257,7 @@ GameObject:
   - component: {fileID: 1928921423}
   m_Layer: 0
   m_Name: MultiplayerEventSystemP2
-  m_TagString: Untagged
+  m_TagString: UI_Input
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

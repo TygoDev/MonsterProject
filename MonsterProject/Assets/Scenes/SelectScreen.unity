@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 247308764}
   m_Layer: 0
   m_Name: MultiplayerEventSystemP1
-  m_TagString: Untagged
+  m_TagString: UI_Input
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -434,7 +434,7 @@ GameObject:
   - component: {fileID: 531660938}
   m_Layer: 0
   m_Name: MultiplayerEventSystemP2
-  m_TagString: Untagged
+  m_TagString: UI_Input
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -929,6 +929,7 @@ MonoBehaviour:
   hasToChangeTheSceneIndex: 0
   hasToLoadALevel: 0
   levelIndexToLoadInCharacterScreen: 0
+  isStartButton: 0
 --- !u!1 &1390968458
 GameObject:
   m_ObjectHideFlags: 0
@@ -1203,6 +1204,7 @@ MonoBehaviour:
   hasToChangeTheSceneIndex: 0
   hasToLoadALevel: 1
   levelIndexToLoadInCharacterScreen: 4
+  isStartButton: 0
 --- !u!1 &1879161441
 GameObject:
   m_ObjectHideFlags: 0

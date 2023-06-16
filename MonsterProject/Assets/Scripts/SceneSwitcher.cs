@@ -22,6 +22,14 @@ public class SceneSwitcher : MonoBehaviour
 
     public void SwitchToScene(int index)
     {
-        SceneManager.LoadSceneAsync(sceneBuildIndex: index);
+        var asyncLoad = SceneManager.LoadSceneAsync(sceneBuildIndex: index);
+        if(!asyncLoad.isDone)
+        {
+            var a = GameObject.FindGameObjectsWithTag(Tags.T_UISCInput);
+            foreach(var b in a)
+            {
+                Destroy(b);
+            }
+        }
     }
 }
