@@ -159,7 +159,7 @@ MonoBehaviour:
     name: Grass 3
   - gameObject: {fileID: 1153805481429910794, guid: b39976bc5b42390488f45db0fc1ed44c, type: 3}
     settings:
-      m_Strength: 50
+      m_Strength: 54.15966
       m_RotationRangeMin: {x: 0, y: 0, z: 0}
       m_RotationRangeMax: {x: 0, y: 0, z: 0}
       m_ScaleRangeMin: {x: 1, y: 1, z: 1}
