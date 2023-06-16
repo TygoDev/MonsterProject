@@ -207,10 +207,10 @@ public class Movement : MonoBehaviour
 
     IEnumerator SpawnBullet()
     {
-        float x = Mathf.Cos(angle);
-        float y = Mathf.Sin(angle);
-        var bullet = Instantiate(bulletPrefab, this.transform.position + new Vector3(x, y, 0) * 2f /*+ ((Vector3)lastDirection * 2f)*/, Quaternion.identity);
-        bullet.GetComponent<Rigidbody>().velocity = /*(Vector3)lastDirection*/ new Vector3(x, y, 0) * Time.deltaTime * (Speed * 7f);
+        //float x = Mathf.Cos(angle);
+        //float y = Mathf.Sin(angle);
+        var bullet = Instantiate(bulletPrefab, this.transform.position + new Vector3(0, 1, 0) * 2f /*+ ((Vector3)lastDirection * 2f)*/, Quaternion.identity);
+        bullet.GetComponent<Rigidbody>().velocity = /*(Vector3)lastDirection*/ new Vector3(0, 1, 0) * Time.deltaTime * (Speed * 7f);
         yield return new WaitForSeconds(1f);
         canShoot = true;
     }
