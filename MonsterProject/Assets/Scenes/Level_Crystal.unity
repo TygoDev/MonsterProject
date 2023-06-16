@@ -5064,7 +5064,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fadeSpeed: 5
   fadeAmount: 0.2
-  doFade: 0
 --- !u!1 &448212656
 GameObject:
   m_ObjectHideFlags: 0
@@ -5677,7 +5676,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fadeSpeed: 5
   fadeAmount: 0.2
-  doFade: 0
 --- !u!114 &515664049
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9132,7 +9130,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fadeSpeed: 5
   fadeAmount: 0.2
-  doFade: 0
 --- !u!1001 &803697653
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9244,7 +9241,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fadeSpeed: 5
   fadeAmount: 0.2
-  doFade: 0
 --- !u!114 &815633388
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10098,7 +10094,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fadeSpeed: 5
   fadeAmount: 0.2
-  doFade: 0
 --- !u!1 &892350661
 GameObject:
   m_ObjectHideFlags: 0
@@ -10892,7 +10887,7 @@ GameObject:
   - component: {fileID: 969172020}
   m_Layer: 0
   m_Name: MultiplayerEventSystemP2
-  m_TagString: Untagged
+  m_TagString: UI_Input
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17777,7 +17772,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fadeSpeed: 5
   fadeAmount: 0.2
-  doFade: 0
 --- !u!1 &1170839130
 GameObject:
   m_ObjectHideFlags: 0
@@ -17828,7 +17822,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fadeSpeed: 5
   fadeAmount: 0.2
-  doFade: 0
 --- !u!114 &1170839133
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23259,7 +23252,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fadeSpeed: 5
   fadeAmount: 0.2
-  doFade: 0
 --- !u!4 &1623274682 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5070771944559412094, guid: b6753ae11c47c1345a4b92fc9187b77d, type: 3}
@@ -24428,7 +24420,7 @@ GameObject:
   - component: {fileID: 1765418853}
   m_Layer: 0
   m_Name: MultiplayerEventSystemP1
-  m_TagString: Untagged
+  m_TagString: UI_Input
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -69672,7 +69664,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fadeSpeed: 5
   fadeAmount: 0.2
-  doFade: 0
 --- !u!114 &1948143995
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -70706,7 +70697,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fadeSpeed: 5
   fadeAmount: 0.2
-  doFade: 0
 --- !u!1001 &2079405025
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -71085,7 +71075,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fadeSpeed: 5
   fadeAmount: 0.2
-  doFade: 0
 --- !u!4 &2094989808 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2872044557756817003, guid: 8229ef9f12c552e44a0ec04bf179baf0, type: 3}
