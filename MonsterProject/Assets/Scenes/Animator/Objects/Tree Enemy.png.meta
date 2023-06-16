@@ -1,0 +1,761 @@
+fileFormatVersion: 2
+guid: 1411c769e2b48764f9d28ed9372d81fb
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tree Enemy_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1142.4
+        width: 341.33334
+        height: 285.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df307be988c968e43a2e72347f73dedf
+      internalID: -22365103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree Enemy_1
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1142.4
+        width: 341.33334
+        height: 285.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f059c312d7e7d8a48bc2d3fbe0d6b79e
+      internalID: -1313197560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree Enemy_2
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 1142.4
+        width: 341.33334
+        height: 285.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4dd9367b1fd63f4094468783cb8a537
+      internalID: 329366865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree Enemy_3
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 1142.4
+        width: 341.33334
+        height: 285.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03d924fed938bdc4ca08790af91a3a41
+      internalID: 1190772222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree Enemy_4
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 1142.4
+        width: 341.33334
+        height: 285.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30d7c8d0cf386f444911a419fef587f1
+      internalID: 1309568608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree Enemy_5
+      rect:
+        serializedVersion: 2
+        x: 1705
+        y: 1142.4
+        width: 341.33334
+        height: 285.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b3571b35950b2c468a1468f642b17ef
+      internalID: -1674534138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree Enemy_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 857.4
+        width: 341.33334
+        height: 285.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc4ea76ef3db94c4a8a627d2f5033786
+      internalID: 960160401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree Enemy_7
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 857.4
+        width: 341.33334
+        height: 285.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 179a10923bce7f94798e6db8b5a8a3c7
+      internalID: 1392320502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree Enemy_8
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 857.4
+        width: 341.33334
+        height: 285.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bae8df9ff9689d9438a7150ed4f33b75
+      internalID: -1922676198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree Enemy_9
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 857.4
+        width: 341.33334
+        height: 285.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf963f4887444344eb3e913a0c087d16
+      internalID: 1750475538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree Enemy_10
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 857.4
+        width: 341.33334
+        height: 285.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aa84aefedeed5d4c8129bbe0c1c1e94
+      internalID: 879286668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree Enemy_11
+      rect:
+        serializedVersion: 2
+        x: 1705
+        y: 857.4
+        width: 341.33334
+        height: 285.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e27c36c74c0c9164aa10a83e85d7fc0f
+      internalID: 215670680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree Enemy_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 572.4
+        width: 341.33334
+        height: 285.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c5718c5054ffa443843b6bbb00fa0f7
+      internalID: -583615648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree Enemy_13
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 572.4
+        width: 341.33334
+        height: 285.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1cbe96803511db4a8420c3d9b746aa6
+      internalID: -1573260790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree Enemy_14
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 572.4
+        width: 341.33334
+        height: 285.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ce22884b6fc9a8489a6ec3b0566c557
+      internalID: 1718746677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree Enemy_15
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 572.4
+        width: 341.33334
+        height: 285.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e23bcc719ed76544bc4f5ba35b7dcb4
+      internalID: 452402854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree Enemy_16
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 572.4
+        width: 341.33334
+        height: 285.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 259d7e2ee0a57d94dba620c84be7282d
+      internalID: -1955155103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree Enemy_17
+      rect:
+        serializedVersion: 2
+        x: 1705
+        y: 572.4
+        width: 341.33334
+        height: 285.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ca29e6c4c09f0a43ac30d754f18a509
+      internalID: 1282665714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree Enemy_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 287.4
+        width: 341.33334
+        height: 285.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1562dd9d785dd04a84f599f2d36beaf
+      internalID: 1193921721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree Enemy_19
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 287.4
+        width: 341.33334
+        height: 285.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9daae9d9804951c4f8a72a50911e3f2f
+      internalID: -886118921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree Enemy_20
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 287.4
+        width: 341.33334
+        height: 285.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd7d944a2f49c6744a959864b41b8cfd
+      internalID: -1050841551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree Enemy_21
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 287.4
+        width: 341.33334
+        height: 285.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 798711be74aceef419075fe5a49a2990
+      internalID: 459541443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree Enemy_22
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 287.4
+        width: 341.33334
+        height: 285.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecd7fcba1b425034490aa8f7fad384a9
+      internalID: -141145364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree Enemy_23
+      rect:
+        serializedVersion: 2
+        x: 1705
+        y: 287.4
+        width: 341.33334
+        height: 285.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 833866e8a41700a42900311cf2c4e45c
+      internalID: -1120032073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree Enemy_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2.399994
+        width: 341.33334
+        height: 285.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7af4023cedeb7674195e0c294bf0df54
+      internalID: 1639031428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree Enemy_25
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 2.399994
+        width: 341.33334
+        height: 285.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2696f29444db9eb44a0276bcfbb33b83
+      internalID: -1871728219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree Enemy_26
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 2.399994
+        width: 341.33334
+        height: 285.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0260a9047a292b941b56f35f5b6c6da3
+      internalID: 1491854551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree Enemy_27
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 2.399994
+        width: 341.33334
+        height: 285.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f598acd6f1da9447ada88cf709be34a
+      internalID: 1522179333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree Enemy_28
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 2.399994
+        width: 341.33334
+        height: 285.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49a9d91c39dd6544d8828747cc19ae58
+      internalID: 1677464098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Tree Enemy_16: -1955155103
+      Tree Enemy_7: 1392320502
+      Tree Enemy_11: 215670680
+      Tree Enemy_26: 1491854551
+      Tree Enemy_10: 879286668
+      Tree Enemy_15: 452402854
+      Tree Enemy_9: 1750475538
+      Tree Enemy_1: -1313197560
+      Tree Enemy_21: 459541443
+      Tree Enemy_2: 329366865
+      Tree Enemy_24: 1639031428
+      Tree Enemy_0: -22365103
+      Tree Enemy_23: -1120032073
+      Tree Enemy_6: 960160401
+      Tree Enemy_8: -1922676198
+      Tree Enemy_12: -583615648
+      Tree Enemy_14: 1718746677
+      Tree Enemy_4: 1309568608
+      Tree Enemy_25: -1871728219
+      Tree Enemy_20: -1050841551
+      Tree Enemy_3: 1190772222
+      Tree Enemy_5: -1674534138
+      Tree Enemy_17: 1282665714
+      Tree Enemy_27: 1522179333
+      Tree Enemy_22: -141145364
+      Tree Enemy_18: 1193921721
+      Tree Enemy_28: 1677464098
+      Tree Enemy_19: -886118921
+      Tree Enemy_13: -1573260790
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -111,12 +111,12 @@ MonoBehaviour:
     name: Fluorecent Flower Grass
   - gameObject: {fileID: 6592741736662349631, guid: 2f93206a4f826f84eb36198c329a09a2, type: 3}
     settings:
-      m_Strength: 50
+      m_Strength: 100
       m_RotationRangeMin: {x: 0, y: 0, z: 0}
       m_RotationRangeMax: {x: 0, y: 0, z: 0}
       m_ScaleRangeMin: {x: 1, y: 1, z: 1}
       m_ScaleRangeMax: {x: 1, y: 1, z: 1}
-      m_UniformScale: {x: 1, y: 1}
+      m_UniformScale: {x: 0.5, y: 0.5}
       m_UniformBool: 1
       m_XRotationBool: 0
       m_YRotationBool: 0
@@ -127,12 +127,12 @@ MonoBehaviour:
     name: Grass 1
   - gameObject: {fileID: 7846962429983898905, guid: 86ae912a1f541064dbaf73f69f861b16, type: 3}
     settings:
-      m_Strength: 44.26051
+      m_Strength: 100
       m_RotationRangeMin: {x: 0, y: 0, z: 0}
       m_RotationRangeMax: {x: 0, y: 0, z: 0}
       m_ScaleRangeMin: {x: 1, y: 1, z: 1}
       m_ScaleRangeMax: {x: 1, y: 1, z: 1}
-      m_UniformScale: {x: 1, y: 1}
+      m_UniformScale: {x: 0.5, y: 0.5}
       m_UniformBool: 1
       m_XRotationBool: 0
       m_YRotationBool: 0
@@ -143,12 +143,12 @@ MonoBehaviour:
     name: Grass 2
   - gameObject: {fileID: 9133965602843909990, guid: cb3067c1c2a24f9479718d87a1e680dd, type: 3}
     settings:
-      m_Strength: 50
+      m_Strength: 62.978996
       m_RotationRangeMin: {x: 0, y: 0, z: 0}
       m_RotationRangeMax: {x: 0, y: 0, z: 0}
       m_ScaleRangeMin: {x: 1, y: 1, z: 1}
       m_ScaleRangeMax: {x: 1, y: 1, z: 1}
-      m_UniformScale: {x: 1, y: 1}
+      m_UniformScale: {x: 0.5, y: 0.5}
       m_UniformBool: 1
       m_XRotationBool: 0
       m_YRotationBool: 0
@@ -159,12 +159,12 @@ MonoBehaviour:
     name: Grass 3
   - gameObject: {fileID: 1153805481429910794, guid: b39976bc5b42390488f45db0fc1ed44c, type: 3}
     settings:
-      m_Strength: 50
+      m_Strength: 38.021008
       m_RotationRangeMin: {x: 0, y: 0, z: 0}
       m_RotationRangeMax: {x: 0, y: 0, z: 0}
       m_ScaleRangeMin: {x: 1, y: 1, z: 1}
       m_ScaleRangeMax: {x: 1, y: 1, z: 1}
-      m_UniformScale: {x: 1, y: 1}
+      m_UniformScale: {x: 0.5, y: 0.5}
       m_UniformBool: 1
       m_XRotationBool: 0
       m_YRotationBool: 0
@@ -196,7 +196,7 @@ MonoBehaviour:
       m_RotationRangeMax: {x: 0, y: 0, z: 0}
       m_ScaleRangeMin: {x: 1, y: 1, z: 1}
       m_ScaleRangeMax: {x: 1, y: 1, z: 1}
-      m_UniformScale: {x: 1, y: 1}
+      m_UniformScale: {x: 0.5, y: 0.5}
       m_UniformBool: 1
       m_XRotationBool: 0
       m_YRotationBool: 0
