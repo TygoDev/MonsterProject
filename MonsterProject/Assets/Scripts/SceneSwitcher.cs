@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
 [DisallowMultipleComponent]
@@ -22,14 +23,22 @@ public class SceneSwitcher : MonoBehaviour
 
     public void SwitchToScene(int index)
     {
-        var asyncLoad = SceneManager.LoadSceneAsync(sceneBuildIndex: index);
-        if(!asyncLoad.isDone)
+        if(readValue == 0)
+        Debug.Log("I am swiching the scene");
+        /*var asyncLoad = */SceneManager.LoadSceneAsync(sceneBuildIndex: index);
+        /*if(!asyncLoad.isDone)
         {
             var a = GameObject.FindGameObjectsWithTag(Tags.T_UISCInput);
             foreach(var b in a)
             {
                 Destroy(b);
             }
-        }
+        }*/
+    }
+
+    public float readValue;
+    public void ReturnPressedValue(InputAction.CallbackContext context)
+    {
+        readValue = context.ReadValue<float>();
     }
 }

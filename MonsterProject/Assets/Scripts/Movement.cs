@@ -176,10 +176,10 @@ public class Movement : MonoBehaviour
     IEnumerator SpawnFootSteps()
     {
         audioSource.Play();
-        var footstep = Instantiate(footstepPrefab, transform.position/* - (Vector3)lastDirection*/, Quaternion.identity);
+        var footstep = Instantiate(footstepPrefab, transform.position - (Vector3)lastDirection / 2, Quaternion.identity);
         footstep.transform.rotation = Quaternion.Euler(0,0, Vector2.Angle(Vector2.up, lastDirection));
         footstep.transform.position = new Vector3(footstep.transform.position.x, footstep.transform.position.y, 0.1f);
-        yield return new WaitForSeconds(0.4f);
+        yield return new WaitForSeconds(0.3f);
         coroutineForFootsteps = null;
     }
     public void Dash()
@@ -281,10 +281,11 @@ public class Movement : MonoBehaviour
 
     public void DropCandy()
     {
+        if (GameManager.Instance.candyCountText == null)
+            return;
         var a = Mathf.Min(3, numCoins);
         GameManager.Instance.candyCount -= a;
         numCoins -= a;
-
 
         for (int i = 0; i < a; i++)
         {
