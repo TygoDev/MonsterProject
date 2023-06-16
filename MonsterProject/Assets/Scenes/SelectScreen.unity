@@ -294,7 +294,7 @@ MonoBehaviour:
   m_ActionsAsset: {fileID: -944628639613478452, guid: b1fcaa3a6c05695459f897467d874bfc, type: 3}
   m_PointAction: {fileID: 3994891341432167269, guid: b1fcaa3a6c05695459f897467d874bfc, type: 3}
   m_MoveAction: {fileID: -8927884776064213243, guid: b1fcaa3a6c05695459f897467d874bfc, type: 3}
-  m_SubmitAction: {fileID: 6404477676070018807, guid: b1fcaa3a6c05695459f897467d874bfc, type: 3}
+  m_SubmitAction: {fileID: 7775362188030698855, guid: b1fcaa3a6c05695459f897467d874bfc, type: 3}
   m_CancelAction: {fileID: -374488623878963215, guid: b1fcaa3a6c05695459f897467d874bfc, type: 3}
   m_LeftClickAction: {fileID: 61761068147153223, guid: b1fcaa3a6c05695459f897467d874bfc, type: 3}
   m_MiddleClickAction: {fileID: 4860377902353646900, guid: b1fcaa3a6c05695459f897467d874bfc, type: 3}
@@ -603,7 +603,7 @@ MonoBehaviour:
   m_ActionsAsset: {fileID: -944628639613478452, guid: b1fcaa3a6c05695459f897467d874bfc, type: 3}
   m_PointAction: {fileID: 3994891341432167269, guid: b1fcaa3a6c05695459f897467d874bfc, type: 3}
   m_MoveAction: {fileID: -8927884776064213243, guid: b1fcaa3a6c05695459f897467d874bfc, type: 3}
-  m_SubmitAction: {fileID: 6404477676070018807, guid: b1fcaa3a6c05695459f897467d874bfc, type: 3}
+  m_SubmitAction: {fileID: 7775362188030698855, guid: b1fcaa3a6c05695459f897467d874bfc, type: 3}
   m_CancelAction: {fileID: -374488623878963215, guid: b1fcaa3a6c05695459f897467d874bfc, type: 3}
   m_LeftClickAction: {fileID: 61761068147153223, guid: b1fcaa3a6c05695459f897467d874bfc, type: 3}
   m_MiddleClickAction: {fileID: 4860377902353646900, guid: b1fcaa3a6c05695459f897467d874bfc, type: 3}
@@ -775,6 +775,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e000ad2b4b6a7c046b40d0693a2ea18d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  readValue: 0
 --- !u!4 &1030559904
 Transform:
   m_ObjectHideFlags: 0

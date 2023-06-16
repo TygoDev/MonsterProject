@@ -19,8 +19,8 @@ public class Tutorial : MonoBehaviour
 
     private void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Space))
-            NextText();
+        /*if(Input.GetKeyDown(KeyCode.Space))
+            NextText();*/
     }
 
     public void NextText()

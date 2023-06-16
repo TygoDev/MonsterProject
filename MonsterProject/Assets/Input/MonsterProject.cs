@@ -33,7 +33,7 @@ public partial class @MonsterProject : IInputActionCollection2, IDisposable
                     ""id"": ""69b60268-4609-424c-9530-15b7f98b2b7e"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
-                    ""interactions"": """",
+                    ""interactions"": ""Press"",
                     ""initialStateCheck"": false
                 },
                 {
@@ -42,7 +42,7 @@ public partial class @MonsterProject : IInputActionCollection2, IDisposable
                     ""id"": ""03130026-8b55-4370-86ff-474db6dc161c"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
-                    ""interactions"": """",
+                    ""interactions"": ""Press(behavior=1)"",
                     ""initialStateCheck"": false
                 },
                 {
@@ -51,7 +51,7 @@ public partial class @MonsterProject : IInputActionCollection2, IDisposable
                     ""id"": ""1434aa1f-7052-43bc-97d7-fdb4034456f8"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
-                    ""interactions"": """",
+                    ""interactions"": ""Press"",
                     ""initialStateCheck"": false
                 },
                 {
@@ -60,7 +60,7 @@ public partial class @MonsterProject : IInputActionCollection2, IDisposable
                     ""id"": ""df691eec-2fe1-4e66-b85b-a634550a635c"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
-                    ""interactions"": """",
+                    ""interactions"": ""Press"",
                     ""initialStateCheck"": false
                 },
                 {
@@ -69,7 +69,7 @@ public partial class @MonsterProject : IInputActionCollection2, IDisposable
                     ""id"": ""da70cfa8-be8a-42a2-a871-d59c23784213"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
-                    ""interactions"": """",
+                    ""interactions"": ""Press"",
                     ""initialStateCheck"": false
                 },
                 {
@@ -78,7 +78,7 @@ public partial class @MonsterProject : IInputActionCollection2, IDisposable
                     ""id"": ""ffb14faf-05ab-4f98-b415-850ad95092c2"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
-                    ""interactions"": """",
+                    ""interactions"": ""Press"",
                     ""initialStateCheck"": false
                 },
                 {
@@ -87,7 +87,7 @@ public partial class @MonsterProject : IInputActionCollection2, IDisposable
                     ""id"": ""a77b9cc1-3512-45bd-8b7d-35a5c2d525b8"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
-                    ""interactions"": """",
+                    ""interactions"": ""Press"",
                     ""initialStateCheck"": false
                 },
                 {
@@ -96,7 +96,7 @@ public partial class @MonsterProject : IInputActionCollection2, IDisposable
                     ""id"": ""318e1e9f-f3ac-458c-9833-5a9ddff2610e"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
-                    ""interactions"": """",
+                    ""interactions"": ""Press"",
                     ""initialStateCheck"": false
                 }
             ],
@@ -281,6 +281,15 @@ public partial class @MonsterProject : IInputActionCollection2, IDisposable
                     ""type"": ""PassThrough"",
                     ""id"": ""1756b39a-e3b1-4fce-80a9-749482d295d0"",
                     ""expectedControlType"": ""Quaternion"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Start"",
+                    ""type"": ""Button"",
+                    ""id"": ""b269bb0d-308d-40f4-a5f9-aa04606f258c"",
+                    ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
@@ -554,8 +563,8 @@ public partial class @MonsterProject : IInputActionCollection2, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""9e92bb26-7e3b-4ec4-b06b-3c8f8e498ddc"",
-                    ""path"": ""*/{Submit}"",
-                    ""interactions"": """",
+                    ""path"": ""<HID::usb gamepad           >/button2"",
+                    ""interactions"": ""Press(behavior=1)"",
                     ""processors"": """",
                     ""groups"": ""Keyboard&Mouse;Gamepad;Touch;Joystick;XR"",
                     ""action"": ""Submit"",
@@ -565,8 +574,8 @@ public partial class @MonsterProject : IInputActionCollection2, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""82627dcc-3b13-4ba9-841d-e4b746d6553e"",
-                    ""path"": ""*/{Cancel}"",
-                    ""interactions"": """",
+                    ""path"": ""<HID::usb gamepad           >/button9"",
+                    ""interactions"": ""Press(behavior=1)"",
                     ""processors"": """",
                     ""groups"": ""Keyboard&Mouse;Gamepad;Touch;Joystick;XR"",
                     ""action"": ""Cancel"",
@@ -704,6 +713,17 @@ public partial class @MonsterProject : IInputActionCollection2, IDisposable
                     ""action"": ""TrackedDeviceOrientation"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""fa2a56a4-4aa0-4779-bcc5-2a5928deaf17"",
+                    ""path"": ""<HID::usb gamepad           >/button10"",
+                    ""interactions"": ""Press(behavior=1)"",
+                    ""processors"": """",
+                    ""groups"": ""Joystick"",
+                    ""action"": ""Start"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -793,6 +813,7 @@ public partial class @MonsterProject : IInputActionCollection2, IDisposable
         m_UI_RightClick = m_UI.FindAction("RightClick", throwIfNotFound: true);
         m_UI_TrackedDevicePosition = m_UI.FindAction("TrackedDevicePosition", throwIfNotFound: true);
         m_UI_TrackedDeviceOrientation = m_UI.FindAction("TrackedDeviceOrientation", throwIfNotFound: true);
+        m_UI_Start = m_UI.FindAction("Start", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -951,6 +972,7 @@ public partial class @MonsterProject : IInputActionCollection2, IDisposable
     private readonly InputAction m_UI_RightClick;
     private readonly InputAction m_UI_TrackedDevicePosition;
     private readonly InputAction m_UI_TrackedDeviceOrientation;
+    private readonly InputAction m_UI_Start;
     public struct UIActions
     {
         private @MonsterProject m_Wrapper;
@@ -965,6 +987,7 @@ public partial class @MonsterProject : IInputActionCollection2, IDisposable
         public InputAction @RightClick => m_Wrapper.m_UI_RightClick;
         public InputAction @TrackedDevicePosition => m_Wrapper.m_UI_TrackedDevicePosition;
         public InputAction @TrackedDeviceOrientation => m_Wrapper.m_UI_TrackedDeviceOrientation;
+        public InputAction @Start => m_Wrapper.m_UI_Start;
         public InputActionMap Get() { return m_Wrapper.m_UI; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -1004,6 +1027,9 @@ public partial class @MonsterProject : IInputActionCollection2, IDisposable
                 @TrackedDeviceOrientation.started -= m_Wrapper.m_UIActionsCallbackInterface.OnTrackedDeviceOrientation;
                 @TrackedDeviceOrientation.performed -= m_Wrapper.m_UIActionsCallbackInterface.OnTrackedDeviceOrientation;
                 @TrackedDeviceOrientation.canceled -= m_Wrapper.m_UIActionsCallbackInterface.OnTrackedDeviceOrientation;
+                @Start.started -= m_Wrapper.m_UIActionsCallbackInterface.OnStart;
+                @Start.performed -= m_Wrapper.m_UIActionsCallbackInterface.OnStart;
+                @Start.canceled -= m_Wrapper.m_UIActionsCallbackInterface.OnStart;
             }
             m_Wrapper.m_UIActionsCallbackInterface = instance;
             if (instance != null)
@@ -1038,6 +1064,9 @@ public partial class @MonsterProject : IInputActionCollection2, IDisposable
                 @TrackedDeviceOrientation.started += instance.OnTrackedDeviceOrientation;
                 @TrackedDeviceOrientation.performed += instance.OnTrackedDeviceOrientation;
                 @TrackedDeviceOrientation.canceled += instance.OnTrackedDeviceOrientation;
+                @Start.started += instance.OnStart;
+                @Start.performed += instance.OnStart;
+                @Start.canceled += instance.OnStart;
             }
         }
     }
@@ -1110,5 +1139,6 @@ public partial class @MonsterProject : IInputActionCollection2, IDisposable
         void OnRightClick(InputAction.CallbackContext context);
         void OnTrackedDevicePosition(InputAction.CallbackContext context);
         void OnTrackedDeviceOrientation(InputAction.CallbackContext context);
+        void OnStart(InputAction.CallbackContext context);
     }
 }
