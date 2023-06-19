@@ -80,7 +80,7 @@ public class GameManager : MonoBehaviour
             }
             GameObject[] spawns = GameObject.FindGameObjectsWithTag(Tags.T_Spawn);
             GameObject[] lifes = GameObject.FindGameObjectsWithTag(Tags.T_Lifes);
-            if (playerPrefab != null)
+            if (playerPrefab != null && SceneManager.GetActiveScene().name != "Level_Selection")
             {
                 var p1 = PlayerInput.Instantiate(playerPrefab, controlScheme: "Joystick", pairWithDevice: Joystick.all[1]);
                 var p2 = PlayerInput.Instantiate(playerPrefab, controlScheme: "Joystick", pairWithDevice: Joystick.all[0]);
@@ -107,7 +107,6 @@ public class GameManager : MonoBehaviour
                         p2.GetComponent<Movement>().checkpoint = spawns[i].transform;
                     }
                 }
-
                 for (int i = 0; i < lifes.Length; i++)
                 {
                     if (lifes[i].name.Contains("1"))
