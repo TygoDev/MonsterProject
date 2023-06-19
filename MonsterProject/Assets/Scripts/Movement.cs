@@ -50,7 +50,6 @@ public class Movement : MonoBehaviour
     bool canShoot = true;
     float angle = 0f;
     float orbitSpeed = 2f;
-    [SerializeField] Transform targetToSpin;
 
     public List<Transform> canvasLives = new List<Transform>();
 
@@ -167,10 +166,6 @@ public class Movement : MonoBehaviour
 
 
         transform.position = new Vector3(transform.position.x, transform.position.y, -0.4f);
-
-        angle = Time.time * orbitSpeed;
-
-        targetToSpin.position = this.transform.position + new Vector3(Mathf.Cos(angle), Mathf.Sin(angle), 0);
     }
 
     IEnumerator SpawnFootSteps()
