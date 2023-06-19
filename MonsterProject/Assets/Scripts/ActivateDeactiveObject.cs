@@ -40,7 +40,7 @@ public class ActivateDeactiveObject : MonoBehaviour
 
         yield return new WaitForSeconds(delayAmount);
 
-        if (objectToChange != null)
+        if (objectToChange != null) 
             objectToChange.SetActive(boolToggle(objectToChange.activeInHierarchy));
 
         if (ObjectsToChange.Count > 0)

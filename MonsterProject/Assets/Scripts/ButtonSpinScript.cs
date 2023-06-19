@@ -8,16 +8,22 @@ public class ButtonSpinScript : MonoBehaviour
 
     public List<RotatingObstacle> childrenThatRotate = new List<RotatingObstacle>();
 
+    int numOfPlayersOnButton = 0;
+
     private void OnTriggerEnter(Collider other)
     {
         if(other.CompareTag(Tags.T_Player))
         {
-            parentObject.stop = false;
-
-            foreach(var child in childrenThatRotate)
+            numOfPlayersOnButton++;
+            if (numOfPlayersOnButton == 1)
             {
-                child.stop = true;
-                child.gameObject.transform.rotation = Quaternion.identity;
+                parentObject.stop = false;
+
+                foreach (var child in childrenThatRotate)
+                {
+                    child.stop = true;
+                    child.gameObject.transform.rotation = Quaternion.identity;
+                }
             }
         }
     }
@@ -26,11 +32,15 @@ public class ButtonSpinScript : MonoBehaviour
     {
         if(other.CompareTag(Tags.T_Player))
         {
-            parentObject.stop = true;
-
-            foreach (var child in childrenThatRotate)
+            numOfPlayersOnButton--;
+            if (numOfPlayersOnButton == 0)
             {
-                child.stop = false;
+                parentObject.stop = true;
+
+                foreach (var child in childrenThatRotate)
+                {
+                    child.stop = false;
+                }
             }
         }
     }

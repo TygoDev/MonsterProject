@@ -22,8 +22,10 @@ public class OpenDoor : MonoBehaviour
     [Header("SoundEffects")]
     AudioSource audioSource;
 
-    [SerializeField] AudioClip doorOpen;
-    [SerializeField] AudioClip doorClose;
+    [SerializeField] AudioClip buttonPress;
+    [SerializeField] AudioClip buttonRelease;
+
+    int numOfPlayersOnButton = 0;
 
     private void Awake()
     {
@@ -31,11 +33,11 @@ public class OpenDoor : MonoBehaviour
     }
     public IEnumerator OpenOrCloseDoor(Curve path, GameObject door, float timeToMove, bool openDoor = true)
     {
-        
+
         var currentPos = door.transform.position;
         var t = 0f;
 
-        if(openDoor && door.transform.position == path.GetPoint(1))
+        if (openDoor && door.transform.position == path.GetPoint(1))
         {
             yield break;
         }
@@ -73,23 +75,28 @@ public class OpenDoor : MonoBehaviour
             return;
         if (collision.CompareTag(Tags.T_Player))
         {
-            if (rotatingScript != null)
+            numOfPlayersOnButton++;
+            if (numOfPlayersOnButton == 1)
             {
-                rotatingScript.stop = true;
-                rotatingScript.gameObject.transform.rotation = Quaternion.identity;
-            }
+                if (rotatingScript != null)
+                {
+                    rotatingScript.stop = true;
+                    rotatingScript.gameObject.transform.rotation = Quaternion.identity;
+                }
 
-            audioSource.clip = doorOpen;
-            audioSource.Play();
+                audioSource.clip = buttonPress;
+                audioSource.Play();
 
-            if (activeCorutine == null)
-            {
-                activeCorutine = StartCoroutine(OpenOrCloseDoor(doorPath, door, timeToOpen, true));
-            }
-            else
-            {
-                StopCoroutine(activeCorutine);
-                activeCorutine = StartCoroutine(OpenOrCloseDoor(doorPath, door, timeToOpen, true));
+                if (activeCorutine == null)
+                {
+                    activeCorutine = StartCoroutine(OpenOrCloseDoor(doorPath, door, timeToOpen, true));
+                }
+                else
+                {
+                    StopCoroutine(activeCorutine);
+                    activeCorutine = StartCoroutine(OpenOrCloseDoor(doorPath, door, timeToOpen, true));
+                }
+
             }
         }
     }
@@ -100,26 +107,30 @@ public class OpenDoor : MonoBehaviour
             return;
         if (collision.CompareTag(Tags.T_Player))
         {
-            if (rotatingScript != null)
+            numOfPlayersOnButton--;
+            if(numOfPlayersOnButton == 0)
             {
-                rotatingScript.stop = false;
-            }
-
-            if (closeOnExitTrigger)
-            {
-                audioSource.clip = doorClose;
-                audioSource.Play();
-
-                if (activeCorutine == null)
+                if (rotatingScript != null)
                 {
-                    activeCorutine = StartCoroutine(OpenOrCloseDoor(doorPath, door, timeToClose, false));
+                    rotatingScript.stop = false;
                 }
-                else
+
+                if (closeOnExitTrigger)
                 {
-                    StopCoroutine(activeCorutine);
-                    activeCorutine = StartCoroutine(OpenOrCloseDoor(doorPath, door, timeToClose, false));
+                    audioSource.clip = buttonRelease;
+                    audioSource.Play();
+
+                    if (activeCorutine == null)
+                    {
+                        activeCorutine = StartCoroutine(OpenOrCloseDoor(doorPath, door, timeToClose, false));
+                    }
+                    else
+                    {
+                        StopCoroutine(activeCorutine);
+                        activeCorutine = StartCoroutine(OpenOrCloseDoor(doorPath, door, timeToClose, false));
+                    }
                 }
-            }
+            }   
         }
     }
 }
