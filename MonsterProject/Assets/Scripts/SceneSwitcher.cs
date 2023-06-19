@@ -26,14 +26,6 @@ public class SceneSwitcher : MonoBehaviour
         if(readValue == 0)
         Debug.Log("I am swiching the scene");
         /*var asyncLoad = */SceneManager.LoadSceneAsync(sceneBuildIndex: index);
-        /*if(!asyncLoad.isDone)
-        {
-            var a = GameObject.FindGameObjectsWithTag(Tags.T_UISCInput);
-            foreach(var b in a)
-            {
-                Destroy(b);
-            }
-        }*/
     }
 
     public float readValue;
