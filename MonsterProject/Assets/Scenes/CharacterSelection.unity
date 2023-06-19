@@ -24,7 +24,7 @@ RenderSettings:
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
-  m_AmbientMode: 3
+  m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 0}
   m_HaloStrength: 0.5
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 262.3369, g: 325.0498, b: 430.21924, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1987,6 +1987,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e000ad2b4b6a7c046b40d0693a2ea18d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  readValue: 0
 --- !u!4 &616225816
 Transform:
   m_ObjectHideFlags: 0
@@ -3702,7 +3703,31 @@ MonoBehaviour:
       gamepad           /stick/left,/usb gamepad           1/stick/left,/usb gamepad          
       /stick/right,/usb gamepad           1/stick/right,/Keyboard/w,/Keyboard/upArrow,/Keyboard/s,/Keyboard/downArrow,/Keyboard/a,/Keyboard/leftArrow,/Keyboard/d,/Keyboard/rightArrow]
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6426990}
+        m_TargetAssemblyTypeName: CharacterSheet, Assembly-CSharp
+        m_MethodName: SelectCharacter
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1590256668}
+        m_TargetAssemblyTypeName: StartButton, Assembly-CSharp
+        m_MethodName: MakeButtonVisible
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: 667e1f5b-703a-49f3-b2a2-9c4a707e20d9
     m_ActionName: UI/Submit[/Keyboard/enter]
   - m_PersistentCalls:
@@ -3753,6 +3778,22 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: 318e1e9f-f3ac-458c-9833-5a9ddff2610e
     m_ActionName: Player/Down
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 341029435}
+        m_TargetAssemblyTypeName: StartGameWithStartButton, Assembly-CSharp
+        m_MethodName: StartGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: b269bb0d-308d-40f4-a5f9-aa04606f258c
+    m_ActionName: UI/Start
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: Joystick
   m_DefaultActionMap: UI
@@ -3865,6 +3906,45 @@ MonoBehaviour:
   m_ActionEvents:
   - m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1590256668}
+        m_TargetAssemblyTypeName: StartButton, Assembly-CSharp
+        m_MethodName: MakeButtonVisible
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 69b60268-4609-424c-9530-15b7f98b2b7e
+    m_ActionName: Player/A[/usb gamepad           /button2,/usb gamepad          
+      1/button2]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 03130026-8b55-4370-86ff-474db6dc161c
+    m_ActionName: Player/B[/usb gamepad           /trigger,/usb gamepad          
+      1/trigger]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 1434aa1f-7052-43bc-97d7-fdb4034456f8
+    m_ActionName: Player/Start[/usb gamepad           /button10,/usb gamepad          
+      1/button10]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: df691eec-2fe1-4e66-b85b-a634550a635c
+    m_ActionName: Player/Select[/usb gamepad           /button9,/usb gamepad          
+      1/button9]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: e8c2dcf0-9e3a-4639-8457-bb7b55840ef5
+    m_ActionName: UI/Navigate[/usb gamepad           /stick/up,/usb gamepad          
+      1/stick/up,/usb gamepad           /stick/down,/usb gamepad           1/stick/down,/usb
+      gamepad           /stick/left,/usb gamepad           1/stick/left,/usb gamepad          
+      /stick/right,/usb gamepad           1/stick/right,/Keyboard/w,/Keyboard/upArrow,/Keyboard/s,/Keyboard/downArrow,/Keyboard/a,/Keyboard/leftArrow,/Keyboard/d,/Keyboard/rightArrow]
+  - m_PersistentCalls:
+      m_Calls:
       - m_Target: {fileID: 1092405354}
         m_TargetAssemblyTypeName: CharacterSheet, Assembly-CSharp
         m_MethodName: SelectCharacter
@@ -3889,45 +3969,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_ActionId: 69b60268-4609-424c-9530-15b7f98b2b7e
-    m_ActionName: Player/A[/usb gamepad           /button2,/usb gamepad          
-      1/button2]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 03130026-8b55-4370-86ff-474db6dc161c
-    m_ActionName: Player/B[/usb gamepad           /trigger,/usb gamepad          
-      1/trigger]
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 341029435}
-        m_TargetAssemblyTypeName: StartGameWithStartButton, Assembly-CSharp
-        m_MethodName: StartGame
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: 1434aa1f-7052-43bc-97d7-fdb4034456f8
-    m_ActionName: Player/Start[/usb gamepad           /button10,/usb gamepad          
-      1/button10]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: df691eec-2fe1-4e66-b85b-a634550a635c
-    m_ActionName: Player/Select[/usb gamepad           /button9,/usb gamepad          
-      1/button9]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: e8c2dcf0-9e3a-4639-8457-bb7b55840ef5
-    m_ActionName: UI/Navigate[/usb gamepad           /stick/up,/usb gamepad          
-      1/stick/up,/usb gamepad           /stick/down,/usb gamepad           1/stick/down,/usb
-      gamepad           /stick/left,/usb gamepad           1/stick/left,/usb gamepad          
-      /stick/right,/usb gamepad           1/stick/right,/Keyboard/w,/Keyboard/upArrow,/Keyboard/s,/Keyboard/downArrow,/Keyboard/a,/Keyboard/leftArrow,/Keyboard/d,/Keyboard/rightArrow]
-  - m_PersistentCalls:
-      m_Calls: []
     m_ActionId: 667e1f5b-703a-49f3-b2a2-9c4a707e20d9
     m_ActionName: UI/Submit[/Keyboard/enter]
   - m_PersistentCalls:
@@ -3978,6 +4019,22 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: 318e1e9f-f3ac-458c-9833-5a9ddff2610e
     m_ActionName: Player/Down
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 341029435}
+        m_TargetAssemblyTypeName: StartGameWithStartButton, Assembly-CSharp
+        m_MethodName: StartGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: b269bb0d-308d-40f4-a5f9-aa04606f258c
+    m_ActionName: UI/Start
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: Joystick
   m_DefaultActionMap: UI
@@ -4002,7 +4059,7 @@ MonoBehaviour:
   m_ActionsAsset: {fileID: -944628639613478452, guid: b1fcaa3a6c05695459f897467d874bfc, type: 3}
   m_PointAction: {fileID: 3994891341432167269, guid: b1fcaa3a6c05695459f897467d874bfc, type: 3}
   m_MoveAction: {fileID: -8927884776064213243, guid: b1fcaa3a6c05695459f897467d874bfc, type: 3}
-  m_SubmitAction: {fileID: 6404477676070018807, guid: b1fcaa3a6c05695459f897467d874bfc, type: 3}
+  m_SubmitAction: {fileID: 7775362188030698855, guid: b1fcaa3a6c05695459f897467d874bfc, type: 3}
   m_CancelAction: {fileID: -374488623878963215, guid: b1fcaa3a6c05695459f897467d874bfc, type: 3}
   m_LeftClickAction: {fileID: 61761068147153223, guid: b1fcaa3a6c05695459f897467d874bfc, type: 3}
   m_MiddleClickAction: {fileID: 4860377902353646900, guid: b1fcaa3a6c05695459f897467d874bfc, type: 3}
@@ -4701,6 +4758,7 @@ MonoBehaviour:
   hasToChangeTheSceneIndex: 1
   hasToLoadALevel: 0
   levelIndexToLoadInCharacterScreen: 0
+  isStartButton: 0
 --- !u!114 &1786985937
 MonoBehaviour:
   m_ObjectHideFlags: 0
