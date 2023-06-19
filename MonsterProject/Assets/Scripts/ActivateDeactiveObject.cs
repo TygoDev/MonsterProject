@@ -11,18 +11,23 @@ public class ActivateDeactiveObject : MonoBehaviour
 
     private bool delayOver = true;
 
+    int numOfPlayersOnButton = 0;
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player") && delayOver)
         {
+            numOfPlayersOnButton++;
+            if(numOfPlayersOnButton == 1)
             StartCoroutine(Delay(delay));
-
         }
     }
     private void OnTriggerExit(Collider other)
     {
         if (other.CompareTag("Player") && delayOver)
         {
+            numOfPlayersOnButton--;
+            if(numOfPlayersOnButton == 0)
             StartCoroutine(Delay2(delay));
         }
     }

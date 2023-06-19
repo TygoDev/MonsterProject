@@ -48,8 +48,6 @@ public class Movement : MonoBehaviour
     [SerializeField] GameObject bulletPrefab;
     Vector2 lastDirection = new Vector2(0f, 1f); //See, now I'm also a muzician
     bool canShoot = true;
-    float angle = 0f;
-    float orbitSpeed = 2f;
 
     public List<Transform> canvasLives = new List<Transform>();
 
