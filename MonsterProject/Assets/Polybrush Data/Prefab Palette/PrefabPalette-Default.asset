@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: PrefabPalette-Default
   m_EditorClassIdentifier: 
   prefabs:
+<<<<<<< Updated upstream
   - gameObject: {fileID: 2446487817176549297, guid: 2849ecf29ecaf674b9078d6b1ea2bef4, type: 3}
     settings:
       m_Strength: 50
@@ -20,6 +21,15 @@ MonoBehaviour:
       m_RotationRangeMax: {x: 0, y: 0, z: 0}
       m_ScaleRangeMin: {x: 1, y: 1, z: 1}
       m_ScaleRangeMax: {x: 1, y: 1, z: 1}
+=======
+  - gameObject: {fileID: 3453044567431379344, guid: 14a5c27431c8c9242b417c5ba22661db, type: 3}
+    settings:
+      m_Strength: 34
+      m_RotationRangeMin: {x: 0, y: 0, z: 0}
+      m_RotationRangeMax: {x: 0, y: 45, z: 0}
+      m_ScaleRangeMin: {x: 0.8, y: 0.8, z: 0.8}
+      m_ScaleRangeMax: {x: 1.2, y: 1.2, z: 1.2}
+>>>>>>> Stashed changes
       m_UniformScale: {x: 1, y: 1}
       m_UniformBool: 0
       m_XRotationBool: 0
@@ -28,6 +38,7 @@ MonoBehaviour:
       m_XScaleBool: 0
       m_YScaleBool: 0
       m_ZScaleBool: 0
+<<<<<<< Updated upstream
     name: BGTree1
   - gameObject: {fileID: 9110571135270579720, guid: 30e46e81e4d9f154d8a5bcfdc389a555, type: 3}
     settings:
@@ -36,6 +47,16 @@ MonoBehaviour:
       m_RotationRangeMax: {x: 0, y: 0, z: 0}
       m_ScaleRangeMin: {x: 1, y: 1, z: 1}
       m_ScaleRangeMax: {x: 1, y: 1, z: 1}
+=======
+    name: background tree2 Variant
+  - gameObject: {fileID: 8179840148240204893, guid: f494cd73c5e9b924983070b34f93851a, type: 3}
+    settings:
+      m_Strength: 33
+      m_RotationRangeMin: {x: 0, y: 0, z: 0}
+      m_RotationRangeMax: {x: 0, y: 0, z: 0}
+      m_ScaleRangeMin: {x: 0.8, y: 0.8, z: 0.8}
+      m_ScaleRangeMax: {x: 1.2, y: 1.2, z: 1.2}
+>>>>>>> Stashed changes
       m_UniformScale: {x: 1, y: 1}
       m_UniformBool: 0
       m_XRotationBool: 0
@@ -44,6 +65,7 @@ MonoBehaviour:
       m_XScaleBool: 0
       m_YScaleBool: 0
       m_ZScaleBool: 0
+<<<<<<< Updated upstream
     name: BGTree2
   - gameObject: {fileID: 1475764096912871571, guid: b6c8928f3ffaccc4396ca1dd93a94a67, type: 3}
     settings:
@@ -70,12 +92,25 @@ MonoBehaviour:
       m_ScaleRangeMax: {x: 1, y: 1, z: 1}
       m_UniformScale: {x: 1, y: 1}
       m_UniformBool: 1
+=======
+    name: background tree3 Variant
+  - gameObject: {fileID: 7928382209295257879, guid: 12c4e6395f46c7e4a8433561e4ce8320, type: 3}
+    settings:
+      m_Strength: 33
+      m_RotationRangeMin: {x: 0, y: 0, z: 0}
+      m_RotationRangeMax: {x: 0, y: 0, z: 0}
+      m_ScaleRangeMin: {x: 0.8, y: 0.8, z: 0.8}
+      m_ScaleRangeMax: {x: 1.2, y: 1.2, z: 1.2}
+      m_UniformScale: {x: 1, y: 1}
+      m_UniformBool: 0
+>>>>>>> Stashed changes
       m_XRotationBool: 0
       m_YRotationBool: 0
       m_ZRotationBool: 0
       m_XScaleBool: 0
       m_YScaleBool: 0
       m_ZScaleBool: 0
+<<<<<<< Updated upstream
     name: Blue Flower Grass
   - gameObject: {fileID: 4045966453300884981, guid: 075ddd115a65b924fb3478d2c7f33d32, type: 3}
     settings:
@@ -301,3 +336,6 @@ MonoBehaviour:
       m_YScaleBool: 0
       m_ZScaleBool: 0
     name: Yellow Flower Grass
+=======
+    name: New Prefab Variant
+>>>>>>> Stashed changes
