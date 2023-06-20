@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class UnlockLevel : MonoBehaviour
 {
     public GameManager.Levels levelToUnlock;
-    private void Awake()
+    private void Start()
     {
         TMP_Text component;
         Button button;
