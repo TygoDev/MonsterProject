@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 7157884343791135831}
   - component: {fileID: 5297665593909449170}
   - component: {fileID: 4860485094832063710}
+  - component: {fileID: -6300709372169985975}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -300,7 +301,6 @@ MonoBehaviour:
   platforms: []
   lives: 5
   bulletPrefab: {fileID: 1215379222445347508, guid: b0850a8416da0a34d8c7846602ebb4c6, type: 3}
-  targetToSpin: {fileID: 0}
   canvasLives: []
   footstepPrefab: {fileID: 177983073846994153, guid: 04609cf09023bcd489d6812081164213, type: 3}
   walkingSound: {fileID: 8300000, guid: 1a2ab1c7df5de64459e50c71543fb9a9, type: 3}
@@ -460,3 +460,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   updateTheLayer: 1
+--- !u!95 &-6300709372169985975
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4482464281046791635}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
