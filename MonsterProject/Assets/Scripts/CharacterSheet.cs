@@ -22,7 +22,7 @@ public class CharacterSheet : MonoBehaviour
     [SerializeField] private InputSystemUIInputModule inputModule;
     private CharacterDisplay characterDisplaySelected;
 
-    private bool locked = false;
+    public bool locked = false;
 
     private void Start()
     {
@@ -40,6 +40,15 @@ public class CharacterSheet : MonoBehaviour
                 character = characterDisplay.Character;
                 UpdateCharacterInfo();
             }
+        }
+    }
+
+    private void Update()
+    {
+        if (eventSystem.currentSelectedGameObject != null && eventSystem.currentSelectedGameObject.GetComponent<CharacterDisplay>() && !locked)
+        {
+            character = eventSystem.currentSelectedGameObject.GetComponent<CharacterDisplay>().Character;
+            UpdateCharacterInfo();
         }
     }
 
