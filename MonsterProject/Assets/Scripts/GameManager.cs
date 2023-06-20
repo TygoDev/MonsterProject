@@ -68,6 +68,7 @@ public class GameManager : MonoBehaviour
 
         if (next.name.Contains("Level")) //change to level, we will call the scenes with puzzles Level_number
         {
+            if( next.name != "Level_Selection" && BothCharactersSelected())
             candyCount = 0;
             //if(!next.name.Contains("Tutorial"))
             try
