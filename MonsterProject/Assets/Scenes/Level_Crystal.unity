@@ -38,11 +38,6 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-<<<<<<< HEAD
-  m_IndirectSpecularColor: {r: 262.28345, g: 324.97046, b: 430.1162, a: 1}
-=======
-  m_IndirectSpecularColor: {r: 262.3369, g: 325.0498, b: 430.21924, a: 1}
->>>>>>> 2c5273b25df8b6c14f503d9dc9a1f05d4076ddad
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -75793,12 +75788,6 @@ Light:
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
-  m_UseColorTemperature: 1
-<<<<<<< HEAD
-  m_BoundingSphereOverride: {x: 1e-45, y: 0, z: 0, w: 0}
-=======
-  m_BoundingSphereOverride: {x: 0, y: 0, z: NaN, w: 8.4e-44}
->>>>>>> 2c5273b25df8b6c14f503d9dc9a1f05d4076ddad
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -76373,84 +76362,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cd5bca7a50542414fbf67f1866fa8f53, type: 3}
-<<<<<<< HEAD
---- !u!1001 &1808300928
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1021493229256181516, guid: cd5bca7a50542414fbf67f1866fa8f53, type: 3}
-      propertyPath: m_RootOrder
-      value: 51
-      objectReference: {fileID: 0}
-    - target: {fileID: 1021493229256181516, guid: cd5bca7a50542414fbf67f1866fa8f53, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -6.66
-      objectReference: {fileID: 0}
-    - target: {fileID: 1021493229256181516, guid: cd5bca7a50542414fbf67f1866fa8f53, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 34.47
-      objectReference: {fileID: 0}
-    - target: {fileID: 1021493229256181516, guid: cd5bca7a50542414fbf67f1866fa8f53, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1021493229256181516, guid: cd5bca7a50542414fbf67f1866fa8f53, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.8660254
-      objectReference: {fileID: 0}
-    - target: {fileID: 1021493229256181516, guid: cd5bca7a50542414fbf67f1866fa8f53, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1021493229256181516, guid: cd5bca7a50542414fbf67f1866fa8f53, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1021493229256181516, guid: cd5bca7a50542414fbf67f1866fa8f53, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1021493229256181516, guid: cd5bca7a50542414fbf67f1866fa8f53, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -60
-      objectReference: {fileID: 0}
-    - target: {fileID: 1021493229256181516, guid: cd5bca7a50542414fbf67f1866fa8f53, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1021493229256181516, guid: cd5bca7a50542414fbf67f1866fa8f53, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4714111429008155142, guid: cd5bca7a50542414fbf67f1866fa8f53, type: 3}
-      propertyPath: m_Name
-      value: New Prefab 9(Polybrush Clone) (3)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: cd5bca7a50542414fbf67f1866fa8f53, type: 3}
-=======
---- !u!1 &1802616994 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4714111429008155142, guid: cd5bca7a50542414fbf67f1866fa8f53, type: 3}
-  m_PrefabInstance: {fileID: 1802616993}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1802616995
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1802616994}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 42adf5e9bcee3794d8b208b3f4edaec8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  updateTheLayer: 0
->>>>>>> 2c5273b25df8b6c14f503d9dc9a1f05d4076ddad
 --- !u!1001 &1812290186
 PrefabInstance:
   m_ObjectHideFlags: 0
