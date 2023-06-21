@@ -111,7 +111,7 @@ MonoBehaviour:
     name: Fluorecent Flower Grass
   - gameObject: {fileID: 6592741736662349631, guid: 2f93206a4f826f84eb36198c329a09a2, type: 3}
     settings:
-      m_Strength: 100
+      m_Strength: 88.75
       m_RotationRangeMin: {x: 0, y: 0, z: 0}
       m_RotationRangeMax: {x: 0, y: 0, z: 0}
       m_ScaleRangeMin: {x: 1, y: 1, z: 1}
@@ -127,7 +127,7 @@ MonoBehaviour:
     name: Grass 1
   - gameObject: {fileID: 7846962429983898905, guid: 86ae912a1f541064dbaf73f69f861b16, type: 3}
     settings:
-      m_Strength: 100
+      m_Strength: 28
       m_RotationRangeMin: {x: 0, y: 0, z: 0}
       m_RotationRangeMax: {x: 0, y: 0, z: 0}
       m_ScaleRangeMin: {x: 1, y: 1, z: 1}
