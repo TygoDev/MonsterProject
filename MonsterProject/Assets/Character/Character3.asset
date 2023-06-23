@@ -17,3 +17,4 @@ MonoBehaviour:
   footPrintSprite: {fileID: 21300000, guid: c9a4d6e93d908114080fb40b2aaedf99, type: 3}
   name: Character3
   controller: {fileID: 9100000, guid: 08056990c9c92b240b428cea9a67f76f, type: 2}
+  bulletType: 1
