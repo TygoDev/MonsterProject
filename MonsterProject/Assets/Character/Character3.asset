@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56a719671207bb540a9def20c32f13de, type: 3}
   m_Name: Character3
   m_EditorClassIdentifier: 
-  sprite: {fileID: 21300000, guid: d12e2c34545143c4583595a2ce6bbbe3, type: 3}
+  sprite: {fileID: 21300000, guid: cf147c9ecc9383c46a9bcff753d04654, type: 3}
   footPrint: {fileID: 177983073846994153, guid: 04609cf09023bcd489d6812081164213, type: 3}
   footPrintSprite: {fileID: 21300000, guid: c9a4d6e93d908114080fb40b2aaedf99, type: 3}
   name: Character3
+  controller: {fileID: 9100000, guid: 08056990c9c92b240b428cea9a67f76f, type: 2}
