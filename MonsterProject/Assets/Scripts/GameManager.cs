@@ -92,6 +92,9 @@ public class GameManager : MonoBehaviour
                 SetPlayerSprite(p1.gameObject, player1Character);
                 SetPlayerSprite(p2.gameObject, player2Character);
 
+                p1.GetComponent<Animator>().runtimeAnimatorController = player1Character.controller;
+                p2.GetComponent<Animator>().runtimeAnimatorController = player2Character.controller;
+
                 p1.GetComponent<Movement>().footstepPrefab = player1Character.footPrint;
                 p2.GetComponent<Movement>().footstepPrefab = player2Character.footPrint;
                

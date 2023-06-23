@@ -61,12 +61,14 @@ public class Movement : MonoBehaviour
 
     #endregion
 
+    Animator animator;
     private void Awake()
     {
         boxCollider = GetComponent<BoxCollider>();
         rb = GetComponent<Rigidbody>();
         audioSource = GetComponent<AudioSource>();
         audioSource.clip = walkingSound;
+        animator = GetComponent<Animator>();
     }
 
     private void Start()
@@ -143,11 +145,16 @@ public class Movement : MonoBehaviour
         moveAmount = new Vector2(moveAmountLeft + moveAmountRight, moveAmountDown + moveAmountUp);
         if (moveAmount != default(Vector2))
         {
+            animator.SetBool("Walking", true);
             lastDirection = moveAmount;
             if (coroutineForFootsteps == null)
             {
                 coroutineForFootsteps = StartCoroutine(SpawnFootSteps());
             }
+        }
+        else
+        {
+            animator.SetBool("Walking", false);
         }
 
         smoothMove = Vector2.SmoothDamp(smoothMove, moveAmount, ref smoothMoveVelocity, 0.1f);
