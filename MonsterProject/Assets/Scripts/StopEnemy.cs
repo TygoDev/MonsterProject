@@ -37,12 +37,12 @@ public class StopEnemy : MonoBehaviour
                         Debug.Log("1 child");
                         var a = child.gameObject.GetComponent<StopEnemy>();
                         a.disabled = true;
-                        a.StartCoroutine(a.Wiggle());
+                        //a.StartCoroutine(a.Wiggle());
                     }
                 }
                 else
                 {
-                    StartCoroutine(Wiggle());
+                    //StartCoroutine(Wiggle());
                 }
 
             }
