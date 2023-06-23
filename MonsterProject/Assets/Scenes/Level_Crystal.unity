@@ -4820,6 +4820,7 @@ GameObject:
   - component: {fileID: 337666384}
   - component: {fileID: 337666388}
   - component: {fileID: 337666389}
+  - component: {fileID: 337666390}
   m_Layer: 0
   m_Name: Button_1 (3)
   m_TagString: Button
@@ -5030,6 +5031,27 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &337666390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 337666383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2ddfa7bc15acd749a1951a8a40e3e9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  door: {fileID: 0}
+  doorPath: {fileID: 0}
+  timeToOpen: 1
+  closeOnExitTrigger: 0
+  timeToClose: 3
+  ignore: 0
+  rotatingScript: {fileID: 0}
+  buttonPress: {fileID: 8300000, guid: eb70f3e56a7b14cb9b22f7790db204a5, type: 3}
+  buttonRelease: {fileID: 8300000, guid: cd8533f8e39ea40cdac29ba8f3b9b2de, type: 3}
 --- !u!1 &340257436 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1017158604196957139, guid: 03bf31e05e1d02440aa4d5fbcf4e23c4, type: 3}
@@ -6017,6 +6039,7 @@ GameObject:
   - component: {fileID: 382498930}
   - component: {fileID: 382498934}
   - component: {fileID: 382498933}
+  - component: {fileID: 382498935}
   m_Layer: 0
   m_Name: Button_1
   m_TagString: Button
@@ -6071,8 +6094,8 @@ MonoBehaviour:
   timeToClose: 0
   ignore: 0
   rotatingScript: {fileID: 0}
-  buttonPress: {fileID: 0}
-  buttonRelease: {fileID: 0}
+  buttonPress: {fileID: 8300000, guid: eb70f3e56a7b14cb9b22f7790db204a5, type: 3}
+  buttonRelease: {fileID: 8300000, guid: cd8533f8e39ea40cdac29ba8f3b9b2de, type: 3}
 --- !u!212 &382498932
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6317,6 +6340,27 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &382498935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 382498928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2ddfa7bc15acd749a1951a8a40e3e9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  door: {fileID: 0}
+  doorPath: {fileID: 0}
+  timeToOpen: 1
+  closeOnExitTrigger: 0
+  timeToClose: 3
+  ignore: 0
+  rotatingScript: {fileID: 0}
+  buttonPress: {fileID: 0}
+  buttonRelease: {fileID: 0}
 --- !u!1 &383001572
 GameObject:
   m_ObjectHideFlags: 0
@@ -14527,6 +14571,7 @@ GameObject:
   - component: {fileID: 939219479}
   - component: {fileID: 939219483}
   - component: {fileID: 939219482}
+  - component: {fileID: 939219484}
   m_Layer: 0
   m_Name: Button_1 (3)
   m_TagString: Button
@@ -14581,8 +14626,8 @@ MonoBehaviour:
   timeToClose: 0
   ignore: 0
   rotatingScript: {fileID: 0}
-  buttonPress: {fileID: 0}
-  buttonRelease: {fileID: 0}
+  buttonPress: {fileID: 8300000, guid: eb70f3e56a7b14cb9b22f7790db204a5, type: 3}
+  buttonRelease: {fileID: 8300000, guid: cd8533f8e39ea40cdac29ba8f3b9b2de, type: 3}
 --- !u!212 &939219481
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14827,6 +14872,27 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &939219484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 939219477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2ddfa7bc15acd749a1951a8a40e3e9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  door: {fileID: 0}
+  doorPath: {fileID: 0}
+  timeToOpen: 1
+  closeOnExitTrigger: 0
+  timeToClose: 3
+  ignore: 0
+  rotatingScript: {fileID: 0}
+  buttonPress: {fileID: 0}
+  buttonRelease: {fileID: 0}
 --- !u!1 &943078418 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7455458899020197917, guid: 8229ef9f12c552e44a0ec04bf179baf0, type: 3}
@@ -24159,6 +24225,7 @@ GameObject:
   - component: {fileID: 1256336089}
   - component: {fileID: 1256336093}
   - component: {fileID: 1256336092}
+  - component: {fileID: 1256336094}
   m_Layer: 0
   m_Name: Button_1 (1)
   m_TagString: Button
@@ -24213,8 +24280,8 @@ MonoBehaviour:
   timeToClose: 0
   ignore: 0
   rotatingScript: {fileID: 0}
-  buttonPress: {fileID: 0}
-  buttonRelease: {fileID: 0}
+  buttonPress: {fileID: 8300000, guid: eb70f3e56a7b14cb9b22f7790db204a5, type: 3}
+  buttonRelease: {fileID: 8300000, guid: cd8533f8e39ea40cdac29ba8f3b9b2de, type: 3}
 --- !u!212 &1256336091
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -24459,6 +24526,27 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1256336094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1256336087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2ddfa7bc15acd749a1951a8a40e3e9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  door: {fileID: 0}
+  doorPath: {fileID: 0}
+  timeToOpen: 1
+  closeOnExitTrigger: 0
+  timeToClose: 3
+  ignore: 0
+  rotatingScript: {fileID: 0}
+  buttonPress: {fileID: 0}
+  buttonRelease: {fileID: 0}
 --- !u!1001 &1260991612
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30846,6 +30934,7 @@ GameObject:
   - component: {fileID: 1715829617}
   - component: {fileID: 1715829621}
   - component: {fileID: 1715829620}
+  - component: {fileID: 1715829622}
   m_Layer: 0
   m_Name: Button_1 (2)
   m_TagString: Button
@@ -30900,8 +30989,8 @@ MonoBehaviour:
   timeToClose: 0
   ignore: 0
   rotatingScript: {fileID: 0}
-  buttonPress: {fileID: 0}
-  buttonRelease: {fileID: 0}
+  buttonPress: {fileID: 8300000, guid: eb70f3e56a7b14cb9b22f7790db204a5, type: 3}
+  buttonRelease: {fileID: 8300000, guid: cd8533f8e39ea40cdac29ba8f3b9b2de, type: 3}
 --- !u!212 &1715829619
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -31146,6 +31235,27 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1715829622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1715829615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2ddfa7bc15acd749a1951a8a40e3e9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  door: {fileID: 0}
+  doorPath: {fileID: 0}
+  timeToOpen: 1
+  closeOnExitTrigger: 0
+  timeToClose: 3
+  ignore: 0
+  rotatingScript: {fileID: 0}
+  buttonPress: {fileID: 0}
+  buttonRelease: {fileID: 0}
 --- !u!1001 &1717909185
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -78657,6 +78767,7 @@ GameObject:
   - component: {fileID: 1979369566}
   - component: {fileID: 1979369570}
   - component: {fileID: 1979369571}
+  - component: {fileID: 1979369572}
   m_Layer: 0
   m_Name: Button_1 (2)
   m_TagString: Button
@@ -78867,6 +78978,27 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1979369572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1979369565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2ddfa7bc15acd749a1951a8a40e3e9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  door: {fileID: 0}
+  doorPath: {fileID: 0}
+  timeToOpen: 1
+  closeOnExitTrigger: 0
+  timeToClose: 3
+  ignore: 0
+  rotatingScript: {fileID: 0}
+  buttonPress: {fileID: 8300000, guid: eb70f3e56a7b14cb9b22f7790db204a5, type: 3}
+  buttonRelease: {fileID: 8300000, guid: cd8533f8e39ea40cdac29ba8f3b9b2de, type: 3}
 --- !u!1001 &1990270363
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -1896,6 +1896,7 @@ GameObject:
   - component: {fileID: 1138600706}
   - component: {fileID: 1138600705}
   - component: {fileID: 1138600709}
+  - component: {fileID: 1138600710}
   m_Layer: 0
   m_Name: Button_1
   m_TagString: Button
@@ -2100,6 +2101,27 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1138600710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1138600704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2ddfa7bc15acd749a1951a8a40e3e9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  door: {fileID: 0}
+  doorPath: {fileID: 0}
+  timeToOpen: 1
+  closeOnExitTrigger: 0
+  timeToClose: 3
+  ignore: 0
+  rotatingScript: {fileID: 0}
+  buttonPress: {fileID: 8300000, guid: eb70f3e56a7b14cb9b22f7790db204a5, type: 3}
+  buttonRelease: {fileID: 8300000, guid: cd8533f8e39ea40cdac29ba8f3b9b2de, type: 3}
 --- !u!1 &1285776119
 GameObject:
   m_ObjectHideFlags: 0

@@ -3,7 +3,12 @@ guid: 209afba92e56c9144a162015dea1f5b0
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - audioSource: {instanceID: 0}
+  - buttonPress: {fileID: 8300000, guid: eb70f3e56a7b14cb9b22f7790db204a5, type: 3}
+  - buttonRelease: {fileID: 8300000, guid: cd8533f8e39ea40cdac29ba8f3b9b2de, type: 3}
+  - pickUpSound: {fileID: 8300000, guid: 6c4b7b1410ff747aaa59b66bb5382887, type: 3}
+  - loseSound: {fileID: 8300000, guid: dd1eadaf1c0c1804c960f97bc54b69de, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
