@@ -21,13 +21,13 @@ MonoBehaviour:
     m_Value: 0.22
   intensity:
     m_OverrideState: 1
-    m_Value: 0.1
+    m_Value: 0.08
   scatter:
     m_OverrideState: 1
     m_Value: 0.8
   tint:
     m_OverrideState: 1
-    m_Value: {r: 0.8396226, g: 0.82812494, b: 0.53466535, a: 1}
+    m_Value: {r: 0.9056604, g: 0.88726324, b: 0.7903168, a: 1}
   dirtTexture:
     m_OverrideState: 1
     m_Value: {fileID: 0}
@@ -66,6 +66,26 @@ MonoBehaviour:
   - {fileID: 3063352132222133766}
   - {fileID: 7857538636426074143}
   - {fileID: -758501318986858223}
+  - {fileID: 1101275790405639296}
+--- !u!114 &1101275790405639296
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b51a78e223a2e504bb88a059b55229ea, type: 3}
+  m_Name: WhiteBalance
+  m_EditorClassIdentifier: 
+  active: 1
+  temperature:
+    m_OverrideState: 1
+    m_Value: -4
+  tint:
+    m_OverrideState: 1
+    m_Value: -8
 --- !u!114 &1144727376597031185
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -81,19 +101,19 @@ MonoBehaviour:
   active: 1
   postExposure:
     m_OverrideState: 1
-    m_Value: 0.25
+    m_Value: 0.24
   contrast:
     m_OverrideState: 1
-    m_Value: 48
+    m_Value: 44
   colorFilter:
     m_OverrideState: 1
-    m_Value: {r: 0.90284246, g: 0.9339623, b: 0.876691, a: 1}
+    m_Value: {r: 0.990566, g: 0.97654855, b: 0.97654855, a: 1}
   hueShift:
     m_OverrideState: 1
     m_Value: 0
   saturation:
     m_OverrideState: 1
-    m_Value: -8
+    m_Value: -4
 --- !u!114 &3063352132222133766
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -109,13 +129,13 @@ MonoBehaviour:
   active: 1
   shadows:
     m_OverrideState: 1
-    m_Value: {x: 0.8829203, y: 0.9014042, z: 1, w: -0.164349}
+    m_Value: {x: 1, y: 0.9376402, z: 0.8768504, w: -0.164349}
   midtones:
     m_OverrideState: 1
-    m_Value: {x: 0.9359823, y: 1, z: 0.94839406, w: -0.050568897}
+    m_Value: {x: 1, y: 0.8720094, z: 0.997373, w: -0.050568897}
   highlights:
     m_OverrideState: 1
-    m_Value: {x: 1, y: 0.9978256, z: 0.91884875, w: -0.31605548}
+    m_Value: {x: 0.7637634, y: 1, z: 0.86201143, w: -0.31605548}
   shadowsStart:
     m_OverrideState: 0
     m_Value: 0
@@ -158,10 +178,10 @@ MonoBehaviour:
     m_Value: 0
   nearFocusEnd:
     m_OverrideState: 1
-    m_Value: 11
+    m_Value: 9
   farFocusStart:
     m_OverrideState: 1
-    m_Value: 24
+    m_Value: 22
   farFocusEnd:
     m_OverrideState: 1
     m_Value: 104
