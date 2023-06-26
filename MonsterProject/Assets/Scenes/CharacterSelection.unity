@@ -4188,18 +4188,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1590256668}
-        m_TargetAssemblyTypeName: StartButton, Assembly-CSharp
-        m_MethodName: MakeButtonVisible
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
     m_ActionId: 667e1f5b-703a-49f3-b2a2-9c4a707e20d9
     m_ActionName: UI/Submit[/Keyboard/enter]
   - m_PersistentCalls:
@@ -4536,18 +4524,6 @@ MonoBehaviour:
       - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: CharacterSheet, Assembly-CSharp
         m_MethodName: SelectCharacter
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1590256668}
-        m_TargetAssemblyTypeName: StartButton, Assembly-CSharp
-        m_MethodName: MakeButtonVisible
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

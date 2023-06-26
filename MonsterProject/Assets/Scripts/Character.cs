@@ -9,4 +9,5 @@ public class Character : ScriptableObject
     public Sprite footPrintSprite;
     public new string name;
     public RuntimeAnimatorController controller;
+    public BulletInfo.BulletType bulletType = BulletInfo.BulletType.NONE;
 }

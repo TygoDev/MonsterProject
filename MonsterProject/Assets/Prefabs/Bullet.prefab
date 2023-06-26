@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3221844581057188336}
   - component: {fileID: 9126820867535178581}
   - component: {fileID: 356549999920580842}
+  - component: {fileID: -1842448499946736712}
   m_Layer: 0
   m_Name: Bullet
   m_TagString: Bullet
@@ -129,3 +130,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lifeTimeDuration: 1
+  fade: 0
+--- !u!114 &-1842448499946736712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1215379222445347508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08ce753062c668048bf1d94ff6cf60cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletType: 0
+  bubble: {fileID: 21300000, guid: 0dd37cda95f450e489084400bf6564f0, type: 3}
+  cloud: {fileID: 21300000, guid: 1b65a85525f4cdf41860df61c55e6ebf, type: 3}
+  frozen: {fileID: 21300000, guid: 64c335ce878b5eb42a029e19ed50d598, type: 3}
+  jelly: {fileID: 21300000, guid: 9d1b002394cdde2478ecaa7bea139d05, type: 3}
+  juice: {fileID: 21300000, guid: 3901d89221dcbdf4ba2e909a42cdd415, type: 3}
+  rainbow: {fileID: 21300000, guid: 3660adb2ecaa01443a2947dcc476c5aa, type: 3}
+  strawberry: {fileID: 21300000, guid: 327586722a988724db4fbddaf2d14df9, type: 3}
