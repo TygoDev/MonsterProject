@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 551.2463, g: 1027.4941, b: 1031.8477, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -521,7 +521,7 @@ MonoBehaviour:
   unlockForest: 0
   unlockCrystal: 0
   unlockCandy: 0
-  levelIndexToLoad: 5
+  levelIndexToLoad: 7
 --- !u!4 &130181172
 Transform:
   m_ObjectHideFlags: 0
