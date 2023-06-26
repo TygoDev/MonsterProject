@@ -97,6 +97,9 @@ public class GameManager : MonoBehaviour
 
                 p1.GetComponent<Movement>().footstepPrefab = player1Character.footPrint;
                 p2.GetComponent<Movement>().footstepPrefab = player2Character.footPrint;
+
+                p1.GetComponent<Movement>().bulletType = player1Character.bulletType;
+                p2.GetComponent<Movement>().bulletType = player2Character.bulletType;
                
                 for (int i = 0; i < spawns.Length; i++)
                 {
