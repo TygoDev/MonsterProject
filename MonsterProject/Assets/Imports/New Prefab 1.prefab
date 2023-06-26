@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 6919731520150137142}
   - component: {fileID: 2981634963953458139}
-  - component: {fileID: -6617302575184820664}
   m_Layer: 0
   m_Name: New Prefab 1
   m_TagString: Untagged

@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 0a3a8b752c103b04b8b26acc77712a4d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Hailey Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1638.4
+        width: 277.5
+        height: 409.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 446d3ecbd609e7b45b6f6a87c6c3c127
+      internalID: -2004069156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hailey Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 1638.4
+        width: 277.5
+        height: 409.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e54a126003c39c45a7d2d92e767e951
+      internalID: 27053080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hailey Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 1638.4
+        width: 277.5
+        height: 409.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45d9d3499808d4443855f739520d53de
+      internalID: 979921223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hailey Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 1638.4
+        width: 277.5
+        height: 409.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f682afa52f057e348964bf4bc994d4a7
+      internalID: -1287741987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hailey Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 1638.4
+        width: 277.5
+        height: 409.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b79871154243064fbe49dd2bef6deaa
+      internalID: -1477147811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hailey Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 1638.4
+        width: 277.5
+        height: 409.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffd402eda37b98b4d84ce19f4311d60d
+      internalID: -880863124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hailey Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1229.4
+        width: 277.5
+        height: 409.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31f6d3cdb53588f499a8253645db3c15
+      internalID: 1314079157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hailey Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 1229.4
+        width: 277.5
+        height: 409.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc444855d211dae43b4b2c781226a09e
+      internalID: 1151717178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hailey Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 1229.4
+        width: 277.5
+        height: 409.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbf1dd742e79eff48ad162781b14f2b2
+      internalID: -1222010214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hailey Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 1229.4
+        width: 277.5
+        height: 409.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a5311c6daadc9c49963ce29e57ab6bc
+      internalID: -1061354962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hailey Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 1229.4
+        width: 277.5
+        height: 409.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 134f85758d00532498e46e6c1bcbb8a0
+      internalID: -1566003847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hailey Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 1229.4
+        width: 277.5
+        height: 409.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6acb7e87388ea6438e691c5e5a2bec9
+      internalID: 2053251188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hailey Spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 820.4
+        width: 277.5
+        height: 409.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9be68a640ae1c9940adfe639c47061c9
+      internalID: 438316769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hailey Spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 820.4
+        width: 277.5
+        height: 409.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03b63d530a80977448bb7d3253ad02ba
+      internalID: -1964373711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hailey Spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 820.4
+        width: 277.5
+        height: 409.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40cf2a3c7819abd44a3934f1731c72e2
+      internalID: -1021922528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hailey Spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 820.4
+        width: 277.5
+        height: 409.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 316d7923f58d93a478436a8f23fcdf5d
+      internalID: 1474008561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hailey Spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 820.4
+        width: 277.5
+        height: 409.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5aa3d4e399d55e46a1e5585dd8d8c3e
+      internalID: 963963369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hailey Spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 820.4
+        width: 277.5
+        height: 409.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6cc1a02905c7ad438d0db34bd7c1d0a
+      internalID: -64040686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hailey Spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 411.4
+        width: 277.5
+        height: 409.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a93bfff84d79a458fcface6838ab9a
+      internalID: 1551960026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hailey Spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 411.4
+        width: 277.5
+        height: 409.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91b5a4a3655e47c49a9384e1c0c09235
+      internalID: -1092382774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hailey Spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 411.4
+        width: 277.5
+        height: 409.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d78165874b13ae549b6ea616483390b8
+      internalID: 1690986612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hailey Spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 411.4
+        width: 277.5
+        height: 409.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03c8aa75d990a824aad4b0f94caf7d03
+      internalID: 588313475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hailey Spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 411.4
+        width: 277.5
+        height: 409.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cba670c37ad0a1548b302bd39f376a17
+      internalID: -2041787566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hailey Spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 411.4
+        width: 277.5
+        height: 409.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9190629a51aac541b918572fc7841af
+      internalID: 1128749233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hailey Spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2.399994
+        width: 277.5
+        height: 409.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0684fa0d1aa2434384aa81dbcb6d09d
+      internalID: -1383591397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hailey Spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 2.399994
+        width: 277.5
+        height: 409.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6349f9c2e8a297344979dac8d37cf29c
+      internalID: 428196521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hailey Spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 2.399994
+        width: 277.5
+        height: 409.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2467f6755444cd444849e748a84d0eca
+      internalID: 1494715041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Hailey Spritesheet_10: -1566003847
+      Hailey Spritesheet_8: -1222010214
+      Hailey Spritesheet_20: 1690986612
+      Hailey Spritesheet_5: -880863124
+      Hailey Spritesheet_3: -1287741987
+      Hailey Spritesheet_26: 1494715041
+      Hailey Spritesheet_17: -64040686
+      Hailey Spritesheet_7: 1151717178
+      Hailey Spritesheet_15: 1474008561
+      Hailey Spritesheet_19: -1092382774
+      Hailey Spritesheet_1: 27053080
+      Hailey Spritesheet_14: -1021922528
+      Hailey Spritesheet_25: 428196521
+      Hailey Spritesheet_2: 979921223
+      Hailey Spritesheet_11: 2053251188
+      Hailey Spritesheet_23: 1128749233
+      Hailey Spritesheet_16: 963963369
+      Hailey Spritesheet_9: -1061354962
+      Hailey Spritesheet_21: 588313475
+      Hailey Spritesheet_0: -2004069156
+      Hailey Spritesheet_24: -1383591397
+      Hailey Spritesheet_12: 438316769
+      Hailey Spritesheet_22: -2041787566
+      Hailey Spritesheet_18: 1551960026
+      Hailey Spritesheet_13: -1964373711
+      Hailey Spritesheet_6: 1314079157
+      Hailey Spritesheet_4: -1477147811
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
