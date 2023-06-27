@@ -1,0 +1,587 @@
+fileFormatVersion: 2
+guid: c5450c166070c284eb8f1e2cde2f63ea
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UGM Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1496.25
+        width: 409.6
+        height: 498.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 143c06cad5a815241849cedaab254976
+      internalID: -1626845529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGM Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 1496.25
+        width: 409.6
+        height: 498.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e93e7da017b8dd7478d8baeaaae5e5d4
+      internalID: -2049583562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGM Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 1496.25
+        width: 409.6
+        height: 498.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1b43baf4fabe034d82923b963f35066
+      internalID: -1811065460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGM Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 1496.25
+        width: 409.6
+        height: 498.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fa288af0c707de41952d355d62eb067
+      internalID: -1806849044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGM Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 1496.25
+        width: 409.6
+        height: 498.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49b6ae141ef832a44b29dce5ba0162b3
+      internalID: 1666884922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGM Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 998.25
+        width: 409.6
+        height: 498.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3425cd202259e6f4e9813b176e68ade7
+      internalID: 43749365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGM Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 998.25
+        width: 409.6
+        height: 498.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ca1f7ba31137fc41a7ed50694c7f561
+      internalID: 1063530255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGM Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 998.25
+        width: 409.6
+        height: 498.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c56ed35ccab25c7408d4e2fe28fb4dc4
+      internalID: -212481278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGM Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 998.25
+        width: 409.6
+        height: 498.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fdd5cd6e5d8f0241b7e755b8fb3b25e
+      internalID: -2008223720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGM Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 998.25
+        width: 409.6
+        height: 498.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2049ba4eb12c3fd4cacf220a8127ab96
+      internalID: 243559221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGM Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 500.25
+        width: 409.6
+        height: 498.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d65e86ccf0d90e4d8be642bf07a6e3a
+      internalID: -1197993506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGM Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 500.25
+        width: 409.6
+        height: 498.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 443aad38018c2bd49a47d36a6e13ccdb
+      internalID: -744066561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGM Spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 500.25
+        width: 409.6
+        height: 498.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 873e39aa5d733ea40b47b0c95f32781e
+      internalID: 1641131760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGM Spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 500.25
+        width: 409.6
+        height: 498.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e393c73fb1c1e49469397d83d14c1c28
+      internalID: -418446498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGM Spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 500.25
+        width: 409.6
+        height: 498.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f53e5216634c3848b4869aa913501b7
+      internalID: 223423779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGM Spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2.25
+        width: 409.6
+        height: 498.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc69f093168248048ab1ee8a31cc97e7
+      internalID: -888297415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGM Spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 2.25
+        width: 409.6
+        height: 498.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de8c823f3d15de949aa57baec60d41ad
+      internalID: 646189587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGM Spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 2.25
+        width: 409.6
+        height: 498.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e33128e0f39e54443bbe88d829eaa126
+      internalID: -1767432340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGM Spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 2.25
+        width: 409.6
+        height: 498.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84f52582272a51048ac44f5c86d6fb5d
+      internalID: -652612838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UGM Spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 2.25
+        width: 409.6
+        height: 498.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9ba55fa703ddf44890d06ca6702a6c7
+      internalID: 203904637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      UGM Spritesheet_12: 1641131760
+      UGM Spritesheet_10: -1197993506
+      UGM Spritesheet_1: -2049583562
+      UGM Spritesheet_5: 43749365
+      UGM Spritesheet_7: -212481278
+      UGM Spritesheet_9: 243559221
+      UGM Spritesheet_18: -652612838
+      UGM Spritesheet_19: 203904637
+      UGM Spritesheet_2: -1811065460
+      UGM Spritesheet_4: 1666884922
+      UGM Spritesheet_0: -1626845529
+      UGM Spritesheet_6: 1063530255
+      UGM Spritesheet_11: -744066561
+      UGM Spritesheet_8: -2008223720
+      UGM Spritesheet_15: -888297415
+      UGM Spritesheet_14: 223423779
+      UGM Spritesheet_3: -1806849044
+      UGM Spritesheet_13: -418446498
+      UGM Spritesheet_17: -1767432340
+      UGM Spritesheet_16: 646189587
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
