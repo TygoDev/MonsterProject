@@ -10,4 +10,5 @@ public class Character : ScriptableObject
     public new string name;
     public RuntimeAnimatorController controller;
     public BulletInfo.BulletType bulletType = BulletInfo.BulletType.NONE;
+    public Sprite bulletImage;
 }

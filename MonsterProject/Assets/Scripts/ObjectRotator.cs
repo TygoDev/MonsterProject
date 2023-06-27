@@ -3,7 +3,7 @@ using System;
 
 public class ObjectRotator : MonoBehaviour
 {
-    public Transform prefab;          // The prefab to be spawned and rotated
+    public GameObject prefab;          // The prefab to be spawned and rotated
     public int numPrefabs = 6;        // Number of prefabs to be spawned
     public float radius = 5f;
     public float orbitSpeed = 5f;
@@ -24,7 +24,7 @@ public class ObjectRotator : MonoBehaviour
             float yPos = Mathf.Cos(theta);
 
             Vector3 spawnPosition = transform.position + new Vector3(xPos, yPos, 0f) * radius;
-            spawnedPrefabs[i] = Instantiate(prefab.gameObject, spawnPosition, Quaternion.Euler(-45,0,0), this.transform);
+            spawnedPrefabs[i] = Instantiate(prefab, spawnPosition, Quaternion.Euler(-45,0,180), this.transform);
         }
 
     }

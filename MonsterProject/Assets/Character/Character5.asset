@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: c5e0bc448606c5b4c8df69a83d5a846e, type: 3}
   footPrint: {fileID: 177983073846994153, guid: 04609cf09023bcd489d6812081164213, type: 3}
-  footPrintSprite: {fileID: 21300000, guid: 4ad70266424e4034496c69ea6a02a02a, type: 3}
+  footPrintSprite: {fileID: 21300000, guid: 989dcdc7e27b77045b01ec14c5cfc1cd, type: 3}
   name: Character5
   controller: {fileID: 9100000, guid: a454c4d4b6986eb41a6ac6f54e378906, type: 2}
   bulletType: 4
+  bulletImage: {fileID: 21300000, guid: 9d1b002394cdde2478ecaa7bea139d05, type: 3}
