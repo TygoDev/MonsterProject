@@ -500,7 +500,7 @@ GameObject:
   - component: {fileID: 6114314231222871993}
   m_Layer: 5
   m_Name: EndOfLevelCanvas
-  m_TagString: Untagged
+  m_TagString: Endcanvas
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
