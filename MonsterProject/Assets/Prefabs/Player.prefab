@@ -304,7 +304,7 @@ MonoBehaviour:
   canvasLives: []
   footstepPrefab: {fileID: 177983073846994153, guid: 04609cf09023bcd489d6812081164213, type: 3}
   walkingSound: {fileID: 8300000, guid: 1a2ab1c7df5de64459e50c71543fb9a9, type: 3}
-  loseHealth: {fileID: 8300000, guid: 540aeb7a0a880234bb096d7024f4bbbc, type: 3}
+  loseHealth: {fileID: 8300000, guid: 53eb2de102b094f609b8019a66cfb338, type: 3}
   bulletType: 0
 --- !u!65 &6624545347357620358
 BoxCollider:
