@@ -61,12 +61,16 @@ public class Movement : MonoBehaviour
 
     #endregion
 
+    Animator animator;
+
+    public BulletInfo.BulletType bulletType = BulletInfo.BulletType.NONE;
     private void Awake()
     {
         boxCollider = GetComponent<BoxCollider>();
         rb = GetComponent<Rigidbody>();
         audioSource = GetComponent<AudioSource>();
         audioSource.clip = walkingSound;
+        animator = GetComponent<Animator>();
     }
 
     private void Start()
@@ -143,11 +147,16 @@ public class Movement : MonoBehaviour
         moveAmount = new Vector2(moveAmountLeft + moveAmountRight, moveAmountDown + moveAmountUp);
         if (moveAmount != default(Vector2))
         {
+            animator.SetBool("Walking", true);
             lastDirection = moveAmount;
             if (coroutineForFootsteps == null)
             {
                 coroutineForFootsteps = StartCoroutine(SpawnFootSteps());
             }
+        }
+        else
+        {
+            animator.SetBool("Walking", false);
         }
 
         smoothMove = Vector2.SmoothDamp(smoothMove, moveAmount, ref smoothMoveVelocity, 0.1f);
@@ -163,7 +172,7 @@ public class Movement : MonoBehaviour
         transform.position = Camera.main.ViewportToWorldPoint(pos);
 
 
-        transform.position = new Vector3(transform.position.x, transform.position.y, -0.4f);
+        transform.position = new Vector3(transform.position.x, transform.position.y,0f);
     }
 
     IEnumerator SpawnFootSteps()
@@ -203,6 +212,8 @@ public class Movement : MonoBehaviour
         //float x = Mathf.Cos(angle);
         //float y = Mathf.Sin(angle);
         var bullet = Instantiate(bulletPrefab, this.transform.position + new Vector3(0, 1, 0) * 2f /*+ ((Vector3)lastDirection * 2f)*/, Quaternion.identity);
+        bullet.GetComponent<BulletInfo>().bulletType = bulletType;
+        bullet.GetComponent<BulletInfo>().UpdateSprite();
         bullet.GetComponent<Rigidbody>().velocity = /*(Vector3)lastDirection*/ new Vector3(0, 1, 0)  * (Speed * 7f) * 0.006f;
         yield return new WaitForSeconds(1f);
         canShoot = true;

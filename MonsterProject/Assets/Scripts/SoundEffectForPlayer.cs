@@ -17,8 +17,8 @@ public class SoundEffectForPlayer : MonoBehaviour
 
     private void Awake()
     {
-        buttonPress.LoadAudioData();
-        buttonRelease.LoadAudioData();
+        //buttonPress.LoadAudioData();
+        //buttonRelease.LoadAudioData();
     }
 
     private void OnTriggerEnter(Collider other)
