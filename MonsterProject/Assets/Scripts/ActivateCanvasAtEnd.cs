@@ -21,7 +21,7 @@ public class ActivateCanvasAtEnd : MonoBehaviour
             playerOneInput.SetActive(true);
             playerTwoInput.SetActive(true);
             canvas.SetActive(true);
-            canvas.GetComponent<EndCanvas>().UpdateTheCanvas();
+            canvas.GetComponent<EndCanvas>().UpdateTheCanvas(false);
         }
     }
 }

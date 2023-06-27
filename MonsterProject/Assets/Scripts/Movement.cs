@@ -182,7 +182,17 @@ public class Movement : MonoBehaviour
     private void ShowLostCanvas()
     {
         GameManager.Instance.EndCanvas.SetActive(true);
-        GameManager.Instance.EndCanvas.GetComponent<EndCanvas>().UpdateTheCanvas();
+        GameManager.Instance.EndCanvas.GetComponent<EndCanvas>().UpdateTheCanvas(true);
+        var playersUI = GameObject.FindGameObjectsWithTag(Tags.T_UISCInput);
+        foreach (var p in playersUI)
+        {
+            p.gameObject.SetActive(true);
+        }
+        var players = GameObject.FindGameObjectsWithTag(Tags.T_Player);
+        foreach (var p in players)
+        {
+            p.gameObject.SetActive(false);
+        }
         //throw new System.NotImplementedException();
     }
 

@@ -15,8 +15,9 @@ public class EndCanvas : MonoBehaviour
     bool lost = false;
 
     public Sprite starSprite;
-    public void UpdateTheCanvas()
+    public void UpdateTheCanvas(bool isLost)
     {
+        lost = isLost;
         if (lost)
         {
             wonorlostText.text = "Game Over!";
