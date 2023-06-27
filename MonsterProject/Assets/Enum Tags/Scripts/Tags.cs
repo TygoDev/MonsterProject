@@ -22,6 +22,4 @@ public const string T_CandyCount = @"CandyCount";
 public const string T_Lifes = @"Lifes";
 public const string T_UISCInput = @"UI_Input";
 public const string T_ScoreC = @"ScoreC";
-public const string T_P1I = @"P1I";
-public const string T_P2I = @"P2I";
 }
