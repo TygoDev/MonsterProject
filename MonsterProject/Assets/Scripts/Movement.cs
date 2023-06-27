@@ -132,7 +132,8 @@ public class Movement : MonoBehaviour
     {
         if(lives == 0)
         {
-            SceneSwitcher.Instance.SwitchToScene(0);
+            ShowLostCanvas();
+            //SceneSwitcher.Instance.SwitchToScene(0);
         }
 
         if (CheckIfOverPit() && !isOnPlatform && platforms.Count == 0)
@@ -173,6 +174,12 @@ public class Movement : MonoBehaviour
 
 
         transform.position = new Vector3(transform.position.x, transform.position.y,0f);
+    }
+
+    private void ShowLostCanvas()
+    {
+        GameManager.Instance.EndCanvas.SetActive(true);
+        //throw new System.NotImplementedException();
     }
 
     IEnumerator SpawnFootSteps()

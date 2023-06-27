@@ -28,6 +28,8 @@ public class GameManager : MonoBehaviour
     public TMP_Text candyCountText;
     public TMP_Text scoreCountText;
 
+    public GameObject EndCanvas;
+
     public enum Levels
     {
         FOREST,
@@ -86,6 +88,8 @@ public class GameManager : MonoBehaviour
 
                 a = GameObject.FindGameObjectWithTag(Tags.T_P2I).GetComponent<Image>();
                 a.sprite = player1Character.sprite;
+
+                EndCanvas = GameObject.FindGameObjectWithTag(Tags.T_Endcanvas);
             }
             catch
             {

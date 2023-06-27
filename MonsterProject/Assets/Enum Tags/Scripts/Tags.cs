@@ -24,4 +24,5 @@ public const string T_UISCInput = @"UI_Input";
 public const string T_ScoreC = @"ScoreC";
 public const string T_P1I = @"P1I";
 public const string T_P2I = @"P2I";
+public const string T_Endcanvas = @"Endcanvas";
 }

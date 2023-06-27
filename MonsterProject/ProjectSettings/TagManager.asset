@@ -19,6 +19,9 @@ TagManager:
   - Lifes
   - UI_Input
   - ScoreC
+  - P1I
+  - P2I
+  - Endcanvas
   layers:
   - Default
   - TransparentFX
