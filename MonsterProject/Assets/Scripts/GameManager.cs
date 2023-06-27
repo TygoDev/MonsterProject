@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 using TMPro;
+using UnityEngine.UI;
 
 [DisallowMultipleComponent]
 public class GameManager : MonoBehaviour
@@ -25,6 +26,7 @@ public class GameManager : MonoBehaviour
     public int totalScore = 0;
 
     public TMP_Text candyCountText;
+    public TMP_Text scoreCountText;
 
     public enum Levels
     {
@@ -61,6 +63,7 @@ public class GameManager : MonoBehaviour
         scoreInScene += scoreToAdd;
         totalScore += scoreToAdd;
         candyCountText.text = candyCount.ToString();
+        scoreCountText.text = scoreInScene.ToString();
     }
 
     private void ChangedActiveScene(Scene current, Scene next)
@@ -70,10 +73,19 @@ public class GameManager : MonoBehaviour
         {
             if( next.name != "Level_Selection" && BothCharactersSelected())
             candyCount = 0;
+
+            scoreInScene = 0;
             //if(!next.name.Contains("Tutorial"))
             try
             {
                 candyCountText = GameObject.FindGameObjectWithTag(Tags.T_CandyCount).GetComponent<TMP_Text>();
+                scoreCountText = GameObject.FindGameObjectWithTag(Tags.T_ScoreC).GetComponent<TMP_Text>();
+
+                var a = GameObject.FindGameObjectWithTag(Tags.T_P1I).GetComponent<Image>();
+                a.sprite = player1Character.sprite;
+
+                a = GameObject.FindGameObjectWithTag(Tags.T_P2I).GetComponent<Image>();
+                a.sprite = player1Character.sprite;
             }
             catch
             {
