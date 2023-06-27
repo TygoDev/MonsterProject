@@ -42,6 +42,7 @@ public class ButtonSpinScript : MonoBehaviour
     {
         if(other.CompareTag(Tags.T_Player))
         {
+            Debug.Log("AAAH KILL ME NOW");
             numOfPlayersOnButton--;
             if (numOfPlayersOnButton == 0)
             {
