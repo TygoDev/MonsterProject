@@ -18,6 +18,7 @@ TagManager:
   - CandyCount
   - Lifes
   - UI_Input
+  - ScoreC
   layers:
   - Default
   - TransparentFX
