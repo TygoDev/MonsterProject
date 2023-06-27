@@ -176,7 +176,7 @@ public class Movement : MonoBehaviour
         if(SceneManager.GetActiveScene().name == "Level_Candy")
         transform.position = new Vector3(transform.position.x, transform.position.y, 1f);
         else
-            transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z);
+            transform.position = new Vector3(transform.position.x, transform.position.y, 0f);
     }
 
     private void ShowLostCanvas()
