@@ -29,6 +29,7 @@ public class SoundEffectForPlayer : MonoBehaviour
         {
             audioSource.clip = buttonPress;
             audioSource.Play();
+            audioSource.clip = footstepSound;
         }
 
         /*if(other.CompareTag(Tags.T_Candy))
