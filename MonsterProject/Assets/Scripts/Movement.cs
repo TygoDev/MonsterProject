@@ -201,6 +201,7 @@ public class Movement : MonoBehaviour
         audioSource.Play();
         var footstep = Instantiate(footstepPrefab, transform.position - (Vector3)lastDirection / 2, Quaternion.identity);
         footstep.transform.rotation = Quaternion.Euler(0,0, Vector2.Angle(Vector2.up, lastDirection));
+
         footstep.transform.position = new Vector3(footstep.transform.position.x, footstep.transform.position.y, 0.1f);
         yield return new WaitForSeconds(0.3f);
         coroutineForFootsteps = null;
