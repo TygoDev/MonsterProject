@@ -16,9 +16,8 @@ public class CharacterSheet : MonoBehaviour
     [SerializeField] private int playerNumber;
     [SerializeField] private Image spriteImage;
     [SerializeField] private Image footPrintImage;
-    [SerializeField] private Image powerUpImage;
-    //[SerializeField] private TMP_Text nameText;
-    //[SerializeField] private TMP_Text speciesText;
+    [SerializeField] private TMP_Text nameText;
+    [SerializeField] private TMP_Text speciesText;
     [SerializeField] private EventSystem eventSystem;
     [SerializeField] private InputSystemUIInputModule inputModule;
     private CharacterDisplay characterDisplaySelected;

@@ -252,7 +252,6 @@ public class Movement : MonoBehaviour
             Destroy(collision.gameObject);
             numCoins++;
             GameManager.Instance.candyCount++;
-            GameManager.Instance.UpdateCandyCount();
         }
 
         if (collision.CompareTag(Tags.T_Enemy))
@@ -295,7 +294,7 @@ public class Movement : MonoBehaviour
         for (int i = 0; i < a; i++)
         {
             Vector2 dropPosition = transform.position + Random.insideUnitSphere;
-            GameObject coin = Instantiate(coinPrefab, dropPosition, Quaternion.Euler(-45,0,0));
+            GameObject coin = Instantiate(coinPrefab, dropPosition, Quaternion.identity);
             Rigidbody coinRigidbody = coin.GetComponent<Rigidbody>();
             if (coinRigidbody != null)
             {

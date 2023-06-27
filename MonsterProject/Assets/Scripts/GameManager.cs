@@ -63,11 +63,6 @@ public class GameManager : MonoBehaviour
         candyCountText.text = candyCount.ToString();
     }
 
-    public void UpdateCandyCount()
-    {
-        candyCountText.text = candyCount.ToString();
-    }
-
     private void ChangedActiveScene(Scene current, Scene next)
     {
 
