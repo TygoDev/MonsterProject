@@ -15,6 +15,8 @@ public class SoundEffectForPlayer : MonoBehaviour
     [SerializeField] AudioClip pickUpSound;
     [SerializeField] AudioClip loseSound;
 
+    [SerializeField] AudioClip footstepSound;
+
     private void Awake()
     {
         //buttonPress.LoadAudioData();
@@ -39,6 +41,7 @@ public class SoundEffectForPlayer : MonoBehaviour
         {
             audioSource.clip = loseSound;
             audioSource.Play();
+            audioSource.clip = footstepSound;
         }
     }
 

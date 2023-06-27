@@ -352,6 +352,7 @@ MonoBehaviour:
   buttonRelease: {fileID: 8300000, guid: cd8533f8e39ea40cdac29ba8f3b9b2de, type: 3}
   pickUpSound: {fileID: 8300000, guid: 6c4b7b1410ff747aaa59b66bb5382887, type: 3}
   loseSound: {fileID: 8300000, guid: dd1eadaf1c0c1804c960f97bc54b69de, type: 3}
+  footstepSound: {fileID: 8300000, guid: 1a2ab1c7df5de64459e50c71543fb9a9, type: 3}
 --- !u!82 &5297665593909449170
 AudioSource:
   m_ObjectHideFlags: 0
