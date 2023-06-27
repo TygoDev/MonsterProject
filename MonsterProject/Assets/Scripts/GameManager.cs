@@ -87,7 +87,7 @@ public class GameManager : MonoBehaviour
                 a.sprite = player1Character.sprite;
 
                 a = GameObject.FindGameObjectWithTag(Tags.T_P2I).GetComponent<Image>();
-                a.sprite = player1Character.sprite;
+                a.sprite = player2Character.sprite;
 
                 EndCanvas = GameObject.FindGameObjectWithTag(Tags.T_Endcanvas);
             }
