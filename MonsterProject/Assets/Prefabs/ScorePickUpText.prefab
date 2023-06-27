@@ -62,7 +62,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
-  m_SortingOrder: -998
+  m_SortingOrder: 20
   m_TargetDisplay: 0
 --- !u!114 &6911853630470795520
 MonoBehaviour:
@@ -204,7 +204,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: +50
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 06258320e3d08cb479a206c22f0bc0cb, type: 2}
   m_sharedMaterial: {fileID: -7660367221338534685, guid: 06258320e3d08cb479a206c22f0bc0cb, type: 2}
