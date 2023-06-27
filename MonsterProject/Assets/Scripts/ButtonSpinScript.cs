@@ -10,6 +10,14 @@ public class ButtonSpinScript : MonoBehaviour
 
     int numOfPlayersOnButton = 0;
 
+    [SerializeField] AudioClip buttonPressed;
+    [SerializeField] AudioClip buttonReleased;
+    AudioSource audiosource;
+
+    private void Awake()
+    {
+        audiosource = GetComponent<AudioSource>();
+    }
     private void OnTriggerEnter(Collider other)
     {
         if(other.CompareTag(Tags.T_Player))
@@ -17,6 +25,8 @@ public class ButtonSpinScript : MonoBehaviour
             numOfPlayersOnButton++;
             if (numOfPlayersOnButton == 1)
             {
+                audiosource.clip = buttonPressed;
+                audiosource.Play();
                 parentObject.stop = false;
 
                 foreach (var child in childrenThatRotate)
@@ -35,6 +45,8 @@ public class ButtonSpinScript : MonoBehaviour
             numOfPlayersOnButton--;
             if (numOfPlayersOnButton == 0)
             {
+                audiosource.clip = buttonReleased;
+                audiosource.Play();
                 parentObject.stop = true;
 
                 foreach (var child in childrenThatRotate)
