@@ -497,6 +497,7 @@ GameObject:
   - component: {fileID: 623158983737790516}
   - component: {fileID: 623158983737790517}
   - component: {fileID: 7236633496656907336}
+  - component: {fileID: 6114314231222871993}
   m_Layer: 5
   m_Name: EndOfLevelCanvas
   m_TagString: Untagged
@@ -600,6 +601,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0004e8800a0b3f42b11f286be099d44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &6114314231222871993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 623158983737790666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 300f41ec4caedeb42a726f264069b701, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stars:
+  - {fileID: 8715754102073622133}
+  - {fileID: 1237398734990864437}
+  - {fileID: 4405627231270468581}
+  CandyText: {fileID: 5238686212326497226}
+  ScoreText: {fileID: 3674060437214052046}
+  wonorlostText: {fileID: 8630210246308106388}
+  continueButton: {fileID: 623158983672430982}
+  starSprite: {fileID: 21300000, guid: f5ad017b1a932f246af6580551e1dab2, type: 3}
 --- !u!1 &623158984545998961
 GameObject:
   m_ObjectHideFlags: 0

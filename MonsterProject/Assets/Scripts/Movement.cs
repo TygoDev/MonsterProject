@@ -179,6 +179,7 @@ public class Movement : MonoBehaviour
     private void ShowLostCanvas()
     {
         GameManager.Instance.EndCanvas.SetActive(true);
+        GameManager.Instance.EndCanvas.GetComponent<EndCanvas>().UpdateTheCanvas();
         //throw new System.NotImplementedException();
     }
 

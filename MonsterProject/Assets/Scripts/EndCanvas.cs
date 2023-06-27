@@ -33,7 +33,34 @@ public class EndCanvas : MonoBehaviour
 
         if(SceneManager.GetActiveScene().name.Contains("forest"))
         {
-            if()
+                if (GameManager.Instance.candyCount > 11)
+                    stars[0].sprite = starSprite;
+                if (GameManager.Instance.candyCount > 30)
+                    stars[0].sprite = starSprite;
+                if (GameManager.Instance.candyCount > 60)
+                    stars[0].sprite = starSprite;
+            
         }
+        if (SceneManager.GetActiveScene().name.Contains("Crystal"))
+        {
+                if (GameManager.Instance.candyCount > 26)
+                    stars[0].sprite = starSprite;
+                if (GameManager.Instance.candyCount > 70)
+                    stars[0].sprite = starSprite;
+                if (GameManager.Instance.candyCount > 140)
+                    stars[0].sprite = starSprite;
+            
+        }
+        if (SceneManager.GetActiveScene().name.Contains("Candy"))
+        {
+                if (GameManager.Instance.candyCount > 41)
+                    stars[0].sprite = starSprite;
+                if (GameManager.Instance.candyCount > 110)
+                    stars[0].sprite = starSprite;
+                if (GameManager.Instance.candyCount > 220)
+                    stars[0].sprite = starSprite;
+            
+        }
+
     }
 }
