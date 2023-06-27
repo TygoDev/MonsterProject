@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.Tilemaps;
+using UnityEngine.SceneManagement;
 
 public class Movement : MonoBehaviour
 {
@@ -172,8 +173,10 @@ public class Movement : MonoBehaviour
 
         transform.position = Camera.main.ViewportToWorldPoint(pos);
 
-
-        transform.position = new Vector3(transform.position.x, transform.position.y, 1.9f);
+        if(SceneManager.GetActiveScene().name == "Level_Candy")
+        transform.position = new Vector3(transform.position.x, transform.position.y, 1f);
+        else
+            transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z);
     }
 
     private void ShowLostCanvas()
