@@ -254,13 +254,17 @@ public class Movement : MonoBehaviour
         canvasLives[lives].gameObject.SetActive(false);
     }
 
-    private void OnTriggerEnter(Collider collision)
+    private void OnTriggerStay(Collider other)
     {
-        if (collision.CompareTag(Tags.T_Platform))
+        if (other.CompareTag(Tags.T_Platform))
         {
-            transform.parent = collision.transform;
+            transform.parent = other.transform;
             isOnPlatform = true;
         }
+    }
+    private void OnTriggerEnter(Collider collision)
+    {
+        
 
         if(collision.CompareTag(Tags.T_Crush))
         {
