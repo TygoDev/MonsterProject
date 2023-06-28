@@ -7,8 +7,8 @@ MonoImporter:
   - door: {instanceID: 0}
   - doorPath: {instanceID: 0}
   - rotatingScript: {instanceID: 0}
-  - doorOpen: {fileID: 8300000, guid: 9d9a11468e2ef7b4c96402a6fd11a6b9, type: 3}
-  - doorClose: {fileID: 8300000, guid: 37f32cab21c91a648ad9a973cf9a741c, type: 3}
+  - buttonPress: {fileID: 8300000, guid: eb70f3e56a7b14cb9b22f7790db204a5, type: 3}
+  - buttonRelease: {fileID: 8300000, guid: cd8533f8e39ea40cdac29ba8f3b9b2de, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
